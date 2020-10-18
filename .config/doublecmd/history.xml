@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doublecmd>
+  <History>
+    <Navigation>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/git/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/ANTLR/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/fzf/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/GNU stow/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/</Item>
+      <Item>/home/tomaskrulis/Downloads/</Item>
+      <Item>/home/tomaskrulis/</Item>
+      <Item>/home/tomaskrulis/Documents/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/</Item>
+      <Item>/media/tomaskrulis/Elements/DataKurzy/HadoopKurz/</Item>
+      <Item>/media/tomaskrulis/Elements/DataKurzy/</Item>
+      <Item>/media/tomaskrulis/Elements/DataKurzy/ApacheSparkCourse/</Item>
+      <Item>/media/tomaskrulis/Elements/DataKurzy/ApacheSparkCourse/Finished/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/ml-100k/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/LuaLaTeXFFI/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/LuaLaTeXFFI/LuaLaTeXJulia/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/LuaLaTeXFFI/LuaLaTeXJulia/dalsiInterface/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/ConTeXt/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/ConTeXt/Rcontexttests/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/ConTeXt/Rcontexttests/RContext/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Vzory_analyzovat/ConTeXt/Rcontexttests/ConTeXtFilterModuleTests/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/vim/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/</Item>
+      <Item>/home/tomaskrulis/Documents/CV/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/PythonSpecialTutorialy/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/PandasPokemon/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/IHaskellTest/</Item>
+      <Item>/home/tomaskrulis/Documents/Plan/</Item>
+      <Item>/home/tomaskrulis/Documents/LaTeX_nepracovni/</Item>
+      <Item>/home/tomaskrulis/Documents/LaTeX_nepracovni/3D graph test/</Item>
+      <Item>/home/tomaskrulis/Documents/Knihy/</Item>
+      <Item>/home/tomaskrulis/Documents/Home Office/</Item>
+      <Item>/usr/local/lib/</Item>
+      <Item>/usr/local/</Item>
+      <Item>/usr/</Item>
+      <Item>/usr/lib/</Item>
+      <Item>/</Item>
+      <Item>/home/</Item>
+      <Item>/home/tomaskrulis/Saxon/</Item>
+      <Item>/home/tomaskrulis/snap/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/doomEmacs/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/vim/root/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/vim/</Item>
+      <Item>/home/tomaskrulis/.doom.d/</Item>
+    </Navigation>
+    <CommandLine/>
+    <FileMask>
+      <Item>*</Item>
+      <Item>*.*</Item>
+    </FileMask>
+    <SearchText/>
+    <SearchTextPath/>
+    <ReplaceText/>
+    <ReplaceTextPath/>
+    <CreateDirectories>
+      <Item>git</Item>
+      <Item>GNU stow</Item>
+      <Item>HadoopKurz</Item>
+      <Item>i3</Item>
+      <Item>GNU shells</Item>
+      <Item>IHaskellTest</Item>
+      <Item>matapostShowcse</Item>
+      <Item>JsonTest</Item>
+    </CreateDirectories>
+    <SearchDirectories/>
+    <SearchExcludeFiles/>
+    <SearchExcludeDirectories/>
+  </History>
+</doublecmd>
