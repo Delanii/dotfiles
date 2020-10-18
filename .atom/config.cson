@@ -1,0 +1,21 @@
+"*":
+  "atom-latex":
+    bibtex: "biber"
+    build_after_save: false
+    compiler: "lualatex"
+    compiler_param: "-synctex=1 -shell-escape"
+    custom_toolchain: "arara %DOC -v -l"
+    latexmk_param: "-synctex=1 -shell-escape -pdf"
+    save_on_build: true
+    toolchain: "custom toolchain"
+  core:
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 16
+    softWrap: true
+  "exception-reporting":
+    userId: "155376cc-5bee-4b3d-aff7-889ae975763e"
+  latex:
+    enableShellEscape: true
+    engine: "lualatex"
+    opener: "okular"
