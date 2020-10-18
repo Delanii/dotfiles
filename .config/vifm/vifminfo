@@ -1,0 +1,100 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/tomaskrulis/
+	..
+1601288711
+'b
+	/home/tomaskrulis/bin/
+	..
+1601288711
+'h
+	/home/tomaskrulis/
+	..
+1601288711
+'z
+	/home/tomaskrulis/.config/vifm
+	..
+1601288711
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/tomaskrulis
+	..
+0
+d/home
+	..
+0
+d/
+	usr
+22
+d/usr
+	..
+0
+d/
+	home
+5
+d/home
+	tomaskrulis
+1
+d/home/tomaskrulis
+	R
+8
+d/home/tomaskrulis/R
+	..
+0
+d/home/tomaskrulis
+	Downloads
+4
+d/home/tomaskrulis/Downloads
+	..
+0
+d/home/tomaskrulis
+	Documents
+3
+d/home/tomaskrulis/Documents
+	CIT.txt
+15
+d
+
+# Right window history (oldest to newest):
+D/home/tomaskrulis
+	..
+0
+D
+
+# Command line history (oldest to newest):
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0
