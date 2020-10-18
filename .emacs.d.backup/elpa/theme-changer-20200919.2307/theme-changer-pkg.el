@@ -1,0 +1,2 @@
+;;; -*- no-byte-compile: t -*-
+(define-package "theme-changer" "20200919.2307" "Sunrise/Sunset Theme Changer for Emacs" 'nil :commit "13adb7d0cf0e8dfbb79b0f649d33474ddf4301a2" :keywords '("color-theme" "deftheme" "solar" "sunrise" "sunset") :authors '(("Joshua B. Griffith" . "josh.griffith@gmail.com")) :maintainer '("Joshua B. Griffith" . "josh.griffith@gmail.com") :url "https://github.com/hadronzoo/theme-changer")
