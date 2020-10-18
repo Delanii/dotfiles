@@ -56,3 +56,7 @@
 ;; Nastavení defaultního jazyka na češtinu
 
 (ispell-change-dictionary "czech" t)
+
+;; Start Emacs always maximized
+
+(add-to-list 'default-frame-alist '(fullscreen . maximized))

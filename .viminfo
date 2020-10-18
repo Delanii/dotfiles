@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1603030392,,"x"
+|2,0,1603040971,,"x"
 :q
 |2,0,1602942832,,"q"
 :q!
@@ -70,296 +70,267 @@ $
 "0	CHAR	0
 	, SnipMate, změnil hlavní repositář
 |3,0,0,0,1,0,1602862471,", SnipMate, změnil hlavní repositář"
-"1	LINE	0
+""1	LINE	0
 	
-|3,0,1,1,1,0,1602859735,""
+|3,1,1,1,1,0,1603040969,""
 "2	LINE	0
-	Plug 'https://github.com/vifm/vifm.vi
-|3,0,2,1,1,0,1602858324,"Plug 'https://github.com/vifm/vifm.vi"
+	" Nastavení `vim` a `gvim`, aby vždy startoval v maximalizovaném okně
+|3,0,2,1,1,0,1603040968,"\" Nastavení `vim` a `gvim`, aby vždy startoval v maximalizovaném okně"
 "3	LINE	0
-	call plug#end()
-|3,0,3,1,1,0,1602857843,"call plug#end()"
+	
+|3,0,3,1,1,0,1603040968,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1602789903,""
+	call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)
+|3,0,4,1,1,0,1603040967,"call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1602789902,""
+	autocmd GUIEnter * call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)
+|3,0,5,1,1,0,1603040942,"autocmd GUIEnter * call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)"
 "6	LINE	0
-	(package-initialize)
-|3,0,6,1,1,0,1602407193,"(package-initialize)"
+	
+|3,0,6,1,1,0,1602859735,""
 "7	LINE	0
-	;; Added by Package.el.  This must come before configurations of
-	;; installed packages.  Don't delete this line.  If you don't want it,
-	;; just comment it out by adding a semicolon to the start of the line.
-	;; You may delete these explanatory comments.
-|3,0,7,1,4,0,1602407148,";; Added by Package.el.  This must come before configurations of",";; installed packages.  Don't delete this line.  If you don't want it,",";; just comment it out by adding a semicolon to the start of the line.",";; You may delete these explanatory comments."
-""-	CHAR	0
+	Plug 'https://github.com/vifm/vifm.vi
+|3,0,7,1,1,0,1602858324,"Plug 'https://github.com/vifm/vifm.vi"
+"8	LINE	0
+	call plug#end()
+|3,0,8,1,1,0,1602857843,"call plug#end()"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1602789903,""
+"-	CHAR	0
 	spuštění
-|3,1,36,0,1,0,1602942783,"spuštění"
+|3,0,36,0,1,0,1602942783,"spuštění"
 
 # File marks:
-'0  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,48,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
-'1  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,49,1,0,1602942832,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'2  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,50,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'3  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,51,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'4  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,52,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'5  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,53,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'6  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,54,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'7  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,55,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'8  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,56,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
-'9  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,57,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
+'0  7  0  ~/.vimrc
+|4,48,7,0,1603040971,"~/.vimrc"
+'1  10  0  ~/.vimrc
+|4,49,10,0,1603040952,"~/.vimrc"
+'2  7  94  ~/.vimrc
+|4,50,7,94,1603040880,"~/.vimrc"
+'3  7  94  ~/.vimrc
+|4,51,7,94,1603040880,"~/.vimrc"
+'4  9  94  ~/.vimrc
+|4,52,9,94,1603040880,"~/.vimrc"
+'5  9  94  ~/.vimrc
+|4,53,9,94,1603040880,"~/.vimrc"
+'6  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,54,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+'7  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
+|4,55,1,0,1602942832,"~/Documents/LearningEmacs/vim/learningVim.txt"
+'8  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
+|4,56,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
+'9  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
+|4,57,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
 
 # Jumplist (newest first):
+-'  7  0  ~/.vimrc
+|4,39,7,0,1603040971,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040964,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1603040952,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1603040952,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040921,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040921,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
 -'  1  0  ~/dotfiles/COMMIT_EDITMSG
 |4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602942832,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602942832,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602942691,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602942691,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  73  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,73,1602878958,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602878766,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602878766,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  1  0  ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-|4,39,1,0,1602878729,"~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602878217,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602878217,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602878217,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602878217,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876947,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876947,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876947,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876947,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  4  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,4,0,1602876935,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876925,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876925,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876925,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602876925,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  17  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,17,1602866609,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864984,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864984,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864984,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864984,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602864978,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602864978,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602864978,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  5  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,5,0,1602864978,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864870,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864870,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864870,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,1,0,1602864870,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  3  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,39,3,0,1602864865,"~/Documents/LearningEmacs/vim/learningVim.txt"
--'  83  0  ~/.vimrc
-|4,39,83,0,1602864798,"~/.vimrc"
--'  83  0  ~/.vimrc
-|4,39,83,0,1602864798,"~/.vimrc"
--'  83  0  ~/.vimrc
-|4,39,83,0,1602864798,"~/.vimrc"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
 
-> ~/dotfiles/COMMIT_EDITMSG
-	*	1603030373	0
-	"	1	0
-
-> ~/Documents/LearningEmacs/vim/learningVim.txt
-	*	1602942828	0
-	"	1	0
-	^	4	6
-	.	4	0
-	+	1	9
-	+	2	0
-	+	1	34
-	+	4	60
-	+	5	33
-	+	5	0
-	+	5	73
-	+	6	0
-	+	4	0
-
-> ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
-	*	1602878721	0
-	"	1	0
-	^	9	0
-	.	9	0
-	+	1	9
-	+	8	0
-	+	6	1
-	+	7	3
-	+	6	2
-	+	9	0
-
 > ~/.vimrc
-	*	1602864797	0
-	"	83	0
-	^	78	0
-	.	78	0
+	*	1603040969	0
+	"	7	0
+	.	7	0
 	+	8	0
 	+	9	0
 	+	22	32
@@ -377,7 +348,7 @@ $
 	+	26	26
 	+	29	55
 	+	31	0
-	+	6	0
+	+	7	0
 	+	1	0
 	+	3	0
 	+	1	46
@@ -448,6 +419,39 @@ $
 	+	75	0
 	+	77	0
 	+	78	0
+	+	7	73
+	+	7	0
+
+> ~/dotfiles/COMMIT_EDITMSG
+	*	1603030373	0
+	"	1	0
+
+> ~/Documents/LearningEmacs/vim/learningVim.txt
+	*	1602942828	0
+	"	1	0
+	^	4	6
+	.	4	0
+	+	1	9
+	+	2	0
+	+	1	34
+	+	4	60
+	+	5	33
+	+	5	0
+	+	5	73
+	+	6	0
+	+	4	0
+
+> ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
+	*	1602878721	0
+	"	1	0
+	^	9	0
+	.	9	0
+	+	1	9
+	+	8	0
+	+	6	1
+	+	7	3
+	+	6	2
+	+	9	0
 
 > ~/.emacs
 	*	1602413311	0

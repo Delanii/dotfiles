@@ -50,3 +50,6 @@
 ;(unpin! t)
 
 (package! evil-matchit)
+(package! treemacs)
+(package! evil-tutor)
+(package! wc-mode)
