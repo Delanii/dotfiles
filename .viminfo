@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1603040971,,"x"
+|2,0,1603042930,,"x"
 :q
 |2,0,1602942832,,"q"
 :q!
@@ -102,36 +102,52 @@ $
 |3,0,36,0,1,0,1602942783,"spuštění"
 
 # File marks:
-'0  7  0  ~/.vimrc
-|4,48,7,0,1603040971,"~/.vimrc"
-'1  10  0  ~/.vimrc
-|4,49,10,0,1603040952,"~/.vimrc"
-'2  7  94  ~/.vimrc
-|4,50,7,94,1603040880,"~/.vimrc"
+'0  1183  0  ~/InstalledPackages.list
+|4,48,1183,0,1603042930,"~/InstalledPackages.list"
+'1  7  0  ~/.vimrc
+|4,49,7,0,1603040971,"~/.vimrc"
+'2  10  0  ~/.vimrc
+|4,50,10,0,1603040952,"~/.vimrc"
 '3  7  94  ~/.vimrc
 |4,51,7,94,1603040880,"~/.vimrc"
-'4  9  94  ~/.vimrc
-|4,52,9,94,1603040880,"~/.vimrc"
+'4  7  94  ~/.vimrc
+|4,52,7,94,1603040880,"~/.vimrc"
 '5  9  94  ~/.vimrc
 |4,53,9,94,1603040880,"~/.vimrc"
-'6  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,54,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
-'7  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,55,1,0,1602942832,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'8  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,56,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
+'6  9  94  ~/.vimrc
+|4,54,9,94,1603040880,"~/.vimrc"
+'7  1  0  ~/dotfiles/COMMIT_EDITMSG
+|4,55,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+'8  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
+|4,56,1,0,1602942832,"~/Documents/LearningEmacs/vim/learningVim.txt"
 '9  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
 |4,57,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
 
 # Jumplist (newest first):
+-'  1183  0  ~/InstalledPackages.list
+|4,39,1183,0,1603042930,"~/InstalledPackages.list"
+-'  1  0  ~/InstalledPackages.list
+|4,39,1,0,1603042915,"~/InstalledPackages.list"
 -'  7  0  ~/.vimrc
 |4,39,7,0,1603040971,"~/.vimrc"
+-'  7  0  ~/.vimrc
+|4,39,7,0,1603040971,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040964,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1603040964,"~/.vimrc"
 -'  10  0  ~/.vimrc
 |4,39,10,0,1603040952,"~/.vimrc"
 -'  10  0  ~/.vimrc
 |4,39,10,0,1603040952,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1603040952,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1603040952,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040921,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040921,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1603040921,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -172,6 +188,42 @@ $
 |4,39,9,94,1603040880,"~/.vimrc"
 -'  9  94  ~/.vimrc
 |4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
+-'  9  94  ~/.vimrc
+|4,39,9,94,1603040880,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1603040804,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -204,90 +256,38 @@ $
 |4,39,1,0,1603040804,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603040804,"~/.vimrc"
 -'  1  0  ~/dotfiles/COMMIT_EDITMSG
 |4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
 -'  1  0  ~/dotfiles/COMMIT_EDITMSG
@@ -326,6 +326,10 @@ $
 |4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/InstalledPackages.list
+	*	1603042928	0
+	"	1183	0
 
 > ~/.vimrc
 	*	1603040969	0
