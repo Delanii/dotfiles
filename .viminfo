@@ -17,10 +17,18 @@
 $
 
 # Command Line History (newest to oldest):
-:x
-|2,0,1603042930,,"x"
 :q
-|2,0,1602942832,,"q"
+|2,0,1603222744,,"q"
+:h vimtex-tex-flavor
+|2,0,1603222372,,"h vimtex-tex-flavor"
+:x
+|2,0,1603222729,,"x"
+:PlugInstall
+|2,0,1603222337,,"PlugInstall"
+:{
+|2,0,1603217471,,"{"
+:help visual-multi
+|2,0,1603216749,,"help visual-multi"
 :q!
 |2,0,1602942824,,"q!"
 :q:
@@ -39,8 +47,6 @@ $
 |2,0,1602864649,,"help Limelight"
 :help limelight
 |2,0,1602864641,,"help limelight"
-:PlugInstall
-|2,0,1602864357,,"PlugInstall"
 :set guifont?
 |2,0,1602857230,,"set guifont?"
 :set guifont=*
@@ -67,274 +73,269 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	, SnipMate, změnil hlavní repositář
-|3,0,0,0,1,0,1602862471,", SnipMate, změnil hlavní repositář"
-""1	LINE	0
+""0	CHAR	0
+	spuštění
+|3,1,0,0,1,0,1603216725,"spuštění"
+"1	LINE	0
 	
-|3,1,1,1,1,0,1603040969,""
+|3,0,1,1,1,0,1603216725,""
 "2	LINE	0
 	" Nastavení `vim` a `gvim`, aby vždy startoval v maximalizovaném okně
-|3,0,2,1,1,0,1603040968,"\" Nastavení `vim` a `gvim`, aby vždy startoval v maximalizovaném okně"
+|3,0,2,1,1,0,1603216725,"\" Nastavení `vim` a `gvim`, aby vždy startoval v maximalizovaném okně"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1603040968,""
+|3,0,3,1,1,0,1603216725,""
 "4	LINE	0
 	call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)
-|3,0,4,1,1,0,1603040967,"call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)"
+|3,0,4,1,1,0,1603216725,"call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)"
 "5	LINE	0
 	autocmd GUIEnter * call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)
-|3,0,5,1,1,0,1603040942,"autocmd GUIEnter * call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)"
+|3,0,5,1,1,0,1603216725,"autocmd GUIEnter * call system('wmctrl -i -b add,maximized_vert,maximized_horz -r '.v:windowid)"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1602859735,""
+|3,0,6,1,1,0,1603216725,""
 "7	LINE	0
 	Plug 'https://github.com/vifm/vifm.vi
-|3,0,7,1,1,0,1602858324,"Plug 'https://github.com/vifm/vifm.vi"
+|3,0,7,1,1,0,1603216725,"Plug 'https://github.com/vifm/vifm.vi"
 "8	LINE	0
 	call plug#end()
-|3,0,8,1,1,0,1602857843,"call plug#end()"
+|3,0,8,1,1,0,1603216725,"call plug#end()"
 "9	LINE	0
 	
-|3,0,9,1,1,0,1602789903,""
+|3,0,9,1,1,0,1603216725,""
 "-	CHAR	0
 	spuštění
-|3,0,36,0,1,0,1602942783,"spuštění"
+|3,0,36,0,1,0,1603135637,"spuštění"
 
 # File marks:
-'0  1183  0  ~/InstalledPackages.list
-|4,48,1183,0,1603042930,"~/InstalledPackages.list"
-'1  7  0  ~/.vimrc
-|4,49,7,0,1603040971,"~/.vimrc"
-'2  10  0  ~/.vimrc
-|4,50,10,0,1603040952,"~/.vimrc"
-'3  7  94  ~/.vimrc
-|4,51,7,94,1603040880,"~/.vimrc"
-'4  7  94  ~/.vimrc
-|4,52,7,94,1603040880,"~/.vimrc"
-'5  9  94  ~/.vimrc
-|4,53,9,94,1603040880,"~/.vimrc"
-'6  9  94  ~/.vimrc
-|4,54,9,94,1603040880,"~/.vimrc"
-'7  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,55,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
-'8  1  0  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,56,1,0,1602942832,"~/Documents/LearningEmacs/vim/learningVim.txt"
-'9  4  5  ~/Documents/LearningEmacs/vim/learningVim.txt
-|4,57,4,5,1602942824,"~/Documents/LearningEmacs/vim/learningVim.txt"
+'0  105  24  ~/.vimrc
+|4,48,105,24,1603222729,"~/.vimrc"
+'1  107  3  ~/.vimrc
+|4,49,107,3,1603222325,"~/.vimrc"
+'2  109  3  ~/.vimrc
+|4,50,109,3,1603222325,"~/.vimrc"
+'3  107  3  ~/.vimrc
+|4,51,107,3,1603222325,"~/.vimrc"
+'4  101  0  ~/.vimrc
+|4,52,101,0,1603217663,"~/.vimrc"
+'5  101  0  ~/.vimrc
+|4,53,101,0,1603217663,"~/.vimrc"
+'6  101  0  ~/.vimrc
+|4,54,101,0,1603217663,"~/.vimrc"
+'7  101  0  ~/.vimrc
+|4,55,101,0,1603217663,"~/.vimrc"
+'8  4  6  ~/Documents/LearningEmacs/vim/learningVim.txt
+|4,56,4,6,1603135655,"~/Documents/LearningEmacs/vim/learningVim.txt"
+'9  1183  0  ~/InstalledPackages.list
+|4,57,1183,0,1603042930,"~/InstalledPackages.list"
 
 # Jumplist (newest first):
--'  1183  0  ~/InstalledPackages.list
-|4,39,1183,0,1603042930,"~/InstalledPackages.list"
--'  1  0  ~/InstalledPackages.list
-|4,39,1,0,1603042915,"~/InstalledPackages.list"
--'  7  0  ~/.vimrc
-|4,39,7,0,1603040971,"~/.vimrc"
--'  7  0  ~/.vimrc
-|4,39,7,0,1603040971,"~/.vimrc"
+-'  105  24  ~/.vimrc
+|4,39,105,24,1603222729,"~/.vimrc"
+-'  105  24  ~/.vimrc
+|4,39,105,24,1603222729,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040964,"~/.vimrc"
+|4,39,1,0,1603222689,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040964,"~/.vimrc"
--'  10  0  ~/.vimrc
-|4,39,10,0,1603040952,"~/.vimrc"
--'  10  0  ~/.vimrc
-|4,39,10,0,1603040952,"~/.vimrc"
--'  10  0  ~/.vimrc
-|4,39,10,0,1603040952,"~/.vimrc"
--'  10  0  ~/.vimrc
-|4,39,10,0,1603040952,"~/.vimrc"
+|4,39,1,0,1603222689,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
+-'  109  3  ~/.vimrc
+|4,39,109,3,1603222325,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
+-'  109  3  ~/.vimrc
+|4,39,109,3,1603222325,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
+-'  107  3  ~/.vimrc
+|4,39,107,3,1603222325,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040921,"~/.vimrc"
+|4,39,1,0,1603222294,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040921,"~/.vimrc"
+|4,39,1,0,1603222294,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040921,"~/.vimrc"
+|4,39,1,0,1603222294,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040921,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
--'  9  94  ~/.vimrc
-|4,39,9,94,1603040880,"~/.vimrc"
+|4,39,1,0,1603222294,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
+|4,39,1,0,1603222294,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
+|4,39,1,0,1603222294,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
+|4,39,1,0,1603222294,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603040804,"~/.vimrc"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
--'  1  0  ~/dotfiles/COMMIT_EDITMSG
-|4,39,1,0,1603030392,"~/dotfiles/COMMIT_EDITMSG"
+|4,39,1,0,1603222294,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  101  0  ~/.vimrc
+|4,39,101,0,1603217663,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
+-'  95  0  ~/.vimrc
+|4,39,95,0,1603217435,"~/.vimrc"
+-'  98  0  ~/.vimrc
+|4,39,98,0,1603217435,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/InstalledPackages.list
-	*	1603042928	0
-	"	1183	0
-
 > ~/.vimrc
-	*	1603040969	0
-	"	7	0
-	.	7	0
+	*	1603222728	0
+	"	105	24
+	^	105	25
+	.	105	25
 	+	8	0
 	+	9	0
 	+	22	32
@@ -425,14 +426,27 @@ $
 	+	78	0
 	+	7	73
 	+	7	0
+	+	102	33
+	+	103	19
+	+	110	0
+	+	107	47
+	+	108	30
+	+	109	0
+	+	108	4
+	+	109	4
+	+	105	25
 
-> ~/dotfiles/COMMIT_EDITMSG
-	*	1603030373	0
-	"	1	0
+> ~/.vim/plugged/vimtex/doc/vimtex.txt
+	*	1603222376	0
+	"	123	60
+
+> ~/.vim/plugged/vim-visual-multi/doc/visual-multi.txt
+	*	1603216920	0
+	"	320	0
 
 > ~/Documents/LearningEmacs/vim/learningVim.txt
-	*	1602942828	0
-	"	1	0
+	*	1603135652	0
+	"	4	6
 	^	4	6
 	.	4	0
 	+	1	9
@@ -444,6 +458,14 @@ $
 	+	5	73
 	+	6	0
 	+	4	0
+
+> ~/InstalledPackages.list
+	*	1603042928	0
+	"	1183	0
+
+> ~/dotfiles/COMMIT_EDITMSG
+	*	1603030373	0
+	"	1	0
 
 > ~/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/poznamkyZKurzu.txt
 	*	1602878721	0

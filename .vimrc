@@ -99,4 +99,13 @@ Plug 'vifm/vifm.vim'
 " Vyhledávání souborů pomocí `fzf`
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
+" Podpora psaní LaTeXu ve `vim`u
+Plug 'lervag/vimtex'
+
+let g:tex_flavor = 'latex'
+
+" Podpora pro psaní v `pandoc`u a jeho syntaxe
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+
 call plug#end()
