@@ -60,3 +60,15 @@
 ;; Start Emacs always maximized
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+;; Změna fontu - spíš ukázka:
+;; (setq doom-font (font-spec :family "Fira Mono" :size 12))
+
+;; Přidání dalších zpráv při odchodu z Doom Emacs
+
+(setq +doom-quit-messages '(;;from doom 2
+                            "Don't go now, there's a dimensional shambler waiting at the dos prompt!"
+                            "Get outta here and go back to your boring programs."
+                            "If I were your boss, I'd deathmatch ya in a minute!"
+                            "Look, bud. You leave now and you forfeit your body count!"
+                            "You're lucky I don't smack you for thinking about leaving."))
