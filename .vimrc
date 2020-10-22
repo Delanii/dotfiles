@@ -4,6 +4,58 @@
 colorscheme desert 
 set guifont=Ubuntu\ Mono\ 12
 
+" Požadavky, aby plugin wimWiki fungoval - `nocompatible` se nastavuje vždy,
+" ostatní kdoví ... Zajímavý plugin pro psaní, trochu podobný org-mode v Emacs
+
+set nocompatible
+filetype plugin on
+syntax on
+
+" Nastavení chování kurzoru - platí pouze v `gvim`, ve `vim` v terminálu platí
+" nastavení terminálu
+set guicursor=a:blinkon0 " vypnutí blikání kurzoru, `guifg` nastaví barvu písmen pod kurzorem, `guibg` nastavuje barvu kurzoru
+:highlight Cursor guibg=#1ABC9C guifg=black
+
+" Zvýraznění řádku s kurzorem
+set cursorline
+:highlight CursorLine guibg=#2c3e50
+
+" Zvýraznění sloupce s kurzorem
+" :set cursorcolumn
+" :highlight CursorColumn guibg=#250162
+
+" Nastavení pro automatické vizuální zalomování textu + zalamování pouze na
+" whitespace
+set wrap
+set linebreak
+
+" Pomocné příkazy a přenastavení kláves pro LaTeX:
+" ! Fungují v insert-módu
+augroup __latex__
+au!
+autocmd BufRead,BufNewFile *.tex inoremap ,ch \chapter{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,se \section{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,sb \subsection{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,sbb \subsubsection{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,em \emph{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,tt \texttt{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,bf \textbf{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,uv \enquote{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,tab \begin{tabular}{}<CR><CR>\end{tabular}<Up>
+autocmd BufRead,BufNewFile *.tex inoremap ,tbl \begin{table}[htb]<CR><CR>\caption{}<CR>\label{}<CR>\end{table}<C-O>3k
+autocmd BufRead,BufNewFile *.tex inoremap ,fig \begin{figure}[htb]<CR><CR>\caption{}<CR>\label{}<CR>\end{figure}<C-O>3k
+autocmd BufRead,BufNewFile *.tex inoremap ,itz \begin{itemize}<CR>\item <CR>\end{itemize}<CR><Up><Up>
+autocmd BufRead,BufNewFile *.tex inoremap ,enu \begin{enumerate}<CR>\item <CR>\end{enumerate}<CR><Up><Up>
+autocmd BufRead,BufNewFile *.tex inoremap ,it \item<Space>
+autocmd BufRead,BufNewFile *.tex inoremap ,in \index{!}<Left><Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,gl \gls{!}<Left><Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,re \ref{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,cre \cref{}<Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,vre \vref{}<Left><Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,pre \pageref{}<Left><Left>
+autocmd BufRead,BufNewFile *.tex inoremap ,in \index{!}<Left><Left>
+augroup END
+
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
@@ -81,12 +133,7 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 " Souštění REPLu přes Screen nebo tmux z textu ve vimu
 Plug 'https://github.com/jpalardy/vim-slime'
 
-" Požadavky, aby plugin wimWiki fungoval - `nocompatible` se nastavuje vždy,
-" ostatní kdoví ... Zajímavý plugin pro psaní, trochu podobný org-mode v Emacs
-
-set nocompatible
-filetype plugin on
-syntax on
+" Zajímavý plugin pro psaní, trochu podobný org-mode v Emacs
 
 Plug 'vimwiki/vimwiki'
 
@@ -107,5 +154,8 @@ let g:tex_flavor = 'latex'
 " Podpora pro psaní v `pandoc`u a jeho syntaxe
 Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
+
+" Práce s a automatické formátování textových tabulek
+Plug 'dhruvasagar/vim-table-mode'
 
 call plug#end()
