@@ -34,7 +34,7 @@
        doom-quit         ; DOOM quit-message prompts when you quit Emacs
        ;;fill-column       ; a `fill-column' indicator
        hl-todo           ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
-        hydra
+       hydra
        ;;indent-guides     ; highlighted indent columns
        ;;ligatures         ; ligatures and symbols to make your code pretty again
        minimap           ; show a map of the code on the side
@@ -159,7 +159,14 @@
         +export                         ; Exporting org
         +present                        ; Emacs for presentation
         +jupyter
-        +journal)
+        +journal
+        +gnuplot
+        +pandoc
+        +pomodoro
+        +pretty
+        :editor evil
+        :tools pdf
+        :lang racket)
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
