@@ -131,3 +131,5 @@ shopt -s cdspell
 # Nastavení ANTLR
 
 export CLASSPATH=".:/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

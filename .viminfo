@@ -17,16 +17,20 @@
 $
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1603540863,,"q!"
+:q
+|2,0,1603540849,,"q"
+:x!
+|2,0,1603540652,,"x!"
 :x
-|2,0,1603392361,,"x"
+|2,0,1603540645,,"x"
+:X
+|2,0,1603528077,,"X"
 :lua print("ABC")
 |2,0,1603390008,,"lua print(\"ABC\")"
 :lua x = 5
 |2,0,1603389982,,"lua x = 5"
-:q!
-|2,0,1603389175,,"q!"
-:q
-|2,0,1603389165,,"q"
 :echo has("Perl")
 |2,0,1603387337,,"echo has(\"Perl\")"
 :echo has("Python")
@@ -91,13 +95,19 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
+""0	CHAR	0
+	[Desktop Entry]
+	Name=i3
+	Comment=Advanced Window Manager
+	TryExec=i3
+	Exec=i3
+	Type=Application
+	Icon=/usr/share/pixmaps/awesome.xpm
+	Keywords=Window manager
+|3,1,0,0,8,0,1603540824,"[Desktop Entry]","Name=i3","Comment=Advanced Window Manager","TryExec=i3","Exec=i3","Type=Application","Icon=/usr/share/pixmaps/awesome.xpm","Keywords=Window manager"
+"1	LINE	0
 	autocmd BufRead,BufNewFile *.tex inoremap ,in \index{!}<Left><Left>
-	
-|3,0,0,0,2,0,1603389485,"autocmd BufRead,BufNewFile *.tex inoremap ,in \\index{!}<Left><Left>",""
-""1	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,in \index{!}<Left><Left>
-|3,1,1,1,1,0,1603389570,"autocmd BufRead,BufNewFile *.tex inoremap ,in \\index{!}<Left><Left>"
+|3,0,1,1,1,0,1603389570,"autocmd BufRead,BufNewFile *.tex inoremap ,in \\index{!}<Left><Left>"
 "2	LINE	0
 	autocmd BufRead,BufNewFile *.tex inoremap ,eq \begin{equation}<CR><CR>\end{equation}<CR><up><up>
 |3,0,2,1,1,0,1603389463,"autocmd BufRead,BufNewFile *.tex inoremap ,eq \\begin{equation}<CR><CR>\\end{equation}<CR><up><up>"
@@ -123,234 +133,281 @@ $
 	autocmd BufRead,BufNewFile *.tex inoremap ,hh \helpref{}{}<Left><Left><Left>
 |3,0,9,1,1,0,1603389336,"autocmd BufRead,BufNewFile *.tex inoremap ,hh \\helpref{}{}<Left><Left><Left>"
 "-	CHAR	0
-	l
-|3,0,36,0,1,0,1603389352,"l"
+	awesome
+|3,0,36,0,1,0,1603540619,"awesome"
 
 # File marks:
-'0  55  44  ~/.vimrc
-|4,48,55,44,1603392361,"~/.vimrc"
-'1  22  0  ~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex
-|4,49,22,0,1603389175,"~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex"
-'2  36  44  ~/.vimrc
-|4,50,36,44,1603389025,"~/.vimrc"
-'3  35  44  ~/.vimrc
-|4,51,35,44,1603389025,"~/.vimrc"
-'4  36  33  ~/.vimrc
-|4,52,36,33,1603388981,"~/.vimrc"
-'5  35  33  ~/.vimrc
-|4,53,35,33,1603388981,"~/.vimrc"
-'6  57  33  ~/.vimrc
-|4,54,57,33,1603388724,"~/.vimrc"
-'7  57  33  ~/.vimrc
-|4,55,57,33,1603388724,"~/.vimrc"
-'8  57  33  ~/.vimrc
-|4,56,57,33,1603388724,"~/.vimrc"
-'9  57  33  ~/.vimrc
-|4,57,57,33,1603388724,"~/.vimrc"
+'0  332  26  /etc/xdg/awesome/rc.lua
+|4,48,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+'1  332  62  /etc/xdg/awesome/rc.lua
+|4,49,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+'2  344  0  /etc/xdg/awesome/rc.lua
+|4,50,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+'3  344  0  /etc/xdg/awesome/rc.lua
+|4,51,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+'4  344  0  /etc/xdg/awesome/rc.lua
+|4,52,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+'5  344  0  /etc/xdg/awesome/rc.lua
+|4,53,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+'6  1  0  ~/temp.txt
+|4,54,1,0,1603540863,"~/temp.txt"
+'7  1  0  /usr/share/xsessions/i3.desktop
+|4,55,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+'8  1  0  /usr/share/xsessions/awesome.desktop
+|4,56,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
+'9  36  3  ~/.config/nvim/vim-plug/plugins.vim
+|4,57,36,3,1603530935,"~/.config/nvim/vim-plug/plugins.vim"
 
 # Jumplist (newest first):
--'  55  44  ~/.vimrc
-|4,39,55,44,1603392361,"~/.vimrc"
--'  50  1  ~/.vimrc
-|4,39,50,1,1603389497,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603389179,"~/.vimrc"
--'  22  0  ~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex
-|4,39,22,0,1603389175,"~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex"
--'  22  0  ~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex
-|4,39,22,0,1603389175,"~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex"
--'  1  0  ~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex
-|4,39,1,0,1603389140,"~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex"
--'  1  0  ~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex
-|4,39,1,0,1603389140,"~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex"
--'  36  44  ~/.vimrc
-|4,39,36,44,1603389025,"~/.vimrc"
--'  35  44  ~/.vimrc
-|4,39,35,44,1603389025,"~/.vimrc"
--'  35  44  ~/.vimrc
-|4,39,35,44,1603389025,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603388985,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603388985,"~/.vimrc"
--'  35  33  ~/.vimrc
-|4,39,35,33,1603388981,"~/.vimrc"
--'  35  33  ~/.vimrc
-|4,39,35,33,1603388981,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603388729,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603388729,"~/.vimrc"
--'  57  33  ~/.vimrc
-|4,39,57,33,1603388724,"~/.vimrc"
--'  60  33  ~/.vimrc
-|4,39,60,33,1603388724,"~/.vimrc"
--'  61  33  ~/.vimrc
-|4,39,61,33,1603388724,"~/.vimrc"
--'  60  33  ~/.vimrc
-|4,39,60,33,1603388724,"~/.vimrc"
--'  61  33  ~/.vimrc
-|4,39,61,33,1603388724,"~/.vimrc"
--'  60  33  ~/.vimrc
-|4,39,60,33,1603388724,"~/.vimrc"
--'  61  33  ~/.vimrc
-|4,39,61,33,1603388724,"~/.vimrc"
--'  60  33  ~/.vimrc
-|4,39,60,33,1603388724,"~/.vimrc"
--'  61  33  ~/.vimrc
-|4,39,61,33,1603388724,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603387681,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603387681,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  30  11  ~/.vimrc
-|4,39,30,11,1603387676,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603387069,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603387069,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  29  7  ~/.vimrc
-|4,39,29,7,1603387064,"~/.vimrc"
--'  28  7  ~/.vimrc
-|4,39,28,7,1603387064,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386140,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386140,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386137,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386107,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  25  36  ~/.vimrc
-|4,39,25,36,1603386104,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386047,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386047,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386047,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386047,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386047,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386047,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1603386047,"~/.vimrc"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/i3.desktop
+|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+-'  1  0  /usr/share/xsessions/awesome.desktop
+|4,39,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
+-'  1  0  /usr/share/xsessions/awesome.desktop
+|4,39,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
+-'  1  0  /usr/share/xsessions/awesome.desktop
+|4,39,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
 
 # History of marks within files (newest to oldest):
+
+> /etc/xdg/awesome/rc.lua
+	*	1603544378	0
+	"	332	26
+
+> ~/temp.txt
+	*	1603540860	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/share/xsessions/i3.desktop
+	*	1603540798	0
+	"	1	0
+	^	8	7
+	.	5	6
+	+	2	6
+	+	3	30
+	+	4	9
+	+	5	6
+
+> /usr/share/xsessions/awesome.desktop
+	*	1603538893	0
+	"	1	0
+
+> ~/.config/nvim/vim-plug/plugins.vim
+	*	1603530928	0
+	"	36	3
+	^	36	4
+	.	36	3
+	+	1	0
+	+	13	0
+	+	16	0
+	+	22	3
+	+	21	48
+	+	25	3
+	+	24	17
+	+	28	3
+	+	19	4
+	+	32	4
+	+	29	4
+	+	35	4
+	+	36	3
+
+> ~/.config/nvim/init.vim
+	*	1603528081	0
+	"	1	45
+	.	1	0
+	+	1	0
 
 > ~/.vimrc
 	*	1603392357	0

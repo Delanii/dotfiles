@@ -134,7 +134,6 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'https://github.com/jpalardy/vim-slime'
 
 " Zajímavý plugin pro psaní, trochu podobný org-mode v Emacs
-
 Plug 'vimwiki/vimwiki'
 
 " Zvýrazňovač barev (? v CSS?) - podporuje velké množství syntaxe
