@@ -2,11 +2,29 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/home/tomaskrulis/Downloads/</Item>
-      <Item>/home/tomaskrulis/.config/awesome/</Item>
-      <Item>/home/tomaskrulis/.config/awesome/themes/</Item>
-      <Item>/home/tomaskrulis/.config/</Item>
+      <Item>/home/tomaskrulis/Documents/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/docxRevize/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/KonverzeLatexDocxAPorovnani/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/DocXInfo/</Item>
       <Item>/home/tomaskrulis/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/skripty/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/Prezentace/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/Prezentace/HadoopSlides/</Item>
+      <Item>/home/tomaskrulis/Downloads/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/</Item>
+      <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Item>
+      <Item>/home/tomaskrulis/.config/</Item>
+      <Item>/home/tomaskrulis/.config/awesome/</Item>
+      <Item>/home/tomaskrulis/.i3/</Item>
+      <Item>/home/tomaskrulis/.xmonad/</Item>
+      <Item>/home/tomaskrulis/.xmonad/xmonad-example-configs/</Item>
+      <Item>/home/tomaskrulis/.config/awesome/themes/</Item>
       <Item>/home/tomaskrulis/Desktop/</Item>
       <Item>/home/tomaskrulis/Desktop/FactorioOldVersions/</Item>
       <Item>/home/tomaskrulis/Desktop/FactorioOldVersions/0_17_x64_Linux/</Item>
@@ -21,7 +39,6 @@
       <Item>/home/tomaskrulis/Pictures/Warhammer maps/</Item>
       <Item>/home/tomaskrulis/Pictures/GCCMUniqueFactionCapitals/</Item>
       <Item>/home/tomaskrulis/Pictures/DeviantArt_MuHut/</Item>
-      <Item>/home/tomaskrulis/Documents/</Item>
       <Item>/home/tomaskrulis/Downloads/dotfiles-master/</Item>
       <Item>/home/tomaskrulis/Downloads/dotfiles-master/.i3/</Item>
       <Item>/home/tomaskrulis/Downloads/dotfiles-master/.config/</Item>
@@ -36,23 +53,6 @@
       <Item>/home/tomaskrulis/.config/awesome/freedesktop~/</Item>
       <Item>/home/tomaskrulis/.config/awesome/lain/</Item>
       <Item>/home/tomaskrulis/.config/awesome/lain~/</Item>
-      <Item>/home/tomaskrulis/.config/awesome/themes/default/</Item>
-      <Item>/home/tomaskrulis/.config/awesome/themes/default/layouts/</Item>
-      <Item>/home/tomaskrulis/.config/awesome/themes/default/taglist/</Item>
-      <Item>/home/tomaskrulis/.config/awesome/themes/default/titlebar/</Item>
-      <Item>/home/</Item>
-      <Item>/home/tomaskrulis/.local/</Item>
-      <Item>/home/tomaskrulis/.local/share/</Item>
-      <Item>/home/tomaskrulis/.local/share/mime/</Item>
-      <Item>/home/tomaskrulis/.local/share/wallpapers/</Item>
-      <Item>/home/tomaskrulis/.local/share/xorg/</Item>
-      <Item>/home/tomaskrulis/.local/share/termit/</Item>
-      <Item>/home/tomaskrulis/.local/share/nvim/</Item>
-      <Item>/home/tomaskrulis/.local/share/nvim/shada/</Item>
-      <Item>/home/tomaskrulis/.local/share/plasma/</Item>
-      <Item>/home/tomaskrulis/.local/share/plasma/plasmoids/</Item>
-      <Item>/home/tomaskrulis/.local/share/plasma/look-and-feel/</Item>
-      <Item>/home/tomaskrulis/.local/share/plasma/desktoptheme/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask>
@@ -64,6 +64,8 @@
     <ReplaceText/>
     <ReplaceTextPath/>
     <CreateDirectories>
+      <Item>skripty</Item>
+      <Item>Prezentace</Item>
       <Item>git</Item>
       <Item>GNU stow</Item>
       <Item>HadoopKurz</Item>

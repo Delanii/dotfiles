@@ -17,14 +17,16 @@
 $
 
 # Command Line History (newest to oldest):
+:x
+|2,0,1603893537,,"x"
+:q
+|2,0,1603893457,,"q"
+:PlugInstall
+|2,0,1603893447,,"PlugInstall"
 :q!
 |2,0,1603540863,,"q!"
-:q
-|2,0,1603540849,,"q"
 :x!
 |2,0,1603540652,,"x!"
-:x
-|2,0,1603540645,,"x"
 :X
 |2,0,1603528077,,"X"
 :lua print("ABC")
@@ -47,8 +49,6 @@ $
 |2,0,1603382153,,"set guicursor?"
 :h vimtex-tex-flavor
 |2,0,1603222372,,"h vimtex-tex-flavor"
-:PlugInstall
-|2,0,1603222337,,"PlugInstall"
 :{
 |2,0,1603217471,,"{"
 :help visual-multi
@@ -137,28 +137,40 @@ $
 |3,0,36,0,1,0,1603540619,"awesome"
 
 # File marks:
-'0  332  26  /etc/xdg/awesome/rc.lua
-|4,48,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
-'1  332  62  /etc/xdg/awesome/rc.lua
-|4,49,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
-'2  344  0  /etc/xdg/awesome/rc.lua
-|4,50,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+'0  161  24  ~/.vimrc
+|4,48,161,24,1603893537,"~/.vimrc"
+'1  332  26  /etc/xdg/awesome/rc.lua
+|4,49,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+'2  332  62  /etc/xdg/awesome/rc.lua
+|4,50,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
 '3  344  0  /etc/xdg/awesome/rc.lua
 |4,51,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
 '4  344  0  /etc/xdg/awesome/rc.lua
 |4,52,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
 '5  344  0  /etc/xdg/awesome/rc.lua
 |4,53,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
-'6  1  0  ~/temp.txt
-|4,54,1,0,1603540863,"~/temp.txt"
-'7  1  0  /usr/share/xsessions/i3.desktop
-|4,55,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
-'8  1  0  /usr/share/xsessions/awesome.desktop
-|4,56,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
-'9  36  3  ~/.config/nvim/vim-plug/plugins.vim
-|4,57,36,3,1603530935,"~/.config/nvim/vim-plug/plugins.vim"
+'6  344  0  /etc/xdg/awesome/rc.lua
+|4,54,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+'7  1  0  ~/temp.txt
+|4,55,1,0,1603540863,"~/temp.txt"
+'8  1  0  /usr/share/xsessions/i3.desktop
+|4,56,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
+'9  1  0  /usr/share/xsessions/awesome.desktop
+|4,57,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
 
 # Jumplist (newest first):
+-'  161  24  ~/.vimrc
+|4,39,161,24,1603893537,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603893388,"~/.vimrc"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
 -'  332  26  /etc/xdg/awesome/rc.lua
 |4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
 -'  332  26  /etc/xdg/awesome/rc.lua
@@ -175,6 +187,14 @@ $
 |4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
 -'  1  0  /etc/xdg/awesome/rc.lua
 |4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
 -'  332  62  /etc/xdg/awesome/rc.lua
 |4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
 -'  332  62  /etc/xdg/awesome/rc.lua
@@ -183,6 +203,22 @@ $
 |4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
 -'  332  62  /etc/xdg/awesome/rc.lua
 |4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
 -'  1  0  /etc/xdg/awesome/rc.lua
 |4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
 -'  1  0  /etc/xdg/awesome/rc.lua
@@ -215,6 +251,38 @@ $
 |4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
 -'  344  0  /etc/xdg/awesome/rc.lua
 |4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  344  0  /etc/xdg/awesome/rc.lua
+|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
 -'  1  0  /etc/xdg/awesome/rc.lua
 |4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
 -'  1  0  /etc/xdg/awesome/rc.lua
@@ -287,133 +355,18 @@ $
 |4,39,1,0,1603540863,"~/temp.txt"
 -'  1  0  ~/temp.txt
 |4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/i3.desktop
-|4,39,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
--'  1  0  /usr/share/xsessions/awesome.desktop
-|4,39,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
--'  1  0  /usr/share/xsessions/awesome.desktop
-|4,39,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
--'  1  0  /usr/share/xsessions/awesome.desktop
-|4,39,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
+-'  1  0  ~/temp.txt
+|4,39,1,0,1603540863,"~/temp.txt"
 
 # History of marks within files (newest to oldest):
 
-> /etc/xdg/awesome/rc.lua
-	*	1603544378	0
-	"	332	26
-
-> ~/temp.txt
-	*	1603540860	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> /usr/share/xsessions/i3.desktop
-	*	1603540798	0
-	"	1	0
-	^	8	7
-	.	5	6
-	+	2	6
-	+	3	30
-	+	4	9
-	+	5	6
-
-> /usr/share/xsessions/awesome.desktop
-	*	1603538893	0
-	"	1	0
-
-> ~/.config/nvim/vim-plug/plugins.vim
-	*	1603530928	0
-	"	36	3
-	^	36	4
-	.	36	3
-	+	1	0
-	+	13	0
-	+	16	0
-	+	22	3
-	+	21	48
-	+	25	3
-	+	24	17
-	+	28	3
-	+	19	4
-	+	32	4
-	+	29	4
-	+	35	4
-	+	36	3
-
-> ~/.config/nvim/init.vim
-	*	1603528081	0
-	"	1	45
-	.	1	0
-	+	1	0
-
 > ~/.vimrc
-	*	1603392357	0
-	"	55	44
-	^	55	45
-	.	55	56
+	*	1603893534	0
+	"	161	24
+	^	161	0
+	.	161	0
 	+	138	0
 	+	22	0
 	+	24	0
@@ -498,6 +451,56 @@ $
 	+	53	0
 	+	54	53
 	+	55	56
+	+	161	0
+
+> /etc/xdg/awesome/rc.lua
+	*	1603544378	0
+	"	332	26
+
+> ~/temp.txt
+	*	1603540860	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> /usr/share/xsessions/i3.desktop
+	*	1603540798	0
+	"	1	0
+	^	8	7
+	.	5	6
+	+	2	6
+	+	3	30
+	+	4	9
+	+	5	6
+
+> /usr/share/xsessions/awesome.desktop
+	*	1603538893	0
+	"	1	0
+
+> ~/.config/nvim/vim-plug/plugins.vim
+	*	1603530928	0
+	"	36	3
+	^	36	4
+	.	36	3
+	+	1	0
+	+	13	0
+	+	16	0
+	+	22	3
+	+	21	48
+	+	25	3
+	+	24	17
+	+	28	3
+	+	19	4
+	+	32	4
+	+	29	4
+	+	35	4
+	+	36	3
+
+> ~/.config/nvim/init.vim
+	*	1603528081	0
+	"	1	45
+	.	1	0
+	+	1	0
 
 > ~/Documents/Sujb zaloha/PrehledAbsolvovanychSkoleni/PrehledAbsolvovanychSkoleni.tex
 	*	1603389169	0

@@ -157,4 +157,7 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 " Práce s a automatické formátování textových tabulek
 Plug 'dhruvasagar/vim-table-mode'
 
+" Plugin pro vytváření cravlů podobných jako začátek Star Wars
+Plug 'shinokada/swtc.vim'
+
 call plug#end()

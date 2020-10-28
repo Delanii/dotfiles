@@ -129,33 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="mime">/home/tomaskrulis/.local/share/</Path>
-                  <Path Filename="share">/home/tomaskrulis/.local/</Path>
-                  <Path Filename=".local">/home/tomaskrulis/</Path>
-                  <Path Filename="tomaskrulis">/home/</Path>
-                  <Path Filename=".config">/home/tomaskrulis/</Path>
-                  <Path Filename="awesome">/home/tomaskrulis/.config/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes/default/</Path>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="themes~">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes~/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="dotfiles-master">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename=".config">/home/tomaskrulis/Downloads/dotfiles-master/</Path>
-                  <Path Filename="awesome">/home/tomaskrulis/Downloads/dotfiles-master/.config/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/</Path>
-                  <Path Filename="powerarrow-blue">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/themes/</Path>
-                  <Path Filename="starwars.jpg">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/themes/powerarrow-blue/</Path>
-                  <Path Filename="powerarrow-blue">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/themes/</Path>
-                  <Path Filename="icons">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/themes/powerarrow-blue/</Path>
-                  <Path Filename="cpu.png">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/themes/powerarrow-blue/icons/</Path>
-                  <Path Filename="icons">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/themes/powerarrow-blue/</Path>
-                  <Path Filename="powerarrow-blue">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/themes/</Path>
                   <Path Filename="rc.lua">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/</Path>
                   <Path Filename="polybar">/home/tomaskrulis/Downloads/dotfiles-master/.config/</Path>
                   <Path Filename=".i3">/home/tomaskrulis/Downloads/dotfiles-master/</Path>
@@ -178,7 +151,34 @@
                   <Path Filename="awesome">/home/tomaskrulis/.config/</Path>
                   <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
                   <Path Filename="powerarrow-dark">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="rc.lua.template">/home/tomaskrulis/.config/awesome/</Path>
+                  <Path Filename="rc.lua">/home/tomaskrulis/.config/awesome/</Path>
+                  <Path Filename="awesome">/home/tomaskrulis/.config/</Path>
+                  <Path Filename=".xmonad">/home/tomaskrulis/</Path>
+                  <Path Filename="xmonad-example-configs">/home/tomaskrulis/.xmonad/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.xmonad/xmonad-example-configs/</Path>
+                  <Path Filename="xmonad-example-configs">/home/tomaskrulis/.xmonad/</Path>
+                  <Path Filename=".config">/home/tomaskrulis/</Path>
+                  <Path Filename="awesome">/home/tomaskrulis/.config/</Path>
+                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
+                  <Path Filename="awesome">/home/tomaskrulis/.config/</Path>
+                  <Path Filename=".i3">/home/tomaskrulis/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.i3/</Path>
+                  <Path Filename=".config">/home/tomaskrulis/</Path>
+                  <Path Filename="awesome">/home/tomaskrulis/.config/</Path>
+                  <Path Filename="scripts">/home/tomaskrulis/.config/awesome/</Path>
+                  <Path Filename="awesome">/home/tomaskrulis/.config/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="HadoopKurz">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
+                  <Path Filename="materialy">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/</Path>
+                  <Path Filename="Prezentace">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Path>
+                  <Path Filename="HadoopSlides">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/Prezentace/</Path>
+                  <Path Filename="BestOfTheRest.pdf">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/Prezentace/HadoopSlides/</Path>
+                  <Path Filename="MapReduce.pdf">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/Prezentace/</Path>
+                  <Path Filename="skripty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/skripty/</Path>
+                  <Path Filename="skripty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Path>
+                  <Path Filename="OldiesButGoodies.pig.txt">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/skripty/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,26 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes~/</Path>
-                  <Path Filename="themes~">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes~/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes~/default/</Path>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes~/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="themes~">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes~/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes~/default/</Path>
-                  <Path Filename="default">/home/tomaskrulis/.config/awesome/themes~/</Path>
-                  <Path Filename="themes~">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes~/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.config/awesome/themes/</Path>
-                  <Path Filename="themes">/home/tomaskrulis/.config/awesome/</Path>
                   <Path Filename="powerarrow">/home/tomaskrulis/.config/awesome/themes/</Path>
                   <Path Filename="theme.lua">/home/tomaskrulis/.config/awesome/themes/powerarrow/</Path>
                   <Path Filename="powerarrow">/home/tomaskrulis/.config/awesome/themes/</Path>
@@ -252,6 +232,26 @@
                   <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
                   <Path Filename="Downloads">/home/tomaskrulis/</Path>
                   <Path Filename="DT-dotfiles-master.zip">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
+                  <Path Filename="Pandoc">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
+                  <Path Filename="Testy">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Path>
+                  <Path Filename="DocXInfo">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/DocXInfo/</Path>
+                  <Path Filename="LaTeXdocxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
+                  <Path Filename="docxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/docxRevize/</Path>
+                  <Path Filename="KonverzeLatexDocxAPorovnani">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/KonverzeLatexDocxAPorovnani/</Path>
+                  <Path Filename="docxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
+                  <Path Filename="revize.docx">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/docxRevize/</Path>
+                  <Path Filename="docxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
+                  <Path Filename="LaTeXdocxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
+                  <Path Filename="Testy">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Path>
+                  <Path Filename="Pandoc">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
+                  <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
+                  <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -314,7 +314,7 @@
     <DateTimeFormat>d.m.yyyy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>True</ShowSystemFiles>
+    <ShowSystemFiles>False</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
