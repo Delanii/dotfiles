@@ -129,8 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="rc.lua">/home/tomaskrulis/Downloads/dotfiles-master/.config/awesome/</Path>
-                  <Path Filename="polybar">/home/tomaskrulis/Downloads/dotfiles-master/.config/</Path>
                   <Path Filename=".i3">/home/tomaskrulis/Downloads/dotfiles-master/</Path>
                   <Path Filename="config">/home/tomaskrulis/Downloads/dotfiles-master/.i3/</Path>
                   <Path Filename=".moc">/home/tomaskrulis/Downloads/dotfiles-master/</Path>
@@ -179,6 +177,8 @@
                   <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/skripty/</Path>
                   <Path Filename="skripty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Path>
                   <Path Filename="OldiesButGoodies.pig.txt">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/skripty/</Path>
+                  <Path Filename="Prezentace">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Path>
+                  <Path Filename="Hive.pdf">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/Prezentace/</Path>
                 </Paths>
               </Entry>
             </History>

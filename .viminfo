@@ -18,11 +18,13 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1603893537,,"x"
+|2,0,1603905504,,"x"
 :q
-|2,0,1603893457,,"q"
+|2,0,1603905410,,"q"
 :PlugInstall
-|2,0,1603893447,,"PlugInstall"
+|2,0,1603905396,,"PlugInstall"
+:w
+|2,0,1603905392,,"w"
 :q!
 |2,0,1603540863,,"q!"
 :x!
@@ -59,8 +61,6 @@ $
 |2,0,1602878783,,"set filetype=journal"
 :set filetype:journal
 |2,0,1602878553,,"set filetype:journal"
-:w
-|2,0,1602865013,,"w"
 :Limelight
 |2,0,1602864936,,"Limelight"
 :Limelight!
@@ -95,7 +95,7 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""0	CHAR	0
+"0	CHAR	0
 	[Desktop Entry]
 	Name=i3
 	Comment=Advanced Window Manager
@@ -104,61 +104,71 @@ $
 	Type=Application
 	Icon=/usr/share/pixmaps/awesome.xpm
 	Keywords=Window manager
-|3,1,0,0,8,0,1603540824,"[Desktop Entry]","Name=i3","Comment=Advanced Window Manager","TryExec=i3","Exec=i3","Type=Application","Icon=/usr/share/pixmaps/awesome.xpm","Keywords=Window manager"
-"1	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,in \index{!}<Left><Left>
-|3,0,1,1,1,0,1603389570,"autocmd BufRead,BufNewFile *.tex inoremap ,in \\index{!}<Left><Left>"
+|3,0,0,0,8,0,1603540824,"[Desktop Entry]","Name=i3","Comment=Advanced Window Manager","TryExec=i3","Exec=i3","Type=Application","Icon=/usr/share/pixmaps/awesome.xpm","Keywords=Window manager"
+""1	LINE	0
+	" Plugin pro vytváření cravlů podobných jako začátek Star Wars
+	Plug 'https://github.com/lucasteles/SWTC.Vim'
+	
+|3,1,1,1,3,0,1603905497,"\" Plugin pro vytváření cravlů podobných jako začátek Star Wars","Plug 'https://github.com/lucasteles/SWTC.Vim'",""
 "2	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,eq \begin{equation}<CR><CR>\end{equation}<CR><up><up>
-|3,0,2,1,1,0,1603389463,"autocmd BufRead,BufNewFile *.tex inoremap ,eq \\begin{equation}<CR><CR>\\end{equation}<CR><up><up>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,in \index{!}<Left><Left>
+|3,0,2,1,1,0,1603389570,"autocmd BufRead,BufNewFile *.tex inoremap ,in \\index{!}<Left><Left>"
 "3	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,ci \cite{}<Left>
-|3,0,3,1,1,0,1603389460,"autocmd BufRead,BufNewFile *.tex inoremap ,ci \\cite{}<Left>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,eq \begin{equation}<CR><CR>\end{equation}<CR><up><up>
+|3,0,3,1,1,0,1603389463,"autocmd BufRead,BufNewFile *.tex inoremap ,eq \\begin{equation}<CR><CR>\\end{equation}<CR><up><up>"
 "4	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,ff \footnote{}<Left>
-|3,0,4,1,1,0,1603389435,"autocmd BufRead,BufNewFile *.tex inoremap ,ff \\footnote{}<Left>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,ci \cite{}<Left>
+|3,0,4,1,1,0,1603389460,"autocmd BufRead,BufNewFile *.tex inoremap ,ci \\cite{}<Left>"
 "5	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,qv \begin{quote}\begin{verbatim}<CR><CR>\end{verbatim}\end{quote}<Up>
-|3,0,5,1,1,0,1603389392,"autocmd BufRead,BufNewFile *.tex inoremap ,qv \\begin{quote}\\begin{verbatim}<CR><CR>\\end{verbatim}\\end{quote}<Up>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,ff \footnote{}<Left>
+|3,0,5,1,1,0,1603389435,"autocmd BufRead,BufNewFile *.tex inoremap ,ff \\footnote{}<Left>"
 "6	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,ver \begin{verbatim}<CR><CR>\end{verbatim}<Up>
-|3,0,6,1,1,0,1603389388,"autocmd BufRead,BufNewFile *.tex inoremap ,ver \\begin{verbatim}<CR><CR>\\end{verbatim}<Up>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,qv \begin{quote}\begin{verbatim}<CR><CR>\end{verbatim}\end{quote}<Up>
+|3,0,6,1,1,0,1603389392,"autocmd BufRead,BufNewFile *.tex inoremap ,qv \\begin{quote}\\begin{verbatim}<CR><CR>\\end{verbatim}\\end{quote}<Up>"
 "7	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,quo \begin{quote}<CR><CR>\end{quote}<Up>
-|3,0,7,1,1,0,1603389345,"autocmd BufRead,BufNewFile *.tex inoremap ,quo \\begin{quote}<CR><CR>\\end{quote}<Up>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,ver \begin{verbatim}<CR><CR>\end{verbatim}<Up>
+|3,0,7,1,1,0,1603389388,"autocmd BufRead,BufNewFile *.tex inoremap ,ver \\begin{verbatim}<CR><CR>\\end{verbatim}<Up>"
 "8	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,cen \begin{center}<CR><CR>\end{center}<Up>
-|3,0,8,1,1,0,1603389342,"autocmd BufRead,BufNewFile *.tex inoremap ,cen \\begin{center}<CR><CR>\\end{center}<Up>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,quo \begin{quote}<CR><CR>\end{quote}<Up>
+|3,0,8,1,1,0,1603389345,"autocmd BufRead,BufNewFile *.tex inoremap ,quo \\begin{quote}<CR><CR>\\end{quote}<Up>"
 "9	LINE	0
-	autocmd BufRead,BufNewFile *.tex inoremap ,hh \helpref{}{}<Left><Left><Left>
-|3,0,9,1,1,0,1603389336,"autocmd BufRead,BufNewFile *.tex inoremap ,hh \\helpref{}{}<Left><Left><Left>"
+	autocmd BufRead,BufNewFile *.tex inoremap ,cen \begin{center}<CR><CR>\end{center}<Up>
+|3,0,9,1,1,0,1603389342,"autocmd BufRead,BufNewFile *.tex inoremap ,cen \\begin{center}<CR><CR>\\end{center}<Up>"
 "-	CHAR	0
-	awesome
-|3,0,36,0,1,0,1603540619,"awesome"
+	'
+|3,0,36,0,1,0,1603905389,"'"
 
 # File marks:
-'0  161  24  ~/.vimrc
-|4,48,161,24,1603893537,"~/.vimrc"
-'1  332  26  /etc/xdg/awesome/rc.lua
-|4,49,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
-'2  332  62  /etc/xdg/awesome/rc.lua
-|4,50,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
-'3  344  0  /etc/xdg/awesome/rc.lua
-|4,51,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
-'4  344  0  /etc/xdg/awesome/rc.lua
-|4,52,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
-'5  344  0  /etc/xdg/awesome/rc.lua
-|4,53,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
-'6  344  0  /etc/xdg/awesome/rc.lua
-|4,54,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
-'7  1  0  ~/temp.txt
-|4,55,1,0,1603540863,"~/temp.txt"
-'8  1  0  /usr/share/xsessions/i3.desktop
-|4,56,1,0,1603540804,"/usr/share/xsessions/i3.desktop"
-'9  1  0  /usr/share/xsessions/awesome.desktop
-|4,57,1,0,1603538909,"/usr/share/xsessions/awesome.desktop"
+'0  160  0  ~/.vimrc
+|4,48,160,0,1603905504,"~/.vimrc"
+'1  1  0  ~/.vimrc
+|4,49,1,0,1603905106,"~/.vimrc"
+'2  1  0  ~/.vimrc
+|4,50,1,0,1603905106,"~/.vimrc"
+'3  160  24  ~/.vimrc
+|4,51,160,24,1603893537,"~/.vimrc"
+'4  161  24  ~/.vimrc
+|4,52,161,24,1603893537,"~/.vimrc"
+'5  161  24  ~/.vimrc
+|4,53,161,24,1603893537,"~/.vimrc"
+'6  332  26  /etc/xdg/awesome/rc.lua
+|4,54,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+'7  332  62  /etc/xdg/awesome/rc.lua
+|4,55,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+'8  344  0  /etc/xdg/awesome/rc.lua
+|4,56,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
+'9  344  0  /etc/xdg/awesome/rc.lua
+|4,57,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
 
 # Jumplist (newest first):
+-'  160  0  ~/.vimrc
+|4,39,160,0,1603905504,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603905114,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1603905106,"~/.vimrc"
+-'  161  24  ~/.vimrc
+|4,39,161,24,1603893537,"~/.vimrc"
 -'  161  24  ~/.vimrc
 |4,39,161,24,1603893537,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -179,6 +189,102 @@ $
 |4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
 -'  332  26  /etc/xdg/awesome/rc.lua
 |4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  332  26  /etc/xdg/awesome/rc.lua
+|4,39,332,26,1603544391,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
+-'  1  0  /etc/xdg/awesome/rc.lua
+|4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
 -'  1  0  /etc/xdg/awesome/rc.lua
 |4,39,1,0,1603544319,"/etc/xdg/awesome/rc.lua"
 -'  1  0  /etc/xdg/awesome/rc.lua
@@ -211,162 +317,57 @@ $
 |4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
 -'  332  62  /etc/xdg/awesome/rc.lua
 |4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544131,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  344  0  /etc/xdg/awesome/rc.lua
-|4,39,344,0,1603544082,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  /etc/xdg/awesome/rc.lua
-|4,39,1,0,1603544019,"/etc/xdg/awesome/rc.lua"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
--'  1  0  ~/temp.txt
-|4,39,1,0,1603540863,"~/temp.txt"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
+-'  332  62  /etc/xdg/awesome/rc.lua
+|4,39,332,62,1603544302,"/etc/xdg/awesome/rc.lua"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vimrc
-	*	1603893534	0
-	"	161	24
-	^	161	0
-	.	161	0
+	*	1603905501	0
+	"	160	0
+	.	160	0
 	+	138	0
 	+	22	0
 	+	24	0
@@ -451,7 +452,12 @@ $
 	+	53	0
 	+	54	53
 	+	55	56
-	+	161	0
+	+	160	0
+	+	160	87
+	+	162	41
+	+	164	83
+	+	165	6
+	+	160	0
 
 > /etc/xdg/awesome/rc.lua
 	*	1603544378	0

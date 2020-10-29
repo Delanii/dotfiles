@@ -157,7 +157,11 @@ Plug 'vim-pandoc/vim-pandoc-syntax'
 " Práce s a automatické formátování textových tabulek
 Plug 'dhruvasagar/vim-table-mode'
 
-" Plugin pro vytváření cravlů podobných jako začátek Star Wars
-Plug 'shinokada/swtc.vim'
+" Plugin pro seřazování řádků jiným než číselným způsobem; lze také řadit
+" podle jiného než prvního řádku
+Plug 'https://github.com/vim-scripts/vis'
+
+" Plugin pro transformaci seznamu v dlouhou větu oddělenou čárkami a obráceně
+Plug 'https://github.com/soulston/vim-listtrans'
 
 call plug#end()
