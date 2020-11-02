@@ -66,7 +66,7 @@
 
 ;; Specifická nastavení pro org-mode
 
-(add-hook §'org-mode-hook (lambda () (org-autolist-mode)))
+(add-hook 'org-mode-hook (lambda () (org-autolist-mode)))
 
 ;; Přidání dalších zpráv při odchodu z Doom Emacs
 
