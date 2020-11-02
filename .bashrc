@@ -118,11 +118,19 @@ fi
 
 # Toto radši zatím nebudu mazat
 
-export PATH="$HOME/.local/bin:/home/tomaskrulis/hadoop-3.3.0/bin/:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+############################################
+# Nastavení aliasů
+###########################################
 
 # Nastavení aliasu `config` pro zálohování konfiguračních souborů do dotfiles; resp. dotfiles repo; viz. tutorial od DT
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+
+# Alias pro odhlášení se pomocí terminálu
+
+alias logout='sudo pkill -u tomaskrulis'
 
 # Nastavení automatického spellcheckeru v `bash` - otestovat a používat s rozmyslem ...
 

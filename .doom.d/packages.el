@@ -49,7 +49,13 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
+;; Packages connected to evil-mode
 (package! evil-matchit)
 (package! evil-tutor)
+
+;; Packages connected to writing and `pandoc`
 (package! wc-mode)
 (package! pandoc-mode)
+
+;; Packages connected specifically to org-mode
+(package! org-autolist)

@@ -1,7 +1,9 @@
 " Osobní nastavení, tohle by mělo být pro 'témata' v gvimu - slate vypadá
 " nejlépe
 
-colorscheme desert 
+colorscheme desert
+" colorscheme nord " aktivuje nord-theme
+
 set guifont=Ubuntu\ Mono\ 12
 
 " Požadavky, aby plugin wimWiki fungoval - `nocompatible` se nastavuje vždy,
@@ -163,5 +165,8 @@ Plug 'https://github.com/vim-scripts/vis'
 
 " Plugin pro transformaci seznamu v dlouhou větu oddělenou čárkami a obráceně
 Plug 'https://github.com/soulston/vim-listtrans'
+
+" Plugin pro Nord theme
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()

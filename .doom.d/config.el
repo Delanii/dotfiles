@@ -64,6 +64,10 @@
 ;; Změna fontu - spíš ukázka:
 ;; (setq doom-font (font-spec :family "Fira Mono" :size 12))
 
+;; Specifická nastavení pro org-mode
+
+(add-hook §'org-mode-hook (lambda () (org-autolist-mode)))
+
 ;; Přidání dalších zpráv při odchodu z Doom Emacs
 
 (setq +doom-quit-messages '(;;from doom 2
