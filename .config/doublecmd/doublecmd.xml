@@ -106,10 +106,10 @@
     <Position Save="True">
       <Maximized>True</Maximized>
       <Splitter>50</Splitter>
-      <Left>80</Left>
-      <Top>48</Top>
-      <Width>800</Width>
-      <Height>480</Height>
+      <Left>985</Left>
+      <Top>50</Top>
+      <Width>933</Width>
+      <Height>991</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
@@ -129,8 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="0_17_x64_Linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/0_17_x64_Linux/</Path>
                   <Path Filename="0_17_x64_Linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
                   <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
                   <Path Filename="Downloads">/home/tomaskrulis/</Path>
@@ -179,6 +177,8 @@
                   <Path Filename="Home Office">/media/tomaskrulis/68D7-AC5F/</Path>
                   <Path Filename=".i3">/home/tomaskrulis/</Path>
                   <Path Filename="config">/home/tomaskrulis/.i3/</Path>
+                  <Path Filename=".doom.d">/home/tomaskrulis/</Path>
+                  <Path Filename="config.el">/home/tomaskrulis/.doom.d/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,56 +202,56 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="0_16_x64_linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/0_16_x64_linux/</Path>
-                  <Path Filename="0_17_x64_Linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/0_17_x64_Linux/</Path>
-                  <Path Filename="0_17_x64_Linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="DT-dotfiles-master.zip">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="registry">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="cache">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/cache/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/cache/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/cache/</Path>
+                  <Path Filename="index">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/index/</Path>
+                  <Path Filename=".cache">/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.cache/</Path>
+                  <Path Filename=".git">/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.git/</Path>
+                  <Path Filename=".git">/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/index/</Path>
+                  <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/src/</Path>
+                  <Path Filename="ansi_colours-1.0.1">/home/tomaskrulis/.cargo/registry/src/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_colours-1.0.1/</Path>
+                  <Path Filename="ansi_colours-1.0.1">/home/tomaskrulis/.cargo/registry/src/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/src/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/src/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/src/</Path>
+                  <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/bin/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename=".cargo">/home/tomaskrulis/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename=".cargo">/home/tomaskrulis/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/bin/</Path>
+                  <Path Filename="registry">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="cache">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/cache/</Path>
+                  <Path Filename="index">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/index/</Path>
+                  <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/src/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/src/github.com-1ecc6299db9ec823/</Path>
+                  <Path Filename="github.com-1ecc6299db9ec823">/home/tomaskrulis/.cargo/registry/src/</Path>
+                  <Path Filename="cache">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="registry">/home/tomaskrulis/.cargo/</Path>
                   <Path Filename="Documents">/home/tomaskrulis/</Path>
                   <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
                   <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
-                  <Path Filename="Pandoc">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
-                  <Path Filename="Testy">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Path>
-                  <Path Filename="DocXInfo">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/DocXInfo/</Path>
-                  <Path Filename="LaTeXdocxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
-                  <Path Filename="docxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/docxRevize/</Path>
-                  <Path Filename="KonverzeLatexDocxAPorovnani">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/KonverzeLatexDocxAPorovnani/</Path>
-                  <Path Filename="docxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
-                  <Path Filename="revize.docx">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/docxRevize/</Path>
-                  <Path Filename="docxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/LaTeXdocxRevize/</Path>
-                  <Path Filename="LaTeXdocxRevize">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
-                  <Path Filename="Testy">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Path>
-                  <Path Filename="Pandoc">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
-                  <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
-                  <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
-                  <Path Filename=".tmux">/home/tomaskrulis/</Path>
-                  <Path Filename="plugins">/home/tomaskrulis/.tmux/</Path>
-                  <Path Filename="tpm">/home/tomaskrulis/.tmux/plugins/</Path>
-                  <Path Filename="plugins">/home/tomaskrulis/.tmux/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="DT-dotfiles-master.zip">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Documents">/home/tomaskrulis/</Path>
-                  <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
-                  <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
-                  <Path Filename="Pandoc">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
-                  <Path Filename="Testy">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Path>
-                  <Path Filename="TestySFiltry">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
-                  <Path Filename="nonbreakableSpaces">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/</Path>
-                  <Path Filename="releaseVersion">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/nonbreakableSpaces/</Path>
-                  <Path Filename="nonbreakablespace.lua.txt">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/nonbreakableSpaces/releaseVersion/</Path>
-                  <Path Filename="Home Office">/media/tomaskrulis/68D7-AC5F/</Path>
-                  <Path Filename="Fotky">/media/tomaskrulis/68D7-AC5F/Home Office/</Path>
-                  <Path Filename="..">/media/tomaskrulis/68D7-AC5F/Home Office/Fotky/</Path>
-                  <Path Filename="Fotky">/media/tomaskrulis/68D7-AC5F/Home Office/</Path>
-                  <Path Filename="..">/media/tomaskrulis/68D7-AC5F/Home Office/Fotky/</Path>
-                  <Path Filename="nonbreakablespace.lua.txt">/media/tomaskrulis/68D7-AC5F/Home Office/</Path>
-                  <Path Filename="..">/home/tomaskrulis/</Path>
+                  <Path Filename="Navody a dokumentace">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
+                  <Path Filename="AnotherLanguages">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/</Path>
+                  <Path Filename="GNU">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/</Path>
+                  <Path Filename="tmux">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/</Path>
+                  <Path Filename="tmuxCheatsheet.md.txt">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/tmux/</Path>
                 </Paths>
               </Entry>
             </History>

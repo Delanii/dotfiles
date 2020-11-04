@@ -53,9 +53,19 @@
 (package! evil-matchit)
 (package! evil-tutor)
 
+;; Zajímavé k vyzkoušení, může být ale v konfliktu s evil nebo hydra
+(package! selected)
+
+;; multiple cursors
+(package! multiple-cursors)
+
 ;; Packages connected to writing and `pandoc`
 (package! wc-mode)
 (package! pandoc-mode)
+(package! expand-region)
 
 ;; Packages connected specifically to org-mode
 (package! org-autolist)
+
+;; Balíček pro vytváření dalších expanzí a regexů; myslím
+(package! ample-regexps)

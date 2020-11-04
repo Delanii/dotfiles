@@ -11,7 +11,7 @@
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:monospace 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -35,6 +35,9 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
+# Zamezení změny fokusu při hoveru myší
+focus_follows_mouse no
+
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
 set $up l
@@ -46,7 +49,8 @@ set $right semicolon
 floating_modifier Mod1
 
 # start a terminal
-bindsym Mod1+Return exec i3-sensible-terminal
+#bindsym Mod1+Return exec i3-sensible-terminal
+bindsym Mod1+Return exec tilix
 
 # kill focused window
 bindsym Mod1+Shift+q kill
