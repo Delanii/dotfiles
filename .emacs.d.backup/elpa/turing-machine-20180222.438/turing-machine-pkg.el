@@ -1,2 +1,0 @@
-;;; -*- no-byte-compile: t -*-
-(define-package "turing-machine" "20180222.438" "Single-tape Turing machine simulator" '((emacs "24.4")) :commit "fa60b76a5bac1f54b7a1b3dc55aae7602c7e385b" :keywords '("turing" "machine" "simulation") :authors '(("Diego A. Mundo" . "diegoamundo@gmail.com")) :maintainer '("Diego A. Mundo" . "diegoamundo@gmail.com") :url "http://github.com/therockmandolinist/turing-machine")
