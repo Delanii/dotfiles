@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1604907706,,"x"
+|2,0,1604909228,,"x"
 :X
 |2,0,1604907368,,"X"
 :q
@@ -98,65 +98,139 @@ $
 
 # Registers:
 "0	CHAR	0
-	§
-|3,0,0,0,1,0,1604872552,"§"
-""1	LINE	0
-	#eval "$(starship init zsh)"
-|3,1,1,1,1,0,1604907530,"#eval \"$(starship init zsh)\""
+	# Nastavení pro pluginy
+	# colorize
+	ZSH_COLORIZE_TOOL=pygmentize
+	
+	
+|3,0,0,0,5,0,1604908733,"# Nastavení pro pluginy","# colorize","ZSH_COLORIZE_TOOL=pygmentize","",""
+"1	LINE	0
+	
+|3,0,1,1,1,0,1604908750,""
 "2	LINE	0
-	# Spustí starship prompt v zsh
-|3,0,2,1,1,0,1604907529,"# Spustí starship prompt v zsh"
+	# Nastavení pro pluginy
+	# colorize
+	ZSH_COLORIZE_TOOL=pygmentize
+|3,0,2,1,3,0,1604908749,"# Nastavení pro pluginy","# colorize","ZSH_COLORIZE_TOOL=pygmentize"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1604907365,""
+	#eval "$(starship init zsh)"
+|3,0,3,1,1,0,1604907530,"#eval \"$(starship init zsh)\""
 "4	LINE	0
-	# ~/.bashrc
-	
-|3,0,4,1,2,0,1604902026,"# ~/.bashrc",""
+	# Spustí starship prompt v zsh
+|3,0,4,1,1,0,1604907529,"# Spustí starship prompt v zsh"
 "5	LINE	0
 	
-|3,0,5,1,1,0,1604872552,""
+|3,0,5,1,1,0,1604907365,""
 "6	LINE	0
+	# ~/.bashrc
 	
-|3,0,6,1,1,0,1604872552,""
+|3,0,6,1,2,0,1604902026,"# ~/.bashrc",""
 "7	LINE	0
-	```
-|3,0,7,1,1,0,1604872552,"```"
+	
+|3,0,7,1,1,0,1604872552,""
 "8	LINE	0
-	```
-|3,0,8,1,1,0,1604872552,"```"
+	
+|3,0,8,1,1,0,1604872552,""
 "9	LINE	0
 	```
 |3,0,9,1,1,0,1604872552,"```"
-"-	CHAR	0
-	o
-|3,0,36,0,1,0,1604907482,"o"
+""-	CHAR	0
+	ripgrep 
+|3,1,36,0,1,0,1604909189,"ripgrep "
 
 # File marks:
-'0  1  35  ~/.config/fish/config.fish
-|4,48,1,35,1604907706,"~/.config/fish/config.fish"
-'1  106  24  ~/.zshrc
-|4,49,106,24,1604907570,"~/.zshrc"
-'2  1  1  ~/.config/fish/config.fish
-|4,50,1,1,1604907498,"~/.config/fish/config.fish"
-'3  157  0  ~/.bashrc
-|4,51,157,0,1604907372,"~/.bashrc"
-'4  154  0  ~/.bashrc
-|4,52,154,0,1604902030,"~/.bashrc"
-'5  154  0  ~/.bashrc
-|4,53,154,0,1604902030,"~/.bashrc"
-'6  105  0  ~/.zshrc
-|4,54,105,0,1604901866,"~/.zshrc"
-'7  106  0  ~/.zshrc
-|4,55,106,0,1604901866,"~/.zshrc"
-'8  105  30  ~/.zshrc
-|4,56,105,30,1604872622,"~/.zshrc"
-'9  105  30  ~/.zshrc
-|4,57,105,30,1604872622,"~/.zshrc"
+'0  71  33  ~/.zshrc
+|4,48,71,33,1604909228,"~/.zshrc"
+'1  1  0  ~/.zshrc
+|4,49,1,0,1604909199,"~/.zshrc"
+'2  1  0  ~/.zshrc
+|4,50,1,0,1604909199,"~/.zshrc"
+'3  71  22  ~/.zshrc
+|4,51,71,22,1604909193,"~/.zshrc"
+'4  71  22  ~/.zshrc
+|4,52,71,22,1604909193,"~/.zshrc"
+'5  71  22  ~/.zshrc
+|4,53,71,22,1604909193,"~/.zshrc"
+'6  71  72  ~/.zshrc
+|4,54,71,72,1604909151,"~/.zshrc"
+'7  71  72  ~/.zshrc
+|4,55,71,72,1604909151,"~/.zshrc"
+'8  71  72  ~/.zshrc
+|4,56,71,72,1604909151,"~/.zshrc"
+'9  71  72  ~/.zshrc
+|4,57,71,72,1604909151,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  71  33  ~/.zshrc
+|4,39,71,33,1604909228,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604909212,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604909199,"~/.zshrc"
+-'  71  22  ~/.zshrc
+|4,39,71,22,1604909193,"~/.zshrc"
+-'  71  22  ~/.zshrc
+|4,39,71,22,1604909193,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604909172,"~/.zshrc"
+-'  71  72  ~/.zshrc
+|4,39,71,72,1604909151,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604908143,"~/.zshrc"
 -'  1  35  ~/.config/fish/config.fish
 |4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  110  24  ~/.zshrc
+|4,39,110,24,1604907570,"~/.zshrc"
+-'  104  24  ~/.zshrc
+|4,39,104,24,1604907570,"~/.zshrc"
+-'  112  24  ~/.zshrc
+|4,39,112,24,1604907570,"~/.zshrc"
+-'  106  24  ~/.zshrc
+|4,39,106,24,1604907570,"~/.zshrc"
+-'  110  24  ~/.zshrc
+|4,39,110,24,1604907570,"~/.zshrc"
+-'  104  24  ~/.zshrc
+|4,39,104,24,1604907570,"~/.zshrc"
+-'  112  24  ~/.zshrc
+|4,39,112,24,1604907570,"~/.zshrc"
+-'  106  24  ~/.zshrc
+|4,39,106,24,1604907570,"~/.zshrc"
+-'  110  24  ~/.zshrc
+|4,39,110,24,1604907570,"~/.zshrc"
+-'  104  24  ~/.zshrc
+|4,39,104,24,1604907570,"~/.zshrc"
+-'  112  24  ~/.zshrc
+|4,39,112,24,1604907570,"~/.zshrc"
 -'  106  24  ~/.zshrc
 |4,39,106,24,1604907570,"~/.zshrc"
 -'  106  24  ~/.zshrc
@@ -165,6 +239,66 @@ $
 |4,39,1,0,1604907525,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1604907525,"~/.zshrc"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
 -'  1  1  ~/.config/fish/config.fish
 |4,39,1,1,1604907498,"~/.config/fish/config.fish"
 -'  1  1  ~/.config/fish/config.fish
@@ -185,178 +319,76 @@ $
 |4,39,157,0,1604907372,"~/.bashrc"
 -'  157  0  ~/.bashrc
 |4,39,157,0,1604907372,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604907322,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  154  0  ~/.bashrc
-|4,39,154,0,1604902030,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1604901929,"~/.bashrc"
--'  105  0  ~/.zshrc
-|4,39,105,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  105  0  ~/.zshrc
-|4,39,105,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  106  0  ~/.zshrc
-|4,39,106,0,1604901866,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1604901850,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
--'  105  30  ~/.zshrc
-|4,39,105,30,1604872622,"~/.zshrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.zshrc
+	*	1604909227	0
+	"	71	33
+	^	71	34
+	.	71	33
+	+	11	18
+	+	108	0
+	+	109	0
+	+	109	30
+	+	109	0
+	+	108	0
+	+	109	53
+	+	110	0
+	+	45	0
+	+	48	0
+	+	71	20
+	+	105	24
+	+	105	27
+	+	72	0
+	+	77	0
+	+	105	0
+	+	76	0
+	+	71	73
+	+	77	0
+	+	71	33
 
 > ~/.config/fish/config.fish
 	*	1604907705	0
@@ -366,20 +398,6 @@ $
 	+	1	0
 	+	2	0
 	+	1	35
-
-> ~/.zshrc
-	*	1604907568	0
-	"	106	24
-	^	106	0
-	.	106	0
-	+	11	18
-	+	104	0
-	+	105	0
-	+	105	30
-	+	105	0
-	+	104	0
-	+	105	53
-	+	106	0
 
 > ~/.bashrc
 	*	1604907369	0
