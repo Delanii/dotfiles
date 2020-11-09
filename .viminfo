@@ -18,11 +18,11 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1604525623,,"x"
+|2,0,1604907706,,"x"
+:X
+|2,0,1604907368,,"X"
 :q
 |2,0,1604336324,,"q"
-:X
-|2,0,1604314076,,"X"
 :colorscheme nord
 |2,0,1604071016,,"colorscheme nord"
 :PlugInstall
@@ -98,264 +98,318 @@ $
 
 # Registers:
 "0	CHAR	0
-	```
-|3,0,0,0,1,0,1604078525,"```"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1604078939,""
+	§
+|3,0,0,0,1,0,1604872552,"§"
+""1	LINE	0
+	#eval "$(starship init zsh)"
+|3,1,1,1,1,0,1604907530,"#eval \"$(starship init zsh)\""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1604078937,""
+	# Spustí starship prompt v zsh
+|3,0,2,1,1,0,1604907529,"# Spustí starship prompt v zsh"
 "3	LINE	0
-	```
-|3,0,3,1,1,0,1604078934,"```"
+	
+|3,0,3,1,1,0,1604907365,""
 "4	LINE	0
-	```
-|3,0,4,1,1,0,1604078932,"```"
+	# ~/.bashrc
+	
+|3,0,4,1,2,0,1604902026,"# ~/.bashrc",""
 "5	LINE	0
-	```
-|3,0,5,1,1,0,1604078929,"```"
+	
+|3,0,5,1,1,0,1604872552,""
 "6	LINE	0
-	```
-|3,0,6,1,1,0,1604078925,"```"
+	
+|3,0,6,1,1,0,1604872552,""
 "7	LINE	0
-	
-|3,0,7,1,1,0,1604078924,""
+	```
+|3,0,7,1,1,0,1604872552,"```"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1604078921,""
+	```
+|3,0,8,1,1,0,1604872552,"```"
 "9	LINE	0
 	```
-|3,0,9,1,1,0,1604078909,"```"
-""-	CHAR	0
-	§
-|3,1,36,0,1,0,1604336356,"§"
+|3,0,9,1,1,0,1604872552,"```"
+"-	CHAR	0
+	o
+|3,0,36,0,1,0,1604907482,"o"
 
 # File marks:
-'0  17  0  ~/.tmux.conf
-|4,48,17,0,1604525623,"~/.tmux.conf"
-'1  1  0  ~/.tmux.conf
-|4,49,1,0,1604523984,"~/.tmux.conf"
-'2  1  0  ~/.tmux.conf
-|4,50,1,0,1604523984,"~/.tmux.conf"
-'3  69  10  ~/.doom.d/config.el
-|4,51,69,10,1604336359,"~/.doom.d/config.el"
-'4  1  0  ~/.doom.d/init.el
-|4,52,1,0,1604336324,"~/.doom.d/init.el"
-'5  69  58  ~/.doom.d/config.el
-|4,53,69,58,1604314193,"~/.doom.d/config.el"
-'6  61  21  ~/.doom.d/packages.el
-|4,54,61,21,1604314080,"~/.doom.d/packages.el"
-'7  133  38  ~/.bashrc
-|4,55,133,38,1604305676,"~/.bashrc"
-'8  49  0  ~/.i3/config
-|4,56,49,0,1604305116,"~/.i3/config"
-'9  52  0  ~/.i3/config
-|4,57,52,0,1604305089,"~/.i3/config"
+'0  1  35  ~/.config/fish/config.fish
+|4,48,1,35,1604907706,"~/.config/fish/config.fish"
+'1  106  24  ~/.zshrc
+|4,49,106,24,1604907570,"~/.zshrc"
+'2  1  1  ~/.config/fish/config.fish
+|4,50,1,1,1604907498,"~/.config/fish/config.fish"
+'3  157  0  ~/.bashrc
+|4,51,157,0,1604907372,"~/.bashrc"
+'4  154  0  ~/.bashrc
+|4,52,154,0,1604902030,"~/.bashrc"
+'5  154  0  ~/.bashrc
+|4,53,154,0,1604902030,"~/.bashrc"
+'6  105  0  ~/.zshrc
+|4,54,105,0,1604901866,"~/.zshrc"
+'7  106  0  ~/.zshrc
+|4,55,106,0,1604901866,"~/.zshrc"
+'8  105  30  ~/.zshrc
+|4,56,105,30,1604872622,"~/.zshrc"
+'9  105  30  ~/.zshrc
+|4,57,105,30,1604872622,"~/.zshrc"
 
 # Jumplist (newest first):
--'  17  0  ~/.tmux.conf
-|4,39,17,0,1604525623,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1604525475,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1604523984,"~/.tmux.conf"
--'  69  10  ~/.doom.d/config.el
-|4,39,69,10,1604336359,"~/.doom.d/config.el"
--'  69  10  ~/.doom.d/config.el
-|4,39,69,10,1604336359,"~/.doom.d/config.el"
--'  69  10  ~/.doom.d/config.el
-|4,39,69,10,1604336359,"~/.doom.d/config.el"
--'  69  10  ~/.doom.d/config.el
-|4,39,69,10,1604336359,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604336340,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604336340,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604336340,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604336340,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  1  0  ~/.doom.d/init.el
-|4,39,1,0,1604336324,"~/.doom.d/init.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  69  58  ~/.doom.d/config.el
-|4,39,69,58,1604314193,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1604314095,"~/.doom.d/config.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  61  21  ~/.doom.d/packages.el
-|4,39,61,21,1604314080,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  1  0  ~/.doom.d/packages.el
-|4,39,1,0,1604313973,"~/.doom.d/packages.el"
--'  133  38  ~/.bashrc
-|4,39,133,38,1604305676,"~/.bashrc"
+-'  1  35  ~/.config/fish/config.fish
+|4,39,1,35,1604907706,"~/.config/fish/config.fish"
+-'  106  24  ~/.zshrc
+|4,39,106,24,1604907570,"~/.zshrc"
+-'  106  24  ~/.zshrc
+|4,39,106,24,1604907570,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604907525,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604907525,"~/.zshrc"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  1  1  ~/.config/fish/config.fish
+|4,39,1,1,1604907498,"~/.config/fish/config.fish"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  157  0  ~/.bashrc
+|4,39,157,0,1604907372,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604907322,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  154  0  ~/.bashrc
+|4,39,154,0,1604902030,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1604901929,"~/.bashrc"
+-'  105  0  ~/.zshrc
+|4,39,105,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  105  0  ~/.zshrc
+|4,39,105,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  106  0  ~/.zshrc
+|4,39,106,0,1604901866,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1604901850,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
+-'  105  30  ~/.zshrc
+|4,39,105,30,1604872622,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.config/fish/config.fish
+	*	1604907705	0
+	"	1	35
+	^	1	36
+	.	1	35
+	+	1	0
+	+	2	0
+	+	1	35
+
+> ~/.zshrc
+	*	1604907568	0
+	"	106	24
+	^	106	0
+	.	106	0
+	+	11	18
+	+	104	0
+	+	105	0
+	+	105	30
+	+	105	0
+	+	104	0
+	+	105	53
+	+	106	0
+
+> ~/.bashrc
+	*	1604907369	0
+	"	157	0
+	.	157	0
+	+	139	5
+	+	129	38
+	+	119	64
+	+	139	74
+	+	146	41
+	+	129	39
+	+	141	15
+	+	155	55
+	+	127	15
+	+	121	58
+	+	1	0
+	+	121	36
+	+	124	18
+	+	123	43
+	+	125	42
+	+	133	40
+	+	137	8
+	+	135	105
+	+	152	0
+	+	147	20
+	+	150	19
+	+	153	33
+	+	154	28
+	+	156	36
+	+	157	0
 
 > ~/.tmux.conf
 	*	1604525621	0
@@ -457,28 +511,6 @@ $
 	+	56	44
 	+	58	22
 	+	61	21
-
-> ~/.bashrc
-	*	1604305674	0
-	"	133	38
-	^	133	39
-	.	133	38
-	+	135	5
-	+	129	38
-	+	119	64
-	+	135	74
-	+	142	41
-	+	129	39
-	+	137	15
-	+	151	55
-	+	127	15
-	+	121	58
-	+	1	0
-	+	121	36
-	+	124	18
-	+	123	43
-	+	125	42
-	+	133	38
 
 > ~/.i3/config
 	*	1604305113	0
@@ -805,13 +837,6 @@ $
 	+	12	20
 	+	35	12
 	+	32	25
-
-> ~/.zshrc
-	*	1602061975	0
-	"	11	18
-	^	11	19
-	.	11	18
-	+	11	18
 
 > /etc/default/locale
 	*	1601837429	0

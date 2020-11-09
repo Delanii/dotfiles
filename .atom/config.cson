@@ -9,6 +9,9 @@
     save_on_build: true
     toolchain: "custom toolchain"
   core:
+    disabledPackages: [
+      "vim-mode-plus"
+    ]
     telemetryConsent: "limited"
   editor:
     fontSize: 16

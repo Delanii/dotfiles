@@ -132,6 +132,10 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 alias logout='sudo pkill -u tomaskrulis'
 
+# Používat fdfind binárku (balíček je `fd-find`) pod aliasem `fd` (`fd` je zabráno jinou binárkou).
+
+alias fd=fdfind
+
 # Nastavení automatického spellcheckeru v `bash` - otestovat a používat s rozmyslem ...
 
 shopt -s cdspell
@@ -140,4 +144,14 @@ shopt -s cdspell
 
 export CLASSPATH=".:/usr/local/lib/antlr-4.7.1-complete.jar:$CLASSPATH"
 
+# Nastavení pro `fzf`
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Umožnění `broot`
+source /home/tomaskrulis/.config/broot/launcher/bash/br
+
+# Spouštění `Starship` promptu
+eval "$(starship init bash)"
+
+# Umožnění `zoxide` - better `ls`
+eval "$(zoxide init bash)"
