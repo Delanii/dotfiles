@@ -2,19 +2,32 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/nonbreakableSpaces/</Item>
+      <Item>/home/tomaskrulis/</Item>
+      <Item>/home/tomaskrulis/.emacs.d.backupOriginal/</Item>
+      <Item>/home/tomaskrulis/.emacs.d.backupOriginal/elpa/</Item>
+      <Item>/home/tomaskrulis/.emacs.d/</Item>
+      <Item>/home/tomaskrulis/.emacs.d.xxx/</Item>
+      <Item>/home/tomaskrulis/.emacs.d/bin/</Item>
+      <Item>/home/tomaskrulis/doom-emacs/</Item>
+      <Item>/home/tomaskrulis/.doom.d/</Item>
+      <Item>/home/tomaskrulis/.emacs.d.backup/</Item>
+      <Item>/home/tomaskrulis/doom-emacs/.emacs.d/bin/</Item>
+      <Item>/home/tomaskrulis/doom-emacs/.emacs.d/</Item>
+      <Item>/home/tomaskrulis/doom-emacs/.doom.d/</Item>
+      <Item>/home/</Item>
+      <Item>/home/tomaskrulis/dotfiles/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/nonbreakableSpaces/</Item>
       <Item>/home/tomaskrulis/Documents/test/</Item>
       <Item>/home/tomaskrulis/Documents/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/nonbreakableSpaces/releaseVersion/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/</Item>
-      <Item>/home/tomaskrulis/</Item>
       <Item>/home/tomaskrulis/alacritty/</Item>
       <Item>/home/tomaskrulis/alacritty/target/</Item>
       <Item>/home/tomaskrulis/alacritty/target/release/</Item>
@@ -40,19 +53,6 @@
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201005PG/Poznamky/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201005PG/Poznamky/testy/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/tmux/</Item>
-      <Item>/home/tomaskrulis/.doom.d/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/src/github.com-1ecc6299db9ec823/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/src/github.com-1ecc6299db9ec823/ansi_colours-1.0.1/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.git/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.cache/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.cache/ah/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.cache/ah/o-/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.cache/2/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.cache/3/</Item>
-      <Item>/home/tomaskrulis/.cargo/registry/index/github.com-1ecc6299db9ec823/.cache/3/a/</Item>
-      <Item>/home/tomaskrulis/.cache/</Item>
-      <Item>/home/tomaskrulis/.i3/</Item>
-      <Item>/media/tomaskrulis/68D7-AC5F/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask>
@@ -64,6 +64,7 @@
     <ReplaceText/>
     <ReplaceTextPath/>
     <CreateDirectories>
+      <Item>doom-emacs</Item>
       <Item>skripty</Item>
       <Item>Prezentace</Item>
       <Item>git</Item>

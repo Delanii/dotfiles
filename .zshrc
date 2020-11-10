@@ -68,11 +68,14 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize fzf ripgrep zsh-interactive-cd zsh-navigation-tools)
+plugins=(git colorize fzf ripgrep zsh-interactive-cd zsh-navigation-tools zsh-syntax-highlighting history-substring-search zsh-autosuggestions zsh-completions)
 
 # Nastavení pro pluginy
 # colorize
 ZSH_COLORIZE_TOOL=pygmentize
+
+# Inicializace auto-completion
+autoload -U compinit && compinit
 
 source $ZSH/oh-my-zsh.sh
 
