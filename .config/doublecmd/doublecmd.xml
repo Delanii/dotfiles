@@ -178,7 +178,7 @@
                   <Path Filename="elpa">/home/tomaskrulis/.emacs.d.backupOriginal/</Path>
                   <Path Filename="..">/home/tomaskrulis/.emacs.d.backupOriginal/elpa/</Path>
                   <Path Filename="elpa">/home/tomaskrulis/.emacs.d.backupOriginal/</Path>
-                  <Path Filename="Wallpapers">/home/tomaskrulis/</Path>
+                  <Path Filename=".emacs.d.backupDoom">/home/tomaskrulis/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -314,7 +314,7 @@
     <DateTimeFormat>d.m.yyyy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
