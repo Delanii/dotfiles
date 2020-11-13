@@ -22,3 +22,5 @@
     enableShellEscape: true
     engine: "lualatex"
     opener: "okular"
+  welcome:
+    showOnStartup: false

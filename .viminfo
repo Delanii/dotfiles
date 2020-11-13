@@ -139,40 +139,58 @@ $
 |3,1,36,0,1,0,1605022343,"agnoster"
 
 # File marks:
-'0  123  0  ~/.zshrc
-|4,48,123,0,1605022667,"~/.zshrc"
-'1  11  37  ~/.zshrc
-|4,49,11,37,1605022372,"~/.zshrc"
+'0  85  0  ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
+|4,48,85,0,1605176770,"~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh"
+'1  123  0  ~/.zshrc
+|4,49,123,0,1605022667,"~/.zshrc"
 '2  11  37  ~/.zshrc
 |4,50,11,37,1605022372,"~/.zshrc"
-'3  78  0  ~/.zshrc
-|4,51,78,0,1605021668,"~/.zshrc"
+'3  11  37  ~/.zshrc
+|4,51,11,37,1605022372,"~/.zshrc"
 '4  78  0  ~/.zshrc
 |4,52,78,0,1605021668,"~/.zshrc"
 '5  78  0  ~/.zshrc
 |4,53,78,0,1605021668,"~/.zshrc"
 '6  78  0  ~/.zshrc
 |4,54,78,0,1605021668,"~/.zshrc"
-'7  39  0  ~/.spacemacs
-|4,55,39,0,1604952294,"~/.spacemacs"
-'8  25  0  ~/.emacs.backup
-|4,56,25,0,1604951550,"~/.emacs.backup"
-'9  5  52  ~/.emacs-profiles.el
-|4,57,5,52,1604950561,"~/.emacs-profiles.el"
+'7  78  0  ~/.zshrc
+|4,55,78,0,1605021668,"~/.zshrc"
+'8  39  0  ~/.spacemacs
+|4,56,39,0,1604952294,"~/.spacemacs"
+'9  25  0  ~/.emacs.backup
+|4,57,25,0,1604951550,"~/.emacs.backup"
 
 # Jumplist (newest first):
+-'  85  0  ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
+|4,39,85,0,1605176770,"~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh"
+-'  1  0  ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
+|4,39,1,0,1605176760,"~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh"
 -'  123  0  ~/.zshrc
 |4,39,123,0,1605022667,"~/.zshrc"
+-'  123  0  ~/.zshrc
+|4,39,123,0,1605022667,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1605022640,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1605022640,"~/.zshrc"
 -'  11  37  ~/.zshrc
 |4,39,11,37,1605022372,"~/.zshrc"
 -'  11  37  ~/.zshrc
 |4,39,11,37,1605022372,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1605022372,"~/.zshrc"
+-'  11  37  ~/.zshrc
+|4,39,11,37,1605022372,"~/.zshrc"
 -'  12  0  ~/.zshrc
 |4,39,12,0,1605022353,"~/.zshrc"
 -'  12  0  ~/.zshrc
 |4,39,12,0,1605022353,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1605022353,"~/.zshrc"
+-'  12  0  ~/.zshrc
+|4,39,12,0,1605022353,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1605022336,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1605022336,"~/.zshrc"
 -'  78  0  ~/.zshrc
@@ -181,6 +199,14 @@ $
 |4,39,78,0,1605021668,"~/.zshrc"
 -'  78  0  ~/.zshrc
 |4,39,78,0,1605021668,"~/.zshrc"
+-'  78  0  ~/.zshrc
+|4,39,78,0,1605021668,"~/.zshrc"
+-'  78  0  ~/.zshrc
+|4,39,78,0,1605021668,"~/.zshrc"
+-'  78  0  ~/.zshrc
+|4,39,78,0,1605021668,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1605021060,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1605021060,"~/.zshrc"
 -'  39  0  ~/.spacemacs
@@ -199,6 +225,38 @@ $
 |4,39,39,0,1604952294,"~/.spacemacs"
 -'  39  0  ~/.spacemacs
 |4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  39  0  ~/.spacemacs
+|4,39,39,0,1604952294,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
+-'  1  0  ~/.spacemacs
+|4,39,1,0,1604952257,"~/.spacemacs"
 -'  1  0  ~/.spacemacs
 |4,39,1,0,1604952257,"~/.spacemacs"
 -'  1  0  ~/.spacemacs
@@ -247,6 +305,38 @@ $
 |4,39,25,0,1604951550,"~/.emacs.backup"
 -'  25  0  ~/.emacs.backup
 |4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
+-'  25  0  ~/.emacs.backup
+|4,39,25,0,1604951550,"~/.emacs.backup"
 -'  1  0  ~/.emacs.backup
 |4,39,1,0,1604951543,"~/.emacs.backup"
 -'  1  0  ~/.emacs.backup
@@ -271,98 +361,12 @@ $
 |4,39,1,0,1604951543,"~/.emacs.backup"
 -'  1  0  ~/.emacs.backup
 |4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  5  52  ~/.emacs-profiles.el
-|4,39,5,52,1604950561,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
--'  1  0  ~/.emacs-profiles.el
-|4,39,1,0,1604950505,"~/.emacs-profiles.el"
 
 # History of marks within files (newest to oldest):
+
+> ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
+	*	1605176768	0
+	"	85	0
 
 > ~/.zshrc
 	*	1605022664	0
