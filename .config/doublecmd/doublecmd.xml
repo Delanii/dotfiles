@@ -130,12 +130,6 @@
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path Filename="preamble">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/</Path>
-                  <Path Filename="preamble.tex">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/preamble/</Path>
-                  <Path Filename="myCVfull.tex">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/</Path>
-                  <Path Filename="src">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/</Path>
-                  <Path Filename="preamble">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/</Path>
-                  <Path Filename="preamble.tex">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/preamble/</Path>
-                  <Path Filename="preamble">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/</Path>
                   <Path Filename="src">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/</Path>
                   <Path Filename="preamble">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/</Path>
                   <Path Filename="..">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/preamble/</Path>
@@ -179,6 +173,12 @@
                   <Path Filename="gppMacroDefinitions.txt">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/variables/</Path>
                   <Path Filename="variables">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/src/</Path>
                   <Path Filename="myCVfullStrictCZ.pdf">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/V3/</Path>
+                  <Path Filename="V3">/home/tomaskrulis/Documents/CV/CV_2020/Full/TeX/</Path>
+                  <Path Filename="TeX">/home/tomaskrulis/Documents/CV/CV_2020/Full/</Path>
+                  <Path Filename="Full">/home/tomaskrulis/Documents/CV/CV_2020/</Path>
+                  <Path Filename="CV_2020">/home/tomaskrulis/Documents/CV/</Path>
+                  <Path Filename="CV">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="VirtualBox VMs">/home/tomaskrulis/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,21 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="config.el">/home/tomaskrulis/doom-emacs/.doom.d/</Path>
-                  <Path Filename=".emacs.d">/home/tomaskrulis/doom-emacs/</Path>
-                  <Path Filename="bin">/home/tomaskrulis/doom-emacs/.emacs.d/</Path>
-                  <Path Filename="doom">/home/tomaskrulis/doom-emacs/.emacs.d/bin/</Path>
-                  <Path Filename="doom-emacs">/home/tomaskrulis/</Path>
-                  <Path Filename=".doom.d">/home/tomaskrulis/doom-emacs/</Path>
-                  <Path Filename="dotfiles">/home/tomaskrulis/</Path>
-                  <Path Filename="..">/home/tomaskrulis/dotfiles/</Path>
-                  <Path Filename="Desktop">/home/tomaskrulis/</Path>
-                  <Path Filename="Ostatni">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/Ostatni/</Path>
-                  <Path Filename="Plan">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/Plan/</Path>
-                  <Path Filename="Ostatni">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/Ostatni/</Path>
                   <Path Filename="PoznamkyInstalace">/home/tomaskrulis/Desktop/</Path>
                   <Path Filename="..">/home/tomaskrulis/Desktop/PoznamkyInstalace/</Path>
                   <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
@@ -251,7 +236,22 @@
                   <Path Filename="Poznamky">/home/tomaskrulis/Documents/Sujb zaloha/Databaze/Jazyk Access a SQL/</Path>
                   <Path Filename="Jazyk Access a SQL">/home/tomaskrulis/Documents/Sujb zaloha/Databaze/</Path>
                   <Path Filename="Databaze">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
+                  <Path Filename="LearningEmacs">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename=".emacs.d.backupSpacemacs">/home/tomaskrulis/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.emacs.d.backupSpacemacs/</Path>
+                  <Path Filename=".emacs.d.backupSpacemacs">/home/tomaskrulis/</Path>
+                  <Path Filename="elpa">/home/tomaskrulis/.emacs.d.backupSpacemacs/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.emacs.d.backupSpacemacs/elpa/</Path>
+                  <Path Filename="elpa">/home/tomaskrulis/.emacs.d.backupSpacemacs/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
                   <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
+                  <Path Filename="Pandoc">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
+                  <Path Filename="Testy">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/</Path>
+                  <Path Filename="TestySFiltry">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/</Path>
+                  <Path Filename="nonbreakableSpaces">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/</Path>
+                  <Path Filename="releaseVersion">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/nonbreakableSpaces/</Path>
+                  <Path Filename="pandocVlna.lua.txt">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/nonbreakableSpaces/releaseVersion/</Path>
                 </Paths>
               </Entry>
             </History>
