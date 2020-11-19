@@ -31,6 +31,10 @@ set cursorline
 set wrap
 set linebreak
 
+" Nastavení číslování řádků
+set number
+set relativenumber
+
 " Pomocné příkazy a přenastavení kláves pro LaTeX:
 " ! Fungují v insert-módu
 augroup __latex__

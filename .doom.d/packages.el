@@ -63,6 +63,7 @@
 (package! wc-mode)
 (package! pandoc-mode)
 (package! expand-region)
+(package! guess-language)
 
 ;; Packages connected specifically to org-mode
 (package! org-autolist)

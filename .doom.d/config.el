@@ -57,6 +57,26 @@
 
 (ispell-change-dictionary "czech" t)
 
+;; Přijde mi, že následující tak úplně nefunguje - možná kvůli minimální délce odstavce. Do budoucna ještě testovat.
+;; odkaz: https://stackoverflow.com/questions/42159012/emacs-spell-check-on-fly-for-2-languages
+;;
+(use-package guess-language         ; Automatically detect language for Flyspell
+  :ensure t
+  :defer t
+  :init (add-hook 'text-mode-hook #'guess-language-mode)
+  :config
+  (setq guess-language-langcodes '((en . ("en_GB" "English"))
+                                   (cz . ("cs_CZ" "Czech")))
+        guess-language-languages '(en cz)
+        guess-language-min-paragraph-length 45)
+  :diminish guess-language-mode)
+
+;; Nastavení cesty k `jar` knihovně language-tool:
+
+(setq langtool-language-tool-jar "/snap/languagetool/current/usr/bin/languagetool-commandline.jar")
+(require 'langtool)
+(setq langtool-default-language "en-US");; čeština není
+
 ;; Start Emacs always maximized
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))

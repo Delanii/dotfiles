@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1605022667,,"x"
+|2,0,1605800042,,"x"
 :X
 |2,0,1604907368,,"X"
 :q
@@ -98,271 +98,426 @@ $
 
 # Registers:
 "0	CHAR	0
-	# Nastavení pro pluginy
-	# colorize
-	ZSH_COLORIZE_TOOL=pygmentize
+	;
+|3,0,0,0,1,0,1605799439,";"
+""1	LINE	0
 	
-	
-|3,0,0,0,5,0,1604908733,"# Nastavení pro pluginy","# colorize","ZSH_COLORIZE_TOOL=pygmentize","",""
-"1	LINE	0
-	
-|3,0,1,1,1,0,1604908750,""
+|3,1,1,1,1,0,1605800036,""
 "2	LINE	0
+	;; Definice funkce pro cyklení jazyky - otestovat
+	;; Stejný odkaz jako předchozí
+	;;
+	(defvar mu-languages-ring nil "Languages ring for Ispell")
+	
+	(let ((languages '("en_GB" "cs_CZ")))
+	  (validate-setq mu-languages-ring (make-ring (length languages)))
+	  (dolist (elem languages) (ring-insert mu-languages-ring elem)))
+	
+	(defun mu-cycle-ispell-languages ()
+	  (interactive)
+	  (let ((language (ring-ref mu-languages-ring -1)))
+	    (ring-insert mu-languages-ring language)
+	    (ispell-change-dictionary language)))
+|3,0,2,1,14,0,1605800033,";; Definice funkce pro cyklení jazyky - otestovat",";; Stejný odkaz jako předchozí",";;","(defvar mu-languages-ring nil \"Languages ring for Ispell\")","","(let ((languages '(\"en_GB\" \"cs_CZ\")))","  (validate-setq mu-languages-ring (make-ring (length languages)))","  (dolist (elem languages) (ring-insert mu-languages-ring elem)))","","(defun mu-cycle-ispell-languages ()","  (interactive)",>53
+|<"  (let ((language (ring-ref mu-languages-ring -1)))","    (ring-insert mu-languages-ring language)","    (ispell-change-dictionary language)))"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1605799439,""
+"4	LINE	0
 	# Nastavení pro pluginy
 	# colorize
 	ZSH_COLORIZE_TOOL=pygmentize
-|3,0,2,1,3,0,1604908749,"# Nastavení pro pluginy","# colorize","ZSH_COLORIZE_TOOL=pygmentize"
-"3	LINE	0
-	#eval "$(starship init zsh)"
-|3,0,3,1,1,0,1604907530,"#eval \"$(starship init zsh)\""
-"4	LINE	0
-	# Spustí starship prompt v zsh
-|3,0,4,1,1,0,1604907529,"# Spustí starship prompt v zsh"
+|3,0,4,1,3,0,1605799439,"# Nastavení pro pluginy","# colorize","ZSH_COLORIZE_TOOL=pygmentize"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1604907365,""
+	#eval "$(starship init zsh)"
+|3,0,5,1,1,0,1605799439,"#eval \"$(starship init zsh)\""
 "6	LINE	0
-	# ~/.bashrc
-	
-|3,0,6,1,2,0,1604902026,"# ~/.bashrc",""
+	# Spustí starship prompt v zsh
+|3,0,6,1,1,0,1605799439,"# Spustí starship prompt v zsh"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1604872552,""
+|3,0,7,1,1,0,1605799439,""
 "8	LINE	0
+	# ~/.bashrc
 	
-|3,0,8,1,1,0,1604872552,""
+|3,0,8,1,2,0,1605799439,"# ~/.bashrc",""
 "9	LINE	0
-	```
-|3,0,9,1,1,0,1604872552,"```"
-""-	CHAR	0
-	agnoster
-|3,1,36,0,1,0,1605022343,"agnoster"
+	
+|3,0,9,1,1,0,1605799439,""
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1605799949," "
 
 # File marks:
-'0  85  0  ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
-|4,48,85,0,1605176770,"~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh"
-'1  123  0  ~/.zshrc
-|4,49,123,0,1605022667,"~/.zshrc"
-'2  11  37  ~/.zshrc
-|4,50,11,37,1605022372,"~/.zshrc"
-'3  11  37  ~/.zshrc
-|4,51,11,37,1605022372,"~/.zshrc"
-'4  78  0  ~/.zshrc
-|4,52,78,0,1605021668,"~/.zshrc"
-'5  78  0  ~/.zshrc
-|4,53,78,0,1605021668,"~/.zshrc"
-'6  78  0  ~/.zshrc
-|4,54,78,0,1605021668,"~/.zshrc"
-'7  78  0  ~/.zshrc
-|4,55,78,0,1605021668,"~/.zshrc"
-'8  39  0  ~/.spacemacs
-|4,56,39,0,1604952294,"~/.spacemacs"
-'9  25  0  ~/.emacs.backup
-|4,57,25,0,1604951550,"~/.emacs.backup"
+'0  1  0  ~/.doom.d/config.el
+|4,48,1,0,1605800277,"~/.doom.d/config.el"
+'1  74  0  ~/.doom.d/config.el
+|4,49,74,0,1605800042,"~/.doom.d/config.el"
+'2  74  0  ~/.doom.d/config.el
+|4,50,74,0,1605800042,"~/.doom.d/config.el"
+'3  27  1  ~/.vimrc
+|4,51,27,1,1605799993,"~/.vimrc"
+'4  13  0  ~/.vimrc
+|4,52,13,0,1605799960,"~/.vimrc"
+'5  13  0  ~/.vimrc
+|4,53,13,0,1605799960,"~/.vimrc"
+'6  27  0  ~/.vimrc
+|4,54,27,0,1605799951,"~/.vimrc"
+'7  27  0  ~/.vimrc
+|4,55,27,0,1605799951,"~/.vimrc"
+'8  27  0  ~/.vimrc
+|4,56,27,0,1605799951,"~/.vimrc"
+'9  36  17  ~/.vimrc
+|4,57,36,17,1605799927,"~/.vimrc"
 
 # Jumplist (newest first):
--'  85  0  ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
-|4,39,85,0,1605176770,"~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh"
--'  1  0  ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
-|4,39,1,0,1605176760,"~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh"
--'  123  0  ~/.zshrc
-|4,39,123,0,1605022667,"~/.zshrc"
--'  123  0  ~/.zshrc
-|4,39,123,0,1605022667,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1605022640,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1605022640,"~/.zshrc"
--'  11  37  ~/.zshrc
-|4,39,11,37,1605022372,"~/.zshrc"
--'  11  37  ~/.zshrc
-|4,39,11,37,1605022372,"~/.zshrc"
--'  11  37  ~/.zshrc
-|4,39,11,37,1605022372,"~/.zshrc"
--'  11  37  ~/.zshrc
-|4,39,11,37,1605022372,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1605022353,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1605022353,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1605022353,"~/.zshrc"
--'  12  0  ~/.zshrc
-|4,39,12,0,1605022353,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1605022336,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1605022336,"~/.zshrc"
--'  78  0  ~/.zshrc
-|4,39,78,0,1605021668,"~/.zshrc"
--'  78  0  ~/.zshrc
-|4,39,78,0,1605021668,"~/.zshrc"
--'  78  0  ~/.zshrc
-|4,39,78,0,1605021668,"~/.zshrc"
--'  78  0  ~/.zshrc
-|4,39,78,0,1605021668,"~/.zshrc"
--'  78  0  ~/.zshrc
-|4,39,78,0,1605021668,"~/.zshrc"
--'  78  0  ~/.zshrc
-|4,39,78,0,1605021668,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1605021060,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1605021060,"~/.zshrc"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  39  0  ~/.spacemacs
-|4,39,39,0,1604952294,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  1  0  ~/.spacemacs
-|4,39,1,0,1604952257,"~/.spacemacs"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  25  0  ~/.emacs.backup
-|4,39,25,0,1604951550,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
--'  1  0  ~/.emacs.backup
-|4,39,1,0,1604951543,"~/.emacs.backup"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800012,"~/.doom.d/config.el"
+-'  27  1  ~/.vimrc
+|4,39,27,1,1605799993,"~/.vimrc"
+-'  27  1  ~/.vimrc
+|4,39,27,1,1605799993,"~/.vimrc"
+-'  27  1  ~/.vimrc
+|4,39,27,1,1605799993,"~/.vimrc"
+-'  27  1  ~/.vimrc
+|4,39,27,1,1605799993,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799965,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799965,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799965,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799965,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  13  0  ~/.vimrc
+|4,39,13,0,1605799960,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799953,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799953,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799953,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799953,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  27  0  ~/.vimrc
+|4,39,27,0,1605799951,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799930,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799930,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799930,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799930,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  36  17  ~/.vimrc
+|4,39,36,17,1605799927,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  176  0  ~/.vimrc
+|4,39,176,0,1605799843,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799797,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799797,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799797,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1605799797,"~/.vimrc"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605799777,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  38  0  ~/.doom.d/config.el
+|4,39,38,0,1605799678,"~/.doom.d/config.el"
 
 # History of marks within files (newest to oldest):
+
+> ~/.doom.d/config.el
+	*	1605800273	0
+	"	1	0
+	^	72	1
+	.	74	0
+	+	69	10
+	+	63	0
+	+	64	0
+	+	65	1
+	+	66	2
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	74	33
+	+	72	0
+	+	71	0
+	+	70	0
+	+	69	0
+	+	68	0
+	+	67	0
+	+	66	0
+	+	65	0
+	+	64	0
+	+	63	0
+	+	74	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	74	0
+
+> ~/.vimrc
+	*	1605799992	0
+	"	27	1
+	^	27	2
+	.	27	1
+	+	144	0
+	+	24	0
+	+	26	0
+	+	21	33
+	+	25	33
+	+	19	41
+	+	18	130
+	+	19	30
+	+	23	34
+	+	27	37
+	+	29	16
+	+	26	0
+	+	27	1
+	+	26	1
+	+	31	8
+	+	32	12
+	+	30	11
+	+	40	0
+	+	42	33
+	+	43	33
+	+	44	33
+	+	45	33
+	+	46	33
+	+	47	33
+	+	48	33
+	+	49	33
+	+	50	33
+	+	51	33
+	+	52	33
+	+	53	33
+	+	54	33
+	+	55	33
+	+	56	33
+	+	58	33
+	+	59	33
+	+	63	33
+	+	40	0
+	+	42	33
+	+	43	33
+	+	44	33
+	+	45	33
+	+	46	33
+	+	47	33
+	+	48	33
+	+	49	33
+	+	50	33
+	+	51	33
+	+	52	33
+	+	53	33
+	+	54	33
+	+	55	33
+	+	56	33
+	+	58	33
+	+	59	33
+	+	63	33
+	+	42	65
+	+	42	61
+	+	38	56
+	+	39	26
+	+	43	44
+	+	45	45
+	+	46	44
+	+	48	44
+	+	49	53
+	+	50	63
+	+	51	63
+	+	52	64
+	+	53	45
+	+	54	45
+	+	58	0
+	+	59	44
+	+	63	0
+	+	58	0
+	+	56	67
+	+	59	0
+	+	55	44
+	+	57	65
+	+	58	0
+	+	59	0
+	+	58	0
+	+	62	0
+	+	59	0
+	+	60	53
+	+	61	56
+	+	166	0
+	+	166	87
+	+	168	41
+	+	170	83
+	+	171	6
+	+	166	0
+	+	5	39
+	+	174	0
+	+	36	17
+	+	26	0
+	+	27	0
+	+	26	1
+	+	27	1
 
 > ~/Desktop/FactorioOldVersions/Shelter-0.23-linux/Shelter.sh
 	*	1605176768	0
@@ -535,13 +690,6 @@ $
 	+	16	0
 	+	17	0
 
-> ~/.doom.d/config.el
-	*	1604336356	0
-	"	69	10
-	^	69	59
-	.	69	10
-	+	69	10
-
 > ~/.doom.d/init.el
 	*	1604336320	0
 	"	1	0
@@ -570,104 +718,6 @@ $
 	+	83	0
 	+	157	60
 	+	158	6
-
-> ~/.vimrc
-	*	1604259818	0
-	"	26	0
-	^	170	0
-	.	170	0
-	+	140	0
-	+	24	0
-	+	26	0
-	+	21	33
-	+	25	33
-	+	19	41
-	+	18	130
-	+	19	30
-	+	23	34
-	+	27	37
-	+	29	16
-	+	26	0
-	+	27	1
-	+	26	1
-	+	31	8
-	+	32	12
-	+	30	11
-	+	36	0
-	+	38	33
-	+	39	33
-	+	40	33
-	+	41	33
-	+	42	33
-	+	43	33
-	+	44	33
-	+	45	33
-	+	46	33
-	+	47	33
-	+	48	33
-	+	49	33
-	+	50	33
-	+	51	33
-	+	52	33
-	+	54	33
-	+	55	33
-	+	59	33
-	+	36	0
-	+	38	33
-	+	39	33
-	+	40	33
-	+	41	33
-	+	42	33
-	+	43	33
-	+	44	33
-	+	45	33
-	+	46	33
-	+	47	33
-	+	48	33
-	+	49	33
-	+	50	33
-	+	51	33
-	+	52	33
-	+	54	33
-	+	55	33
-	+	59	33
-	+	38	65
-	+	38	61
-	+	34	56
-	+	35	26
-	+	39	44
-	+	41	45
-	+	42	44
-	+	44	44
-	+	45	53
-	+	46	63
-	+	47	63
-	+	48	64
-	+	49	45
-	+	50	45
-	+	54	0
-	+	55	44
-	+	59	0
-	+	54	0
-	+	52	67
-	+	55	0
-	+	51	44
-	+	53	65
-	+	54	0
-	+	55	0
-	+	54	0
-	+	58	0
-	+	55	0
-	+	56	53
-	+	57	56
-	+	162	0
-	+	162	87
-	+	164	41
-	+	166	83
-	+	167	6
-	+	162	0
-	+	5	39
-	+	170	0
 
 > ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/tmux/tmuxCheatsheet.md.txt
 	*	1604078966	0
