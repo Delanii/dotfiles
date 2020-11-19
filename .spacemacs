@@ -47,7 +47,8 @@ values."
             shell-default-height 30
             shell-default-position 'bottom
             shell-default-shell 'eshell)
-     spell-checking
+     (spell-checking :variables
+                     spell-checking-enable-by-default nil)
      syntax-checking
      version-control
      ;; more layers per documentation
@@ -331,7 +332,11 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  )
+  (setq ispell-program-name "hunspell")
+  ;; you could set `ispell-dictionary` instead but `ispell-local-dictionary' has higher priority
+  (setq ispell-local-dictionary "en_US")
+  (setq ispell-local-dictionary-alist '(("en_US" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil ("-d" "en_US,cs_CZ") nil utf-8)))
+)
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
