@@ -332,11 +332,15 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
+
+  ;; Nastavení spellchecku pro češtinu + angličtinu současně - funguje!
+  ;; odkaz: https://emacs.stackexchange.com/questions/21378/spell-check-with-multiple-dictionaries
+  ;;
   (setq ispell-program-name "hunspell")
   ;; you could set `ispell-dictionary` instead but `ispell-local-dictionary' has higher priority
   (setq ispell-local-dictionary "en_US")
   (setq ispell-local-dictionary-alist '(("en_US" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil ("-d" "en_US,cs_CZ") nil utf-8)))
-)
+  )
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
