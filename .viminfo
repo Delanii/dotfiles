@@ -11,22 +11,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/usr
+~MSle0~/PATH
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:PlugUpdate
+|2,0,1606339703,,"PlugUpdate"
+:PlugInstall
+|2,0,1606339563,,"PlugInstall"
 :x
-|2,0,1605800042,,"x"
+|2,0,1606168544,,"x"
+:qf
+|2,0,1606161083,,"qf"
+:q
+|2,0,1606161073,,"q"
 :X
 |2,0,1604907368,,"X"
-:q
-|2,0,1604336324,,"q"
 :colorscheme nord
 |2,0,1604071016,,"colorscheme nord"
-:PlugInstall
-|2,0,1604070796,,"PlugInstall"
 :q!
 |2,0,1604002181,,"q!"
 :w
@@ -85,6 +89,8 @@ $
 |2,0,1596976680,,"/usr/local/texlive/2020/bin/x86_64-linux"
 
 # Search String History (newest to oldest):
+?/PATH
+|2,1,1606168511,47,"PATH"
 ??\a
 |2,1,1602060759,63,"\\a"
 ? usr
@@ -100,9 +106,9 @@ $
 "0	CHAR	0
 	;
 |3,0,0,0,1,0,1605799439,";"
-""1	LINE	0
+"1	LINE	0
 	
-|3,1,1,1,1,0,1605800036,""
+|3,0,1,1,1,0,1605800036,""
 "2	LINE	0
 	;; Definice funkce pro cyklení jazyky - otestovat
 	;; Stejný odkaz jako předchozí
@@ -144,235 +150,272 @@ $
 "9	LINE	0
 	
 |3,0,9,1,1,0,1605799439,""
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1605799949," "
+""-	CHAR	0
+	:
+|3,1,36,0,1,0,1606168541,":"
 
 # File marks:
-'0  1  0  ~/.doom.d/config.el
-|4,48,1,0,1605800277,"~/.doom.d/config.el"
-'1  74  0  ~/.doom.d/config.el
-|4,49,74,0,1605800042,"~/.doom.d/config.el"
-'2  74  0  ~/.doom.d/config.el
-|4,50,74,0,1605800042,"~/.doom.d/config.el"
-'3  27  1  ~/.vimrc
-|4,51,27,1,1605799993,"~/.vimrc"
-'4  13  0  ~/.vimrc
-|4,52,13,0,1605799960,"~/.vimrc"
-'5  13  0  ~/.vimrc
-|4,53,13,0,1605799960,"~/.vimrc"
-'6  27  0  ~/.vimrc
-|4,54,27,0,1605799951,"~/.vimrc"
-'7  27  0  ~/.vimrc
-|4,55,27,0,1605799951,"~/.vimrc"
-'8  27  0  ~/.vimrc
-|4,56,27,0,1605799951,"~/.vimrc"
-'9  36  17  ~/.vimrc
-|4,57,36,17,1605799927,"~/.vimrc"
+'0  121  30  ~/.bashrc
+|4,48,121,30,1606168544,"~/.bashrc"
+'1  121  46  ~/.bashrc
+|4,49,121,46,1606168375,"~/.bashrc"
+'2  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,50,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+'3  1  0  ~/.doom.d/config.el
+|4,51,1,0,1605800277,"~/.doom.d/config.el"
+'4  74  0  ~/.doom.d/config.el
+|4,52,74,0,1605800042,"~/.doom.d/config.el"
+'5  74  0  ~/.doom.d/config.el
+|4,53,74,0,1605800042,"~/.doom.d/config.el"
+'6  27  1  ~/.vimrc
+|4,54,27,1,1605799993,"~/.vimrc"
+'7  13  0  ~/.vimrc
+|4,55,13,0,1605799960,"~/.vimrc"
+'8  13  0  ~/.vimrc
+|4,56,13,0,1605799960,"~/.vimrc"
+'9  27  0  ~/.vimrc
+|4,57,27,0,1605799951,"~/.vimrc"
 
 # Jumplist (newest first):
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1606168330,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1606168330,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1606168330,"~/.bashrc"
+-'  22  0  ~/.bashrc
+|4,39,22,0,1606168330,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168319,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168319,"~/.bashrc"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1605800277,"~/.doom.d/config.el"
 -'  1  0  ~/.doom.d/config.el
 |4,39,1,0,1605800277,"~/.doom.d/config.el"
 -'  74  0  ~/.doom.d/config.el
 |4,39,74,0,1605800042,"~/.doom.d/config.el"
 -'  74  0  ~/.doom.d/config.el
 |4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  74  0  ~/.doom.d/config.el
+|4,39,74,0,1605800042,"~/.doom.d/config.el"
 -'  6  0  ~/.doom.d/config.el
 |4,39,6,0,1605800018,"~/.doom.d/config.el"
 -'  6  0  ~/.doom.d/config.el
 |4,39,6,0,1605800018,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800012,"~/.doom.d/config.el"
--'  27  1  ~/.vimrc
-|4,39,27,1,1605799993,"~/.vimrc"
--'  27  1  ~/.vimrc
-|4,39,27,1,1605799993,"~/.vimrc"
--'  27  1  ~/.vimrc
-|4,39,27,1,1605799993,"~/.vimrc"
--'  27  1  ~/.vimrc
-|4,39,27,1,1605799993,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799965,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799965,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799965,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799965,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  13  0  ~/.vimrc
-|4,39,13,0,1605799960,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799953,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799953,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799953,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799953,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  27  0  ~/.vimrc
-|4,39,27,0,1605799951,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799930,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799930,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799930,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799930,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  36  17  ~/.vimrc
-|4,39,36,17,1605799927,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  176  0  ~/.vimrc
-|4,39,176,0,1605799843,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799797,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799797,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799797,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1605799797,"~/.vimrc"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605799777,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
--'  38  0  ~/.doom.d/config.el
-|4,39,38,0,1605799678,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
+-'  6  0  ~/.doom.d/config.el
+|4,39,6,0,1605800018,"~/.doom.d/config.el"
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	*	1606168541	0
+	"	121	30
+	^	121	47
+	.	121	30
+	+	139	5
+	+	129	38
+	+	119	64
+	+	139	74
+	+	146	41
+	+	129	39
+	+	141	15
+	+	155	55
+	+	127	15
+	+	121	58
+	+	1	0
+	+	121	36
+	+	124	18
+	+	123	43
+	+	125	42
+	+	133	40
+	+	137	8
+	+	135	105
+	+	152	0
+	+	147	20
+	+	150	19
+	+	153	33
+	+	154	28
+	+	156	36
+	+	157	0
+	+	121	30
+
+> ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+	*	1606161083	0
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
 > ~/.doom.d/config.el
 	*	1605800273	0
@@ -580,36 +623,6 @@ $
 	+	1	0
 	+	2	0
 	+	1	35
-
-> ~/.bashrc
-	*	1604907369	0
-	"	157	0
-	.	157	0
-	+	139	5
-	+	129	38
-	+	119	64
-	+	139	74
-	+	146	41
-	+	129	39
-	+	141	15
-	+	155	55
-	+	127	15
-	+	121	58
-	+	1	0
-	+	121	36
-	+	124	18
-	+	123	43
-	+	125	42
-	+	133	40
-	+	137	8
-	+	135	105
-	+	152	0
-	+	147	20
-	+	150	19
-	+	153	33
-	+	154	28
-	+	156	36
-	+	157	0
 
 > ~/.tmux.conf
 	*	1604525621	0

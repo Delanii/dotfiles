@@ -53,6 +53,8 @@
 (package! evil-matchit)
 (package! evil-tutor)
 
+(package! tldr)
+
 ;; Zajímavé k vyzkoušení, může být ale v konfliktu s evil nebo hydra
 (package! selected)
 
@@ -63,9 +65,20 @@
 (package! wc-mode)
 (package! pandoc-mode)
 (package! expand-region)
+(package! focus)
 
 ;; Packages connected specifically to org-mode
 (package! org-autolist)
+(package! org-ref)
+(package! org-roam-server)
+(package! org-ql)
+
+;; Úpravy dired
+(package! dired-open)
 
 ;; Balíček pro vytváření dalších expanzí a regexů; myslím
 (package! ample-regexps)
+
+;; Balíček exwm - window manager pro celé OS uvnitř Emacs - spustit při loginu do PC
+(package! exwm)
+(package! dmenu)

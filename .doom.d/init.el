@@ -166,6 +166,8 @@
         +pandoc
         +pomodoro
         +pretty
+        +roam
+        +noter
         :editor evil
         :tools pdf
         :lang racket)
