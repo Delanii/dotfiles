@@ -2,8 +2,22 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/home/tomaskrulis/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/</Item>
       <Item>/home/tomaskrulis/Documents/</Item>
+      <Item>/home/tomaskrulis/</Item>
+      <Item>/home/tomaskrulis/dotfiles/</Item>
+      <Item>/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/</Item>
+      <Item>/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/Linux/</Item>
+      <Item>/media/tomaskrulis/Elements/Factorio zalohy/</Item>
+      <Item>/media/tomaskrulis/Elements/</Item>
+      <Item>/home/tomaskrulis/Downloads/</Item>
+      <Item>/home/tomaskrulis/Desktop/</Item>
+      <Item>/home/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/doomEmacs/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/vim/</Item>
+      <Item>/home/tomaskrulis/org/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/vanillaEmacs/</Item>
       <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Item>
       <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/</Item>
       <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/materialy/</Item>
@@ -39,20 +53,6 @@
       <Item>/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/1ff274f590851ecb4ab8e9be67f0628fcd9857a56cb006a40839d7620105fa10/8.8.4/</Item>
       <Item>/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/1ff274f590851ecb4ab8e9be67f0628fcd9857a56cb006a40839d7620105fa10/8.8.4/bin/</Item>
       <Item>/</Item>
-      <Item>/usr/</Item>
-      <Item>/usr/local/</Item>
-      <Item>/usr/local/lib/</Item>
-      <Item>/usr/local/lib/clojure/</Item>
-      <Item>/usr/local/lib/clojure/libexec/</Item>
-      <Item>/usr/local/lib/R/</Item>
-      <Item>/usr/local/lib/R/site-library/</Item>
-      <Item>/usr/local/lib/python3.8/</Item>
-      <Item>/usr/local/lib/python3.8/dist-packages/</Item>
-      <Item>/home/</Item>
-      <Item>/home/tomaskrulis/.racket/</Item>
-      <Item>/home/tomaskrulis/R/</Item>
-      <Item>/home/tomaskrulis/R/x86_64-pc-linux-gnu-library/</Item>
-      <Item>/home/tomaskrulis/R/x86_64-pc-linux-gnu-library/4.0/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask>
@@ -64,6 +64,10 @@
     <ReplaceText/>
     <ReplaceTextPath/>
     <CreateDirectories>
+      <Item>roam</Item>
+      <Item>org</Item>
+      <Item>orgMode</Item>
+      <Item>spacemacs</Item>
       <Item>TestyOdkazy</Item>
       <Item>pandocGlossaries</Item>
       <Item>test</Item>
