@@ -55,9 +55,6 @@
 
 (package! tldr)
 
-;; Zajímavé k vyzkoušení, může být ale v konfliktu s evil nebo hydra
-(package! selected)
-
 ;; multiple cursors
 (package! multiple-cursors)
 

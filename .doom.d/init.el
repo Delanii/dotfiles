@@ -25,7 +25,8 @@
         +childframe)       ; nicer UI
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
-       (ivy +fuzzy)               ; a search engine for love and life
+       (ivy +fuzzy
+            +icons)               ; a search engine for love and life
 
        :ui
        ;;deft              ; notational velocity for Emacs
