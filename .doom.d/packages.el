@@ -52,6 +52,7 @@
 ;; Packages connected to evil-mode
 (package! evil-matchit)
 (package! evil-tutor)
+(package! evil-nerd-commenter)
 
 (package! tldr)
 
@@ -69,6 +70,7 @@
 (package! org-ref)
 (package! org-roam-server)
 (package! org-ql)
+(package! org-plus-contrib)
 
 ;; Úpravy dired
 (package! dired-open)

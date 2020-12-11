@@ -77,9 +77,21 @@
 ;; Změna fontu - spíš ukázka:
 ;; (setq doom-font (font-spec :family "Fira Mono" :size 12))
 
+;; Vypnutí automatické indentace tabulátory:
+(setq-default indent-tabs-mode nil)
+
 ;; Specifická nastavení pro org-mode
 
-(add-hook 'org-mode-hook (lambda () (org-autolist-mode)))
+;; Nastavení věcí, co se spustí s org-mode
+;; tedy org-autolist
+(add-hook 'org-mode-hook (
+                          lambda () (org-autolist-mode))
+          )
+
+;; Nastavení org-directory. Org-agenda-files čerpají ze stejného nastavení
+(custom-set-variables
+ '(org-directory "~/Documents/org")
+ '(org-agenda-files (list org-directory)))
 
 ;; Přidání dalších zpráv při odchodu z Doom Emacs
 

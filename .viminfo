@@ -17,6 +17,8 @@
 $
 
 # Command Line History (newest to oldest):
+:x
+|2,0,1607700898,,"x"
 :q!
 |2,0,1606643830,,"q!"
 :q
@@ -27,8 +29,6 @@ $
 |2,0,1606339703,,"PlugUpdate"
 :PlugInstall
 |2,0,1606339563,,"PlugInstall"
-:x
-|2,0,1606168544,,"x"
 :qf
 |2,0,1606161083,,"qf"
 :X
@@ -159,42 +159,98 @@ $
 |3,0,36,0,1,0,1606596453,"e"
 
 # File marks:
-'0  852  0  /tmp/tutorddnwoY
-|4,48,852,0,1606643830,"/tmp/tutorddnwoY"
-'1  808  0  /tmp/tutorSpv0P9
-|4,49,808,0,1606606334,"/tmp/tutorSpv0P9"
-'2  121  30  ~/.bashrc
-|4,50,121,30,1606168544,"~/.bashrc"
-'3  121  46  ~/.bashrc
-|4,51,121,46,1606168375,"~/.bashrc"
-'4  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,52,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
-'5  1  0  ~/.doom.d/config.el
-|4,53,1,0,1605800277,"~/.doom.d/config.el"
-'6  74  0  ~/.doom.d/config.el
-|4,54,74,0,1605800042,"~/.doom.d/config.el"
-'7  74  0  ~/.doom.d/config.el
-|4,55,74,0,1605800042,"~/.doom.d/config.el"
-'8  27  1  ~/.vimrc
-|4,56,27,1,1605799993,"~/.vimrc"
-'9  13  0  ~/.vimrc
-|4,57,13,0,1605799960,"~/.vimrc"
+'0  55  13  ~/.doom.d/packages.el
+|4,48,55,13,1607700898,"~/.doom.d/packages.el"
+'1  1  0  ~/.doom.d/package.el
+|4,49,1,0,1607700866,"~/.doom.d/package.el"
+'2  852  0  /tmp/tutorddnwoY
+|4,50,852,0,1606643830,"/tmp/tutorddnwoY"
+'3  808  0  /tmp/tutorSpv0P9
+|4,51,808,0,1606606334,"/tmp/tutorSpv0P9"
+'4  121  30  ~/.bashrc
+|4,52,121,30,1606168544,"~/.bashrc"
+'5  121  46  ~/.bashrc
+|4,53,121,46,1606168375,"~/.bashrc"
+'6  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
+|4,54,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
+'7  1  0  ~/.doom.d/config.el
+|4,55,1,0,1605800277,"~/.doom.d/config.el"
+'8  74  0  ~/.doom.d/config.el
+|4,56,74,0,1605800042,"~/.doom.d/config.el"
+'9  74  0  ~/.doom.d/config.el
+|4,57,74,0,1605800042,"~/.doom.d/config.el"
 
 # Jumplist (newest first):
+-'  55  13  ~/.doom.d/packages.el
+|4,39,55,13,1607700898,"~/.doom.d/packages.el"
+-'  1  0  ~/.doom.d/packages.el
+|4,39,1,0,1607700875,"~/.doom.d/packages.el"
+-'  1  0  ~/.doom.d/package.el
+|4,39,1,0,1607700866,"~/.doom.d/package.el"
+-'  1  0  ~/.doom.d/package.el
+|4,39,1,0,1607700866,"~/.doom.d/package.el"
+-'  852  0  /tmp/tutorddnwoY
+|4,39,852,0,1606643830,"/tmp/tutorddnwoY"
+-'  852  0  /tmp/tutorddnwoY
+|4,39,852,0,1606643830,"/tmp/tutorddnwoY"
+-'  852  0  /tmp/tutorddnwoY
+|4,39,852,0,1606643830,"/tmp/tutorddnwoY"
 -'  852  0  /tmp/tutorddnwoY
 |4,39,852,0,1606643830,"/tmp/tutorddnwoY"
 -'  1  0  /tmp/tutorddnwoY
 |4,39,1,0,1606643377,"/tmp/tutorddnwoY"
+-'  1  0  /tmp/tutorddnwoY
+|4,39,1,0,1606643377,"/tmp/tutorddnwoY"
+-'  1  0  /tmp/tutorddnwoY
+|4,39,1,0,1606643377,"/tmp/tutorddnwoY"
+-'  1  0  /tmp/tutorddnwoY
+|4,39,1,0,1606643377,"/tmp/tutorddnwoY"
+-'  808  0  /tmp/tutorSpv0P9
+|4,39,808,0,1606606334,"/tmp/tutorSpv0P9"
+-'  808  0  /tmp/tutorSpv0P9
+|4,39,808,0,1606606334,"/tmp/tutorSpv0P9"
+-'  808  0  /tmp/tutorSpv0P9
+|4,39,808,0,1606606334,"/tmp/tutorSpv0P9"
 -'  808  0  /tmp/tutorSpv0P9
 |4,39,808,0,1606606334,"/tmp/tutorSpv0P9"
 -'  526  40  /tmp/tutorSpv0P9
 |4,39,526,40,1606599895,"/tmp/tutorSpv0P9"
+-'  526  40  /tmp/tutorSpv0P9
+|4,39,526,40,1606599895,"/tmp/tutorSpv0P9"
+-'  526  40  /tmp/tutorSpv0P9
+|4,39,526,40,1606599895,"/tmp/tutorSpv0P9"
+-'  526  40  /tmp/tutorSpv0P9
+|4,39,526,40,1606599895,"/tmp/tutorSpv0P9"
+-'  523  10  /tmp/tutorSpv0P9
+|4,39,523,10,1606599887,"/tmp/tutorSpv0P9"
+-'  523  10  /tmp/tutorSpv0P9
+|4,39,523,10,1606599887,"/tmp/tutorSpv0P9"
+-'  523  10  /tmp/tutorSpv0P9
+|4,39,523,10,1606599887,"/tmp/tutorSpv0P9"
 -'  523  10  /tmp/tutorSpv0P9
 |4,39,523,10,1606599887,"/tmp/tutorSpv0P9"
 -'  502  51  /tmp/tutorSpv0P9
 |4,39,502,51,1606598325,"/tmp/tutorSpv0P9"
+-'  502  51  /tmp/tutorSpv0P9
+|4,39,502,51,1606598325,"/tmp/tutorSpv0P9"
+-'  502  51  /tmp/tutorSpv0P9
+|4,39,502,51,1606598325,"/tmp/tutorSpv0P9"
+-'  502  51  /tmp/tutorSpv0P9
+|4,39,502,51,1606598325,"/tmp/tutorSpv0P9"
 -'  339  41  /tmp/tutorSpv0P9
 |4,39,339,41,1606596458,"/tmp/tutorSpv0P9"
+-'  339  41  /tmp/tutorSpv0P9
+|4,39,339,41,1606596458,"/tmp/tutorSpv0P9"
+-'  339  41  /tmp/tutorSpv0P9
+|4,39,339,41,1606596458,"/tmp/tutorSpv0P9"
+-'  339  41  /tmp/tutorSpv0P9
+|4,39,339,41,1606596458,"/tmp/tutorSpv0P9"
+-'  1  0  /tmp/tutorSpv0P9
+|4,39,1,0,1606590576,"/tmp/tutorSpv0P9"
+-'  1  0  /tmp/tutorSpv0P9
+|4,39,1,0,1606590576,"/tmp/tutorSpv0P9"
+-'  1  0  /tmp/tutorSpv0P9
+|4,39,1,0,1606590576,"/tmp/tutorSpv0P9"
 -'  1  0  /tmp/tutorSpv0P9
 |4,39,1,0,1606590576,"/tmp/tutorSpv0P9"
 -'  121  30  ~/.bashrc
@@ -205,6 +261,54 @@ $
 |4,39,121,30,1606168544,"~/.bashrc"
 -'  121  30  ~/.bashrc
 |4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  121  30  ~/.bashrc
+|4,39,121,30,1606168544,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
+-'  20  0  ~/.bashrc
+|4,39,20,0,1606168511,"~/.bashrc"
 -'  20  0  ~/.bashrc
 |4,39,20,0,1606168511,"~/.bashrc"
 -'  20  0  ~/.bashrc
@@ -221,6 +325,30 @@ $
 |4,39,1,0,1606168498,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1606168498,"~/.bashrc"
 -'  121  46  ~/.bashrc
 |4,39,121,46,1606168375,"~/.bashrc"
 -'  121  46  ~/.bashrc
@@ -229,160 +357,48 @@ $
 |4,39,121,46,1606168375,"~/.bashrc"
 -'  121  46  ~/.bashrc
 |4,39,121,46,1606168375,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  22  0  ~/.bashrc
-|4,39,22,0,1606168330,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1606168319,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1606168319,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1606168319,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1606168319,"~/.bashrc"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  1  ~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json
-|4,39,1,1,1606161090,"~/Documents/Sujb zaloha/TeXWorks_Dokumenty/Pandoc/Testy/TestySFiltry/pandocGlossaries/acronyms.json"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  1  0  ~/.doom.d/config.el
-|4,39,1,0,1605800277,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
--'  74  0  ~/.doom.d/config.el
-|4,39,74,0,1605800042,"~/.doom.d/config.el"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
+-'  121  46  ~/.bashrc
+|4,39,121,46,1606168375,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.doom.d/packages.el
+	*	1607700896	0
+	"	55	13
+	^	55	14
+	.	55	13
+	+	58	0
+	+	52	33
+	+	56	44
+	+	58	22
+	+	61	21
+	+	55	13
+
+> ~/.doom.d/package.el
+	*	1607700864	0
+	"	1	0
 
 > /tmp/tutorddnwoY
 	*	1606643828	0
@@ -723,17 +739,6 @@ $
 > ~/.doom.d/init.el
 	*	1604336320	0
 	"	1	0
-
-> ~/.doom.d/packages.el
-	*	1604314079	0
-	"	61	21
-	^	61	22
-	.	61	21
-	+	58	0
-	+	52	33
-	+	56	44
-	+	58	22
-	+	61	21
 
 > ~/.i3/config
 	*	1604305113	0
