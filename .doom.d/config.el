@@ -80,21 +80,41 @@
 ;; Vypnutí automatické indentace tabulátory:
 (setq-default indent-tabs-mode nil)
 
-;; Specifická nastavení pro org-mode
+;; Nastaveí pro balíčky modálních editorů (kromě evil)
+;;
+;; Nastavení balíčku 'boon
+;; (require 'boon-qwertz)
+;; alternativně 'boon-qwerty
 
+;; Nastavení balíčku 'xah-fly-keys
+;; (require 'xah-fly-keys)
+;; (xah-fly-keys-set-layout "qwertz")
+
+;;
+;; Specifická nastavení pro org-mode
+;;
 ;; Nastavení věcí, co se spustí s org-mode
 ;; tedy org-autolist
+
 (add-hook 'org-mode-hook (
                           lambda () (org-autolist-mode))
           )
 
 ;; Nastavení org-directory. Org-agenda-files čerpají ze stejného nastavení
+
 (custom-set-variables
  '(org-directory "~/Documents/org")
  '(org-agenda-files (list org-directory)))
 
-;; Přidání dalších zpráv při odchodu z Doom Emacs
+;; Nastavení defaultního souboru pro capture
 
+(setq org-default-notes-file (concat org-directory "/notesDefaultFile.org"))
+
+;; Nastavení org-babel-clojure-backend pro evaluaci kódu clojure v org
+(setq org-babel-clojure-backend 'cider)
+
+;; Přidání dalších zpráv při odchodu z Doom Emacs
+;;
 (setq +doom-quit-messages '(;;from doom 2
                             "Don't go now, there's a dimensional shambler waiting at the dos prompt!"
                             "Get outta here and go back to your boring programs."

@@ -49,35 +49,55 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
+;; Packages for modal editing
+;;
 ;; Packages connected to evil-mode
 (package! evil-matchit)
 (package! evil-tutor)
 (package! evil-nerd-commenter)
 
-(package! tldr)
+;; Packages connected to other modal editing
+(package! god-mode)
+(package! ryo-modal)
+(package! modalka)
+(package! boon)
+(package! xah-fly-keys)
+(package! kakoune)
 
 ;; multiple cursors
 (package! multiple-cursors)
 
 ;; Packages connected to writing and `pandoc`
+;;
 (package! wc-mode)
 (package! pandoc-mode)
 (package! expand-region)
 (package! focus)
 
+;; Documentation packages
+;;
+(package! tldr)
+
 ;; Packages connected specifically to org-mode
+;;
 (package! org-autolist)
 (package! org-ref)
 (package! org-roam-server)
 (package! org-ql)
-(package! org-plus-contrib)
+;; (package! org-plus-contrib) ;; rozbije export z org-mode do jiných formátů
+
+;; cider je IDE pro clojure. Umožňuje evaluaci clojure v org-mode
+(package! cider)
 
 ;; Úpravy dired
+;;
 (package! dired-open)
 
 ;; Balíček pro vytváření dalších expanzí a regexů; myslím
+;;
 (package! ample-regexps)
 
 ;; Balíček exwm - window manager pro celé OS uvnitř Emacs - spustit při loginu do PC
+;;
 (package! exwm)
 (package! dmenu)

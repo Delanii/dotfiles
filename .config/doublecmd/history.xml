@@ -2,36 +2,42 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201002Stavba/20201202JednaniKeZjistenim/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201002Stavba/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/</Item>
       <Item>/home/tomaskrulis/Documents/</Item>
-      <Item>/home/tomaskrulis/Documents/LearningEmacs/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/GNU Emacs/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/</Item>
-      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/</Item>
       <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Item>
-      <Item>/home/tomaskrulis/Documents/test/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/</Item>
       <Item>/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/RosettaCode/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/arara/</Item>
+      <Item>/home/tomaskrulis/Documents/LearningEmacs/orgMode/obrazky/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/tabulky/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/</Item>
+      <Item>/home/tomaskrulis/Documents/org/</Item>
+      <Item>/home/tomaskrulis/Documents/org/roam/</Item>
+      <Item>/home/tomaskrulis/</Item>
+      <Item>/home/tomaskrulis/org/</Item>
+      <Item>/home/tomaskrulis/dotfiles/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201002Stavba/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201002Stavba/20201202JednaniKeZjistenim/</Item>
+      <Item>/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/GNU/GNU Emacs/</Item>
+      <Item>/home/tomaskrulis/Documents/test/</Item>
       <Item>/home/tomaskrulis/Documents/LearningEmacs/vim/</Item>
       <Item>/home/tomaskrulis/Documents/LearningEmacs/doomEmacs/</Item>
-      <Item>/home/tomaskrulis/</Item>
       <Item>/home/</Item>
       <Item>/home/tomaskrulis/Documents/NixConfigPackages/</Item>
       <Item>/home/tomaskrulis/.doom.d/</Item>
       <Item>/home/tomaskrulis/Documents/LearningEmacs/spacemacs/</Item>
-      <Item>/home/tomaskrulis/dotfiles/</Item>
       <Item>/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/</Item>
       <Item>/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/Linux/</Item>
       <Item>/media/tomaskrulis/Elements/Factorio zalohy/</Item>
       <Item>/media/tomaskrulis/Elements/</Item>
       <Item>/home/tomaskrulis/Downloads/</Item>
       <Item>/home/tomaskrulis/Desktop/</Item>
-      <Item>/home/tomaskrulis/org/</Item>
       <Item>/home/tomaskrulis/Documents/LearningEmacs/vanillaEmacs/</Item>
       <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Item>
       <Item>/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/HadoopKurz/</Item>
@@ -47,12 +53,6 @@
       <Item>/home/tomaskrulis/.local/</Item>
       <Item>/home/tomaskrulis/.local/bin/</Item>
       <Item>/home/tomaskrulis/.local/bin/__pycache__/</Item>
-      <Item>/home/tomaskrulis/.cabal/</Item>
-      <Item>/home/tomaskrulis/.cabal/store/</Item>
-      <Item>/home/tomaskrulis/.cabal/store/ghc-8.8.4/</Item>
-      <Item>/home/tomaskrulis/.cabal/packages/</Item>
-      <Item>/home/tomaskrulis/.cabal/packages/hackage.haskell.org/</Item>
-      <Item>/home/tomaskrulis/.cabal/logs/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask>
@@ -64,9 +64,10 @@
     <ReplaceText/>
     <ReplaceTextPath/>
     <CreateDirectories>
-      <Item>NixConfigPackages</Item>
+      <Item>obrazky</Item>
       <Item>roam</Item>
       <Item>org</Item>
+      <Item>NixConfigPackages</Item>
       <Item>orgMode</Item>
       <Item>spacemacs</Item>
       <Item>TestyOdkazy</Item>
@@ -83,7 +84,6 @@
       <Item>GNU shells</Item>
       <Item>IHaskellTest</Item>
       <Item>matapostShowcse</Item>
-      <Item>JsonTest</Item>
     </CreateDirectories>
     <SearchDirectories/>
     <SearchExcludeFiles/>
