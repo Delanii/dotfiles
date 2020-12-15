@@ -129,17 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="orgMode">/home/tomaskrulis/Documents/LearningEmacs/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Path>
-                  <Path Filename="Factorio zalohy">/media/tomaskrulis/Elements/</Path>
-                  <Path Filename="Shelter zalohy">/media/tomaskrulis/Elements/Factorio zalohy/</Path>
-                  <Path Filename="InnerGrowth-0.6-pc">/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/</Path>
-                  <Path Filename="Shelter zalohy">/media/tomaskrulis/Elements/Factorio zalohy/</Path>
-                  <Path Filename="Linux">/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/</Path>
-                  <Path Filename="..">/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/Linux/</Path>
-                  <Path Filename="Linux">/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/</Path>
-                  <Path Filename="..">/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/Linux/</Path>
-                  <Path Filename="..">/media/tomaskrulis/Elements/Factorio zalohy/Shelter zalohy/</Path>
                   <Path Filename="..">/media/tomaskrulis/</Path>
                   <Path Filename="dotfiles">/home/tomaskrulis/</Path>
                   <Path Filename="..">/home/tomaskrulis/dotfiles/</Path>
@@ -178,7 +167,18 @@
                   <Path Filename="AnotherLanguages">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/</Path>
                   <Path Filename="Navody a dokumentace">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
                   <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
-                  <Path Filename="Planescape Torment - Enhanced Edition">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="LearningEmacs">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Desktop">/home/tomaskrulis/</Path>
+                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="LearningEmacs">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="orgMode">/home/tomaskrulis/Documents/LearningEmacs/</Path>
+                  <Path Filename="orgFizzBuzz.org">/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,14 +202,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="orgMode">/home/tomaskrulis/Documents/LearningEmacs/</Path>
-                  <Path Filename="orgModeWithDoomEmacs.org">/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Path>
-                  <Path Filename="orgMode">/home/tomaskrulis/Documents/LearningEmacs/</Path>
-                  <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
-                  <Path Filename="Kontrolni cinnost">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
-                  <Path Filename="2020">/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/</Path>
-                  <Path Filename="EDU">/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/</Path>
-                  <Path Filename="20201002Stavba">/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/</Path>
                   <Path Filename="20201202JednaniKeZjistenim">/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201002Stavba/</Path>
                   <Path Filename="20201202zaznamJednaniKontrolaChemie.docx">/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201002Stavba/20201202JednaniKeZjistenim/</Path>
                   <Path Filename="20201202JednaniKeZjistenim">/home/tomaskrulis/Documents/Sujb zaloha/Kontrolni cinnost/2020/EDU/20201002Stavba/</Path>
@@ -252,6 +244,14 @@
                   <Path Filename="obrazky">/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Path>
                   <Path Filename="orgMode">/home/tomaskrulis/Documents/LearningEmacs/</Path>
                   <Path Filename="orgFizzBuzz.org">/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Path>
+                  <Path Filename="Shelter-0 24 Fixed-linux">/media/tomaskrulis/UBUNTU 20_0/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="Sujb zaloha">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="TeXWorks_Dokumenty">/home/tomaskrulis/Documents/Sujb zaloha/</Path>
+                  <Path Filename="Navody a dokumentace">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/</Path>
+                  <Path Filename="AnotherLanguages">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/</Path>
+                  <Path Filename="RosettaCode">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/</Path>
+                  <Path Filename="FizzBuzz - Rosetta Code.pdf">/home/tomaskrulis/Documents/Sujb zaloha/TeXWorks_Dokumenty/Navody a dokumentace/AnotherLanguages/RosettaCode/</Path>
                 </Paths>
               </Entry>
             </History>

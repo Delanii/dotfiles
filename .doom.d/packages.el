@@ -49,6 +49,7 @@
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
 
+;;
 ;; Packages for modal editing
 ;;
 ;; Packages connected to evil-mode
@@ -57,16 +58,17 @@
 (package! evil-nerd-commenter)
 
 ;; Packages connected to other modal editing
-(package! god-mode)
+(package! god-mode) ;; Již v Doom Emacs - ale při povolení v =init.el= aktivuje god-mode všude, což mě mate ... Možná bych si na to zvykl, testovat. Prozatím zapnuto zde a vypnuto v =init.el=
 (package! ryo-modal)
 (package! modalka)
 (package! boon)
 (package! xah-fly-keys)
 (package! kakoune)
 
-;; multiple cursors
-(package! multiple-cursors)
+;; Organizace bufferů
+(package! bufler)
 
+;;
 ;; Packages connected to writing and `pandoc`
 ;;
 (package! wc-mode)
@@ -78,6 +80,7 @@
 ;;
 (package! tldr)
 
+;;
 ;; Packages connected specifically to org-mode
 ;;
 (package! org-autolist)
@@ -85,6 +88,19 @@
 (package! org-roam-server)
 (package! org-ql)
 ;; (package! org-plus-contrib) ;; rozbije export z org-mode do jiných formátů
+(package! navi)
+
+;; Souštění kódu v org-mode
+;; (package! ob-raku) ;; Není na MELPA, ručně jej instalovat nebudu
+
+;; Spouštění kódu ve Scale
+;; (package! ob-scala) ;; Opět není v MELPA
+
+;; Balíčky pro programování a programovací jazyky
+;;
+;; Všeobecná úprava programovacích rozhraní
+(package! outorg)                       ;; Umožňuje pracovat s kódem jako s org-mode, jen je třeba vkládat do kódu komentáře formátované jako napisy org-mode
+(package! prism)                        ;; Mění zvýrazňování syntaxe tak, aby reflektovala i hloubku závorek, cyklů, atp ...
 
 ;; cider je IDE pro clojure. Umožňuje evaluaci clojure v org-mode
 (package! cider)

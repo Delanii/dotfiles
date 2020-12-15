@@ -29,7 +29,7 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/org/")
+(setq org-directory "~/Documents/org")
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -65,7 +65,6 @@
 ;; (setq ispell-local-dictionary-alist '(("en_US" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil ("-d" "en_US,cs_CZ") nil utf-8)))
 
 ;; Nastavení cesty k `jar` knihovně language-tool:
-
 (setq langtool-language-tool-jar "/snap/languagetool/current/usr/bin/languagetool-commandline.jar")
 (require 'langtool)
 (setq langtool-default-language "en-US");; čeština není
