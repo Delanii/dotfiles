@@ -60,30 +60,40 @@ values."
      (languagetool :variables
                    langtool-language-tool-jar "/snap/languagetool/current/usr/bin/languagetool-commandline.jar"
                    langtool-default-language "en-GB")
+     bibtex
+     c-c++
+     clojure
      common-lisp
      csv
      pdf
      epub
+     ess
+     extra-languages
      graphviz
      haskell
      html
      ipython-notebook
      python
      hy
+     java
      julia
      latex
      lua
+     nim
      racket
      rust
+     scala 
      perl
      shell-scripts
      sql
      yaml
+     nixos
      github
      (colors :variables
              colors-colorize-identifiers 'variables)
      themes-megapack
      theming
+     tmux
      docker
      pandoc
      pdf-tools

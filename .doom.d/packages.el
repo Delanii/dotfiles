@@ -90,6 +90,9 @@
 ;; (package! org-plus-contrib) ;; rozbije export z org-mode do jiných formátů
 (package! navi)
 
+;; Package for using =defblock= function and for simultanious export to html, latex or other formats
+(package! org-special-block-extras)
+
 ;; Souštění kódu v org-mode
 ;; (package! ob-raku) ;; Není na MELPA, ručně jej instalovat nebudu
 
@@ -99,8 +102,12 @@
 ;; Balíčky pro programování a programovací jazyky
 ;;
 ;; Všeobecná úprava programovacích rozhraní
-(package! outorg)                       ;; Umožňuje pracovat s kódem jako s org-mode, jen je třeba vkládat do kódu komentáře formátované jako napisy org-mode
+;; (package! outorg) ;; Umožňuje pracovat s kódem jako s org-mode, jen je třeba vkládat do kódu komentáře formátované jako napisy org-mode; zde ale pro změnu dělá interferenci s org-autolist, protože to vypadá, že způsobuje změny formátování při psaní "+" apod ...
 (package! prism)                        ;; Mění zvýrazňování syntaxe tak, aby reflektovala i hloubku závorek, cyklů, atp ...
+
+;; Následující balíček by měl zvýšit rychlost parsování zdrojového kódu v souborech
+(package! tree-sitter)
+(package! tree-sitter-langs)
 
 ;; cider je IDE pro clojure. Umožňuje evaluaci clojure v org-mode
 (package! cider)
@@ -112,6 +119,8 @@
 ;; Balíček pro vytváření dalších expanzí a regexů; myslím
 ;;
 (package! ample-regexps)
+;; a pro lepší funkcionální programování v elisp
+(package! dash)
 
 ;; Balíček exwm - window manager pro celé OS uvnitř Emacs - spustit při loginu do PC
 ;;

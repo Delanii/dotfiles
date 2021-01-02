@@ -52,6 +52,9 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+;;
+
+(setq comp-deferred-compilation t)
 
 ;; Nastavení defaultního jazyka na češtinu
 
@@ -79,6 +82,7 @@
 ;; Vypnutí automatické indentace tabulátory:
 (setq-default indent-tabs-mode nil)
 
+;;
 ;; Nastaveí pro balíčky modálních editorů (kromě evil)
 ;;
 ;; Nastavení balíčku 'boon
@@ -111,6 +115,11 @@
 
 ;; Nastavení org-babel-clojure-backend pro evaluaci kódu clojure v org
 (setq org-babel-clojure-backend 'cider)
+
+;; Umožnění spouštění Jupyter notebooků přes =ein=
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((ein . t)))
 
 ;; Přidání dalších zpráv při odchodu z Doom Emacs
 ;;
