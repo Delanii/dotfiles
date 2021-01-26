@@ -129,41 +129,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/</Path>
-                  <Path Filename="8.8.4">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/</Path>
-                  <Path Filename="pkgdb">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/8.8.4/pkgdb/</Path>
-                  <Path Filename="pkgdb">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/8.8.4/</Path>
-                  <Path Filename="8.8.4">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/</Path>
-                  <Path Filename="77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/</Path>
-                  <Path Filename="x86_64-linux-tinfo6">/home/tomaskrulis/.stack/snapshots/</Path>
-                  <Path Filename="pantry">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="hackage">/home/tomaskrulis/.stack/pantry/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/pantry/hackage/</Path>
-                  <Path Filename="hackage">/home/tomaskrulis/.stack/pantry/</Path>
-                  <Path Filename="global-project">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/global-project/</Path>
-                  <Path Filename="programs">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="x86_64-linux">/home/tomaskrulis/.stack/programs/</Path>
-                  <Path Filename="ghc-tinfo6-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/</Path>
-                  <Path Filename="bin">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/bin/</Path>
-                  <Path Filename="lib">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/</Path>
-                  <Path Filename="ghc-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/</Path>
-                  <Path Filename="bytestring-0.10.10.1">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/bytestring-0.10.10.1/</Path>
-                  <Path Filename="Cabal-3.0.1.0">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/Cabal-3.0.1.0/</Path>
-                  <Path Filename="rts">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/</Path>
-                  <Path Filename="ghc-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/</Path>
-                  <Path Filename="lib">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/</Path>
-                  <Path Filename="ghc-tinfo6-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/</Path>
-                  <Path Filename="x86_64-linux">/home/tomaskrulis/.stack/programs/</Path>
-                  <Path Filename="programs">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename=".stack">/home/tomaskrulis/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="991152_Callisto_0.51_bugfix_WT_Cheats__Replay_Mod_by_ShaddyModda.zip">/home/tomaskrulis/Downloads/</Path>
                   <Path Filename="Downloads">/home/tomaskrulis/</Path>
                   <Path Filename="Test">/home/tomaskrulis/Downloads/</Path>
                   <Path Filename="..">/home/tomaskrulis/Downloads/Test/</Path>
@@ -178,7 +143,42 @@
                   <Path Filename="Callisto-0.51-pc">/home/tomaskrulis/Downloads/</Path>
                   <Path Filename="Callisto.sh">/home/tomaskrulis/Downloads/Callisto-0.51-pc/</Path>
                   <Path Filename="Callisto-0.51-pc">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="Knihy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/Knihy/</Path>
+                  <Path Filename="XSLTNotSUJB">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="Home Office">/home/tomaskrulis/Documents/</Path>
                   <Path Filename="Downloads">/home/tomaskrulis/</Path>
+                  <Path Filename="Callisto-0.51-pc">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Callisto.exe">/home/tomaskrulis/Downloads/Callisto-0.51-pc/</Path>
+                  <Path Filename="Callisto-0.51-pc-Modded">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="game">/home/tomaskrulis/Downloads/Callisto-0.51-pc-Modded/</Path>
+                  <Path Filename="SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Image">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="Image">/media/tomaskrulis/Elements/Image/</Path>
+                  <Path Filename="Factorio zalohy">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="Linux">/media/tomaskrulis/Elements/Factorio zalohy/</Path>
+                  <Path Filename="1_00">/media/tomaskrulis/Elements/Factorio zalohy/Linux/</Path>
+                  <Path Filename="Linux">/media/tomaskrulis/Elements/Factorio zalohy/</Path>
+                  <Path Filename="Shelter zalohy">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="BehindTheDune">/media/tomaskrulis/Elements/Shelter zalohy/</Path>
+                  <Path Filename="Shelter zalohy">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
+                  <Path Filename="Test">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Downloads/Test/</Path>
+                  <Path Filename="Coding">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="DataProjekty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="Pokedex_Ver7.csv">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/data/</Path>
+                  <Path Filename="README-pokemonData.org">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,56 +202,56 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/</Path>
-                  <Path Filename="8.8.4">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/</Path>
-                  <Path Filename="pkgdb">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/8.8.4/pkgdb/</Path>
-                  <Path Filename="pkgdb">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/8.8.4/</Path>
-                  <Path Filename="8.8.4">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf/</Path>
-                  <Path Filename="77f41d65d66546f5fb692a95fef6298720039ec47c5f5c47a8c7c404ee972cbf">/home/tomaskrulis/.stack/snapshots/x86_64-linux-tinfo6/</Path>
-                  <Path Filename="x86_64-linux-tinfo6">/home/tomaskrulis/.stack/snapshots/</Path>
-                  <Path Filename="pantry">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="hackage">/home/tomaskrulis/.stack/pantry/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/pantry/hackage/</Path>
-                  <Path Filename="hackage">/home/tomaskrulis/.stack/pantry/</Path>
-                  <Path Filename="global-project">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/global-project/</Path>
-                  <Path Filename="programs">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="x86_64-linux">/home/tomaskrulis/.stack/programs/</Path>
-                  <Path Filename="ghc-tinfo6-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/</Path>
-                  <Path Filename="bin">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/bin/</Path>
-                  <Path Filename="lib">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/</Path>
-                  <Path Filename="ghc-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/</Path>
-                  <Path Filename="bytestring-0.10.10.1">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/bytestring-0.10.10.1/</Path>
-                  <Path Filename="Cabal-3.0.1.0">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/Cabal-3.0.1.0/</Path>
-                  <Path Filename="rts">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/ghc-8.8.4/</Path>
-                  <Path Filename="ghc-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/lib/</Path>
-                  <Path Filename="lib">/home/tomaskrulis/.stack/programs/x86_64-linux/ghc-tinfo6-8.8.4/</Path>
-                  <Path Filename="ghc-tinfo6-8.8.4">/home/tomaskrulis/.stack/programs/x86_64-linux/</Path>
-                  <Path Filename="x86_64-linux">/home/tomaskrulis/.stack/programs/</Path>
-                  <Path Filename="programs">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename=".stack">/home/tomaskrulis/</Path>
-                  <Path Filename="..">/home/tomaskrulis/.stack/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="SpaceCorpsXXX(v0.3.4b).sh">/home/tomaskrulis/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/</Path>
-                  <Path Filename="SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="tomaskrulis">/home/</Path>
-                  <Path Filename="home">/</Path>
-                  <Path Filename="tomaskrulis">/home/</Path>
+                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
+                  <Path Filename="SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/</Path>
+                  <Path Filename="SU_2.3">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="[Something Unlimited] Unofficial Game Guide.pdf">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/SU_2.3/</Path>
+                  <Path Filename="SU_2.3">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
+                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="lib">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
+                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
+                  <Path Filename="TalesFromTheUnendingVoid-0.6-Extra Scenes Edition (PC)">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
+                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
+                  <Path Filename=".emacs.d">/home/tomaskrulis/</Path>
+                  <Path Filename="modules">/home/tomaskrulis/.emacs.d/</Path>
+                  <Path Filename="tools">/home/tomaskrulis/.emacs.d/modules/</Path>
+                  <Path Filename="modules">/home/tomaskrulis/.emacs.d/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.emacs.d/modules/</Path>
+                  <Path Filename="modules">/home/tomaskrulis/.emacs.d/</Path>
+                  <Path Filename="ui">/home/tomaskrulis/.emacs.d/modules/</Path>
+                  <Path Filename="emoji">/home/tomaskrulis/.emacs.d/modules/ui/</Path>
+                  <Path Filename="input">/home/tomaskrulis/.emacs.d/modules/</Path>
+                  <Path Filename="chinese">/home/tomaskrulis/.emacs.d/modules/input/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.emacs.d/modules/input/chinese/</Path>
+                  <Path Filename="chinese">/home/tomaskrulis/.emacs.d/modules/input/</Path>
+                  <Path Filename="app">/home/tomaskrulis/.emacs.d/modules/</Path>
+                  <Path Filename=".local">/home/tomaskrulis/.emacs.d/</Path>
+                  <Path Filename="straight">/home/tomaskrulis/.emacs.d/.local/</Path>
+                  <Path Filename="build-28.0.50">/home/tomaskrulis/.emacs.d/.local/straight/</Path>
+                  <Path Filename="emacsql-sqlite3">/home/tomaskrulis/.emacs.d/.local/straight/build-28.0.50/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.emacs.d/.local/straight/build-28.0.50/emacsql-sqlite3/</Path>
+                  <Path Filename="emacsql-sqlite3">/home/tomaskrulis/.emacs.d/.local/straight/build-28.0.50/</Path>
+                  <Path Filename="build-28.0.50">/home/tomaskrulis/.emacs.d/.local/straight/</Path>
+                  <Path Filename="straight">/home/tomaskrulis/.emacs.d/.local/</Path>
+                  <Path Filename=".local">/home/tomaskrulis/.emacs.d/</Path>
+                  <Path Filename=".doom.d">/home/tomaskrulis/</Path>
+                  <Path Filename="config.el">/home/tomaskrulis/.doom.d/</Path>
                   <Path Filename="Documents">/home/tomaskrulis/</Path>
-                  <Path Filename="CV">/home/tomaskrulis/Documents/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Documents/CV/</Path>
-                  <Path Filename="CV">/home/tomaskrulis/Documents/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/</Path>
-                  <Path Filename="Git Bare Repository - A Better Way To Manage Dotfiles">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
+                  <Path Filename="LearningEmacs">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="orgMode">/home/tomaskrulis/Documents/LearningEmacs/</Path>
+                  <Path Filename="orgFizzBuzz.org">/home/tomaskrulis/Documents/LearningEmacs/orgMode/</Path>
+                  <Path Filename="orgMode">/home/tomaskrulis/Documents/LearningEmacs/</Path>
+                  <Path Filename="LearningEmacs">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="Desktop">/home/tomaskrulis/</Path>
+                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
+                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
+                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="game">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -757,7 +757,7 @@
   <NameShortcutFile>shortcuts.scf</NameShortcutFile>
   <HotKeySortOrder>0</HotKeySortOrder>
   <UseEnterToCloseHotKeyEditor>True</UseEnterToCloseHotKeyEditor>
-  <LastUsedPacker>7z</LastUsedPacker>
+  <LastUsedPacker>lzma</LastUsedPacker>
   <UseShellForFileOperations>False</UseShellForFileOperations>
   <LastDoAnyCommand>cm_Refresh</LastDoAnyCommand>
   <MarkMaskCaseSensitive>False</MarkMaskCaseSensitive>

@@ -113,6 +113,18 @@
 
 (setq org-default-notes-file (concat org-directory "/notesDefaultFile.org"))
 
+;; Nastavení způsobu zvýrazňování vlastní TODO-sekvencí
+;; =org-emphasis-alist= je proměnná obsahující delimitery pro markup. Seznam delimiterů je bohužel hardcoded; nelze přidat další, ale lze redefinovat způsob zvýraznění
+;; daných delimiterů. Níže je redefinice =+=; dalo by se redefinovat i =~=; kromě =:foreground= má zabarvení i parametr =:background=
+
+(after! org
+  (setq org-todo-keyword-faces
+        '(("IMPORTANT" . (:foreground "red" :weight bold))
+          ))
+  (add-to-list 'org-emphasis-alist
+               '("+" (:foreground "red")))
+  )
+
 ;; Nastavení org-babel-clojure-backend pro evaluaci kódu clojure v org
 (setq org-babel-clojure-backend 'cider)
 
