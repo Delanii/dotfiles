@@ -125,6 +125,17 @@
                '("+" (:foreground "red")))
   )
 
+(require 'org-habit nil t)
+
+(defun org-add-my-extra-fonts ()
+  "Add alert and overdue fonts."
+  (add-to-list 'org-font-lock-extra-keywords '("\\(!\\)\\([^\n\r\t]+\\)\\(!\\)"
+                                               (1 '(face org-habit-alert-face invisible t)) (2 'org-habit-alert-face t) (3 '(face org-habit-alert-face invisible t))) t)
+  (add-to-list 'org-font-lock-extra-keywords '("\\(%\\)\\([^\n\r\t]+\\)\\(%\\)"
+                                               (1 '(face org-habit-overdue-face invisible t)) (2 'org-habit-overdue-face t) (3 '(face org-habit-overdue-face invisible t))) t))
+
+(add-hook 'org-font-lock-set-keywords-hook #'org-add-my-extra-fonts)
+
 ;; Nastavení org-babel-clojure-backend pro evaluaci kódu clojure v org
 (setq org-babel-clojure-backend 'cider)
 
