@@ -35,6 +35,8 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+;; Toto spustí emacs vždy ve word-wrap módu - zalamování řádků na koncích slov (v mezerách)
+(global-visual-line-mode t)
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
@@ -125,16 +127,51 @@
                '("+" (:foreground "red")))
   )
 
+;; Nastavení vlastních delimiterů pro zvýrazňování textu; text mezi =%= a =!= je zvýrazněn.
 (require 'org-habit nil t)
 
 (defun org-add-my-extra-fonts ()
-  "Add alert and overdue fonts."
-  (add-to-list 'org-font-lock-extra-keywords '("\\(!\\)\\([^\n\r\t]+\\)\\(!\\)"
+  "Add alert and overdue fonts. =invisible t= způsobí zmizení delimiteru v zobrazeném textu, =nil= jej ponechá zobrazený. Jake delimitery jsou použity =%%= a =!!=. Řešeno dle: https://emacs.stackexchange.com/questions/35626/how-to-make-my-own-org-mode-text-emphasis-work-again/35632#35632"
+  (add-to-list 'org-font-lock-extra-keywords '("\\(!!\\)\\([^\n\r\t]+\\)\\(!!\\)"
                                                (1 '(face org-habit-alert-face invisible t)) (2 'org-habit-alert-face t) (3 '(face org-habit-alert-face invisible t))) t)
-  (add-to-list 'org-font-lock-extra-keywords '("\\(%\\)\\([^\n\r\t]+\\)\\(%\\)"
-                                               (1 '(face org-habit-overdue-face invisible t)) (2 'org-habit-overdue-face t) (3 '(face org-habit-overdue-face invisible t))) t))
+  (add-to-list 'org-font-lock-extra-keywords '("\\(%%\\)\\([^\n\r\t]+\\)\\(%%\\)"
+                                               (1 '(face org-habit-overdue-face invisible nil)) (2 'org-habit-overdue-face t) (3 '(face org-habit-overdue-face invisible nil))) t))
 
 (add-hook 'org-font-lock-set-keywords-hook #'org-add-my-extra-fonts)
+
+;; Alternativa zde:
+;; https://emacs.stackexchange.com/questions/62045/define-new-keywords-in-orgmode
+;; (require 'cl-lib)
+;; (defface ex-face
+;;   '((t (:foreground "red")))
+;;   "Face for !!")
+
+;; (defface caret-face
+;;   '((t (:foreground "orange")))
+;;   "Face for ^^")
+
+;; (defface at-face
+;;   '((t (:foreground "green")))
+;;   "Face for %%")
+
+;; (defvar my-org-custom-keywords
+;;   '(("!!" . ex-face)
+;;     ("^^" . caret-face)
+;;     ("%%" . at-face)))
+
+;; (defun my-org-add-custom-keywords ()
+;;   "Add custom keywords."
+;;   (cl-loop for (delimiter . face) in my-org-custom-keywords
+;;         do (add-to-list 'org-font-lock-extra-keywords
+;;                         `(,(concat "\\(" (regexp-quote delimiter)
+;;                                    "\\)\\([^\n\r\t]+\\)\\("
+;;                                    (regexp-quote delimiter) "\\)")
+;;                           (1 '(face ,face invisible t))
+;;                           (2 ',face)
+;;                           (3 '(face ,face invisible t))))))
+
+;; (add-hook 'org-font-lock-set-keywords-hook #'my-org-add-custom-keywords)
+;;
 
 ;; Nastavení org-babel-clojure-backend pro evaluaci kódu clojure v org
 (setq org-babel-clojure-backend 'cider)
