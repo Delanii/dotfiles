@@ -81,14 +81,14 @@
        eshell                           ; the elisp shell that works everywhere
        shell                            ; simple shell REPL for Emacs
        term                             ; basic terminal emulator for Emacs
-       vterm                            ; the best terminal emulation in Emacs
+       ;; vterm                            ; the best terminal emulation in Emacs
 
        :checkers
        syntax                        ; tasing you for every semicolon you forget
        (spell
         +flyspell
         +hunspell)                      ; tasing you for misspelling mispelling
-       grammar                          ; tasing grammar mistake every you make
+       ;;grammar                          ; tasing grammar mistake every you make
 
        :tools
        ;;ansible
@@ -98,7 +98,7 @@
        editorconfig          ; let someone else argue about tabs vs spaces
        ein                   ; tame Jupyter notebooks with emacs
        (eval +overlay)       ; run code, run (also, repls)
-       ;;gist              ; interacting with github gists
+       gist              ; interacting with github gists
        lookup                         ; navigate your code and its documentation
        (lsp
         +peek)
@@ -134,7 +134,7 @@
        ;;elm               ; care for a cup of TEA?
        emacs-lisp                      ; drown in parentheses
        ;;erlang            ; an elegant language for a more civilized age
-       ess ; emacs speaks statistics
+       ess                 ; emacs speaks statistics
        ;;faust             ; dsp, but you get to keep your soul
        ;;fsharp            ; ML stands for Microsoft's Language
        ;;fstar             ; (dependent) types and (monadic) effects and Z3

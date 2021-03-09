@@ -173,4 +173,7 @@ Plug 'https://github.com/soulston/vim-listtrans'
 " Plugin pro Nord theme
 Plug 'arcticicestudio/nord-vim'
 
+" Plugin pro fancy ikony
+Plug 'ryanoasis/vim-devicons'
+
 call plug#end()

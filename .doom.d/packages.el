@@ -88,6 +88,7 @@
 (package! org-roam-server)
 (package! org-ql)
 ;; (package! org-plus-contrib) ;; rozbije export z org-mode do jiných formátů
+(package! org-pdftools)
 (package! navi)
 
 ;; Package for using =defblock= function and for simultanious export to html, latex or other formats
@@ -98,6 +99,11 @@
 
 ;; Spouštění kódu ve Scale
 ;; (package! ob-scala) ;; Opět není v MELPA
+
+;; Balíčky pro LaTeX které nejsou v distribuci
+;;
+;; Mimojiné umožňuje folding jako v org-mode
+(package! latex-extra)
 
 ;; Balíčky pro programování a programovací jazyky
 ;;
@@ -121,6 +127,9 @@
 (package! ample-regexps)
 ;; a pro lepší funkcionální programování v elisp
 (package! dash)
+
+;; Balček pro rich content v eshell
+(package! shx)
 
 ;; Balíček exwm - window manager pro celé OS uvnitř Emacs - spustit při loginu do PC
 ;;

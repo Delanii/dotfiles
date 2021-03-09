@@ -129,56 +129,56 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="GoAPython">/home/tomaskrulis/Documents/Projekt_MaximumInteroperability/KazdyJazykSamostatne/ffi/FFImax/Go/</Path>
-                  <Path Filename="Go">/home/tomaskrulis/Documents/Projekt_MaximumInteroperability/KazdyJazykSamostatne/ffi/FFImax/</Path>
-                  <Path Filename="FFImax">/home/tomaskrulis/Documents/Projekt_MaximumInteroperability/KazdyJazykSamostatne/ffi/</Path>
-                  <Path Filename="ffi">/home/tomaskrulis/Documents/Projekt_MaximumInteroperability/KazdyJazykSamostatne/</Path>
-                  <Path Filename="KazdyJazykSamostatne">/home/tomaskrulis/Documents/Projekt_MaximumInteroperability/</Path>
-                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="Komiksy">/home/tomaskrulis/Desktop/Komiksy/</Path>
+                  <Path Filename="Komiksy">/home/tomaskrulis/Desktop/</Path>
+                  <Path Filename="Komiksy">/home/tomaskrulis/Desktop/Komiksy/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Desktop/Komiksy/Komiksy/</Path>
+                  <Path Filename="Komiksy">/home/tomaskrulis/Desktop/Komiksy/</Path>
+                  <Path Filename="Komiksy">/home/tomaskrulis/Desktop/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="MySimlinks.org">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="winehq.key">/home/tomaskrulis/</Path>
+                  <Path Filename="tomaskrulis">/home/</Path>
+                  <Path Filename="home">/</Path>
+                  <Path Filename="tomaskrulis">/home/</Path>
                   <Path Filename="Desktop">/home/tomaskrulis/</Path>
                   <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="FactorioLongTermBackup017_100">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/FactorioLongTermBackup017_100/</Path>
                   <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="lib">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
-                  <Path Filename="wineBigGamesIGShelt">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="InnerGrowth-0.7-pc">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/wineBigGamesIGShelt/</Path>
-                  <Path Filename="wineBigGamesIGShelt">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/wineBigGamesIGShelt/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="lib">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="renpy">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="visualNovelGames">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/visualNovelGames/</Path>
+                  <Path Filename="visualNovelGames">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
                   <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
                   <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="Coding">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/Coding/</Path>
-                  <Path Filename="Coding">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/Coding/</Path>
-                  <Path Filename="Test">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/Test/</Path>
-                  <Path Filename="Warhammer Quest the Adventure Card Game Extended Gameplay">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Warhammer Quest the Adventure Card Game Extended Gameplay (1080p_30fps_H264-128kbit_AAC).mp4">/home/tomaskrulis/Downloads/Warhammer Quest the Adventure Card Game Extended Gameplay/</Path>
-                  <Path Filename="warahmmerQuestGameplayVideos">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/warahmmerQuestGameplayVideos/</Path>
-                  <Path Filename="warahmmerQuestGameplayVideos">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/warahmmerQuestGameplayVideos/</Path>
-                  <Path Filename="BeakerXCheatsheet.pdf">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Videa">/media/tomaskrulis/Elements/</Path>
-                  <Path Filename="..">/media/tomaskrulis/Elements/Videa/</Path>
-                  <Path Filename="..">/media/tomaskrulis/</Path>
-                  <Path Filename="Documents">/home/tomaskrulis/</Path>
-                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
-                  <Path Filename="DataProjekty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
-                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
-                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
-                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
-                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename=".cargo">/home/tomaskrulis/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/bin/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename=".cargo">/home/tomaskrulis/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="zoxide">/home/tomaskrulis/.cargo/bin/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="Desktop">/home/tomaskrulis/</Path>
+                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
+                  <Path Filename=".cargo">/home/tomaskrulis/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/bin/</Path>
+                  <Path Filename="bin">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename=".cargo">/home/tomaskrulis/</Path>
+                  <Path Filename="git">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/git/</Path>
+                  <Path Filename="registry">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="cache">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="git">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/git/</Path>
+                  <Path Filename="registry">/home/tomaskrulis/.cargo/</Path>
+                  <Path Filename="cache">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/cache/</Path>
+                  <Path Filename="index">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/index/</Path>
+                  <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.cargo/registry/src/</Path>
+                  <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
+                  <Path Filename="..">/home/tomaskrulis/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -189,7 +189,7 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>0</ActiveTab>
+        <ActiveTab>1</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -202,56 +202,126 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="wineBigGamesIGShelt">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/wineBigGamesIGShelt/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="lib">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="renpy">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="Coding">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/Coding/</Path>
-                  <Path Filename="Getting Started With Git and GitLab">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/Getting Started With Git and GitLab/</Path>
-                  <Path Filename="VideaOstatni">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="SithLords">/home/tomaskrulis/Downloads/VideaOstatni/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/VideaOstatni/SithLords/</Path>
-                  <Path Filename="SithLords">/home/tomaskrulis/Downloads/VideaOstatni/</Path>
-                  <Path Filename="ITVidea">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Git">/home/tomaskrulis/Downloads/ITVidea/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Downloads/ITVidea/Git/</Path>
-                  <Path Filename="Git">/home/tomaskrulis/Downloads/ITVidea/</Path>
-                  <Path Filename="Warhammer Quest the Adventure Card Game Extended Gameplay">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Warhammer Quest the Adventure Card Game Extended Gameplay (English_ASR).srt">/home/tomaskrulis/Downloads/Warhammer Quest the Adventure Card Game Extended Gameplay/</Path>
-                  <Path Filename="Warhammer Quest #1_ Foul Stench (revised) _Live Play_ (Fantasy Flight) GreyElephant Gaming">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Warhammer Quest #1_ Foul Stench (revised) _Live Play_ (Fantasy Flight) GreyElephant Gaming (Description).txt">/home/tomaskrulis/Downloads/Warhammer Quest #1_ Foul Stench (revised) _Live Play_ (Fantasy Flight) GreyElephant Gaming/</Path>
-                  <Path Filename="warahmmerQuestGameplayVideos">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Warhammer Quest #1_ Foul Stench (revised) _Live Play_ (Fantasy Flight) GreyElephant Gaming">/home/tomaskrulis/Downloads/warahmmerQuestGameplayVideos/</Path>
-                  <Path Filename="Warhammer Quest #1_ Foul Stench (revised) _Live Play_ (Fantasy Flight) GreyElephant Gaming (Description).txt">/home/tomaskrulis/Downloads/warahmmerQuestGameplayVideos/Warhammer Quest #1_ Foul Stench (revised) _Live Play_ (Fantasy Flight) GreyElephant Gaming/</Path>
-                  <Path Filename="Warhammer Quest #1_ Foul Stench (revised) _Live Play_ (Fantasy Flight) GreyElephant Gaming">/home/tomaskrulis/Downloads/warahmmerQuestGameplayVideos/</Path>
-                  <Path Filename="BeakerXCheatsheet.pdf">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Downloads">/home/tomaskrulis/</Path>
-                  <Path Filename="Test">/home/tomaskrulis/Downloads/</Path>
-                  <Path Filename="Desktop">/home/tomaskrulis/</Path>
-                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="game">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="..">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/Star_Channel_34-linux/</Path>
-                  <Path Filename="Star_Channel_34-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/Shelter-0 24 Fixed-linux/</Path>
-                  <Path Filename="Shelter-0 24 Fixed-linux">/home/tomaskrulis/Desktop/FactorioOldVersions/</Path>
-                  <Path Filename="FactorioOldVersions">/home/tomaskrulis/Desktop/</Path>
-                  <Path Filename="Desktop">/home/tomaskrulis/</Path>
+                  <Path Filename="VideaOstatni.tar.xz">/home/tomaskrulis/Downloads/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="DataProjekty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="pokemonProject.ipynb">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="..">/media/tomaskrulis/Elements/Videa/</Path>
+                  <Path Filename="Shelter zalohy">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="InnerGrowth-0.7-pc">/media/tomaskrulis/Elements/Shelter zalohy/</Path>
+                  <Path Filename="Serialy">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="Avengers">/media/tomaskrulis/Elements/Serialy/</Path>
+                  <Path Filename="CV">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="Kam jsem poslal zivotopisy">/media/tomaskrulis/Elements/CV/</Path>
+                  <Path Filename="Shelter zalohy">/media/tomaskrulis/Elements/</Path>
+                  <Path Filename="SU_2.3">/media/tomaskrulis/Elements/Shelter zalohy/</Path>
+                  <Path Filename="SU_2.3_Data">/media/tomaskrulis/Elements/Shelter zalohy/SU_2.3/</Path>
+                  <Path Filename="..">/media/tomaskrulis/Elements/Shelter zalohy/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="DataProjekty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/data/</Path>
+                  <Path Filename="pokemonProject.ipynb">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="FetishLocator">/media/tomaskrulis/Elements/Shelter zalohy/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="DataProjekty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/data/</Path>
+                  <Path Filename="pokemonProject.ipynb">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="FetishLocator">/media/tomaskrulis/Elements/Shelter zalohy/</Path>
+                  <Path Filename="Documents">/home/tomaskrulis/</Path>
+                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="DataProjekty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="data">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/Python/</Path>
+                  <Path Filename="Python">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/Pokemon/</Path>
+                  <Path Filename="Pokemon">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/DataProjekty/</Path>
+                  <Path Filename="DataProjekty">/home/tomaskrulis/Documents/HomeDataAnalysisKurzyAPokusy/</Path>
+                  <Path Filename="HomeDataAnalysisKurzyAPokusy">/home/tomaskrulis/Documents/</Path>
+                  <Path Filename="Steam">/home/tomaskrulis/</Path>
+                  <Path Filename="..">/home/tomaskrulis/Steam/</Path>
+                  <Path Filename=".steam">/home/tomaskrulis/</Path>
+                  <Path Filename="debian-installation">/home/tomaskrulis/.steam/</Path>
+                  <Path Filename="steamapps">/home/tomaskrulis/.steam/debian-installation/</Path>
+                  <Path Filename="common">/home/tomaskrulis/.steam/debian-installation/steamapps/</Path>
+                  <Path Filename="Doom 2">/home/tomaskrulis/.steam/debian-installation/steamapps/common/</Path>
+                  <Path Filename="base">/home/tomaskrulis/.steam/debian-installation/steamapps/common/Doom 2/</Path>
+                  <Path Filename="zmbv">/home/tomaskrulis/.steam/debian-installation/steamapps/common/Doom 2/base/</Path>
+                  <Path Filename="base">/home/tomaskrulis/.steam/debian-installation/steamapps/common/Doom 2/</Path>
+                  <Path Filename="Doom 2">/home/tomaskrulis/.steam/debian-installation/steamapps/common/</Path>
+                  <Path Filename="common">/home/tomaskrulis/.steam/debian-installation/steamapps/</Path>
+                  <Path Filename="config">/home/tomaskrulis/.steam/debian-installation/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.steam/debian-installation/config/</Path>
+                  <Path Filename="config">/home/tomaskrulis/.steam/debian-installation/</Path>
+                  <Path Filename="debian-installation">/home/tomaskrulis/.steam/</Path>
+                  <Path Filename=".config">/home/tomaskrulis/</Path>
+                  <Path Filename="gzdoom">/home/tomaskrulis/.config/</Path>
+                  <Path Filename="..">/home/tomaskrulis/.config/gzdoom/</Path>
                 </Paths>
               </Entry>
             </History>

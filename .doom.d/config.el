@@ -69,11 +69,6 @@
 ;; (setq ispell-local-dictionary "en_US")
 ;; (setq ispell-local-dictionary-alist '(("en_US" "[[:alpha:]]" "[^[:alpha:]]" "[']" nil ("-d" "en_US,cs_CZ") nil utf-8)))
 
-;; Nastavení cesty k `jar` knihovně language-tool:
-(setq langtool-language-tool-jar "/snap/languagetool/current/usr/bin/languagetool-commandline.jar")
-(require 'langtool)
-(setq langtool-default-language "en-US");; čeština není
-
 ;; Start Emacs always maximized
 
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
