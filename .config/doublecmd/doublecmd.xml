@@ -178,7 +178,7 @@
                   <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
                   <Path Filename="..">/home/tomaskrulis/.cargo/registry/src/</Path>
                   <Path Filename="src">/home/tomaskrulis/.cargo/registry/</Path>
-                  <Path Filename="..">/home/tomaskrulis/</Path>
+                  <Path Filename="Saxon">/home/tomaskrulis/</Path>
                 </Paths>
               </Entry>
             </History>

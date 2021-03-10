@@ -37,12 +37,12 @@
        ;;fill-column       ; a `fill-column' indicator
        hl-todo                ; highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        hydra
-       ;;indent-guides     ; highlighted indent columns
+       indent-guides     ; highlighted indent columns
        ;;ligatures         ; ligatures and symbols to make your code pretty again
        minimap             ; show a map of the code on the side
        modeline            ; snazzy, Atom-inspired modeline, plus API
        ;;nav-flash         ; blink cursor line after big motions
-       ;; neotree           ; a project drawer, like NERDTree for vim
+       neotree           ; a project drawer, like NERDTree for vim
        ophints                    ; highlight the region an operation acts on
        (popup +defaults)          ; tame sudden yet inevitable temporary windows
        ;; tabs              ; a tab bar for Emacs
@@ -58,8 +58,8 @@
        (evil +everywhere)             ; come to the dark side, we have cookies
        file-templates                 ; auto-snippets for empty files
        fold                           ; (nigh) universal code folding
-       ;;(format +onsave)  ; automated prettiness
-       ;;god               ; run Emacs commands without modifier keys
+       ;;(format +onsave)             ; automated prettiness
+       ;;god                       ; run Emacs commands without modifier keys
        lispy                       ; vim for lisp, for people who don't like vim
        multiple-cursors            ; editing in many places at once
        ;;objed             ; text object editing for the innocent
@@ -74,97 +74,98 @@
        electric                         ; smarter, keyword-based electric-indent
        (ibuffer                         ; interactive buffer management
         +icons)         
-       undo              ; persistent, smarter undo for your inevitable mistakes
-       vc                ; version-control and Emacs, sitting in a tree
+       (undo
+        + tree) ; persistent, smarter undo for your inevitable mistakes
+        vc               ; version-control and Emacs, sitting in a tree
 
-       :term
-       eshell                           ; the elisp shell that works everywhere
-       shell                            ; simple shell REPL for Emacs
-       term                             ; basic terminal emulator for Emacs
-       ;; vterm                            ; the best terminal emulation in Emacs
+        :term
+        eshell                          ; the elisp shell that works everywhere
+        shell                           ; simple shell REPL for Emacs
+        term                            ; basic terminal emulator for Emacs
+        ;; vterm                            ; the best terminal emulation in Emacs
 
-       :checkers
-       syntax                        ; tasing you for every semicolon you forget
-       (spell
-        +flyspell
-        +hunspell)                      ; tasing you for misspelling mispelling
-       ;;grammar                          ; tasing grammar mistake every you make
+        :checkers
+        syntax                       ; tasing you for every semicolon you forget
+        (spell
+         +flyspell
+         +hunspell)                     ; tasing you for misspelling mispelling
+        ;;grammar                          ; tasing grammar mistake every you make
 
-       :tools
-       ;;ansible
-       ;;debugger          ; FIXME stepping through code, to help you add bugs
-       ;;direnv
-       docker
-       editorconfig          ; let someone else argue about tabs vs spaces
-       ein                   ; tame Jupyter notebooks with emacs
-       (eval +overlay)       ; run code, run (also, repls)
-       gist              ; interacting with github gists
-       lookup                         ; navigate your code and its documentation
-       (lsp
-        +peek)
-       magit                    ; a git porcelain for Emacs
-       make                     ; run make tasks from Emacs
-       ;;pass              ; password manager for nerds
-       pdf                              ; pdf enhancements
-       ;;prodigy           ; FIXME managing external services & code builders
-       rgb        ; creating color strings
-       taskrunner ; taskrunner for all your projects
-       ;;terraform         ; infrastructure as code
-       tmux       ; an API for interacting with tmux
-       ;;upload            ; map local to remote projects via ssh/ftp
+        :tools
+        ;;ansible
+        ;;debugger          ; FIXME stepping through code, to help you add bugs
+        ;;direnv
+        docker
+        editorconfig               ; let someone else argue about tabs vs spaces
+        ein                        ; tame Jupyter notebooks with emacs
+        (eval +overlay)            ; run code, run (also, repls)
+        gist                       ; interacting with github gists
+        lookup                     ; navigate your code and its documentation
+        (lsp
+         +peek)
+        magit                   ; a git porcelain for Emacs
+        make                    ; run make tasks from Emacs
+        ;;pass              ; password manager for nerds
+        pdf                             ; pdf enhancements
+        ;;prodigy           ; FIXME managing external services & code builders
+        rgb                         ; creating color strings
+        taskrunner                  ; taskrunner for all your projects
+        ;;terraform         ; infrastructure as code
+        tmux      ; an API for interacting with tmux
+        ;;upload            ; map local to remote projects via ssh/ftp
 
-       :os
-       (:if IS-MAC macos)               ; improve compatibility with macOS
-       tty                              ; improve the terminal Emacs experience
+        :os
+        (:if IS-MAC macos)              ; improve compatibility with macOS
+        tty                             ; improve the terminal Emacs experience
 
-       :lang
-       ;;agda              ; types of types of types of types...
-       (cc
-        +lsp)                           ; C/C++/Obj-C madness
-       (clojure
-        +lsp)            ; java with a lisp
-       common-lisp       ; if you've seen one lisp, you've seen them all
-       ;;coq               ; proofs-as-programs
-       ;;crystal           ; ruby at the speed of c
-       ;;csharp            ; unity, .NET, and mono shenanigans
-       data                     ; config/data formats
-       ;;(dart +flutter)   ; paint ui and not much else
-       (elixir
-        + lsp)              ; erlang done right
-       ;;elm               ; care for a cup of TEA?
-       emacs-lisp                      ; drown in parentheses
-       ;;erlang            ; an elegant language for a more civilized age
-       ess                 ; emacs speaks statistics
-       ;;faust             ; dsp, but you get to keep your soul
-       ;;fsharp            ; ML stands for Microsoft's Language
-       ;;fstar             ; (dependent) types and (monadic) effects and Z3
-       ;;gdscript          ; the language you waited for
-       (go +lsp)                       ; the hipster dialect
-       (haskell
-        +dante
-        +lsp)                ; a language that's lazier than I am
-       hy                    ; readability of scheme w/ speed of python
-       ;;idris             ; a language you can depend on
-       json                            ; At least it ain't XML
-       (java
+        :lang
+        ;;agda              ; types of types of types of types...
+        (cc
+         +lsp)                          ; C/C++/Obj-C madness
+        (clojure
+         +lsp)           ; java with a lisp
+        common-lisp      ; if you've seen one lisp, you've seen them all
+        ;;coq               ; proofs-as-programs
+        ;;crystal           ; ruby at the speed of c
+        ;;csharp            ; unity, .NET, and mono shenanigans
+        data                    ; config/data formats
+        ;;(dart +flutter)   ; paint ui and not much else
+        (elixir
+         + lsp)                     ; erlang done right
+        ;;elm               ; care for a cup of TEA?
+        emacs-lisp                      ; drown in parentheses
+        ;;erlang            ; an elegant language for a more civilized age
+        ess ; emacs speaks statistics
+        ;;faust             ; dsp, but you get to keep your soul
+        ;;fsharp            ; ML stands for Microsoft's Language
+        ;;fstar             ; (dependent) types and (monadic) effects and Z3
+        ;;gdscript          ; the language you waited for
+        (go +lsp)                       ; the hipster dialect
+        (haskell
+         +dante
+         +lsp)                ; a language that's lazier than I am
+        hy                    ; readability of scheme w/ speed of python
+        ;;idris             ; a language you can depend on
+        json                            ; At least it ain't XML
+        (java
          +meghanada
          +lsp)    ; the poster child for carpal tunnel syndrome
-       ;;javascript        ; all(hope(abandon(ye(who(enter(here))))))
-       julia                           ; a better, faster MATLAB
-       (kotlin
+        ;;javascript        ; all(hope(abandon(ye(who(enter(here))))))
+        julia                           ; a better, faster MATLAB
+        (kotlin
          + lsp)                         ; a better, slicker Java(Script)
-       (latex
+        (latex
          +latexmk
          +pdf-tools)         ; writing papers in Emacs has never been so fun
-       ;;lean
-       ;;factor
-       ;;ledger            ; an accounting system in Emacs
-       lua                             ; one-based indices? one-based indices
-       markdown                        ; writing docs for people to ignore
-       nim                             ; python + lisp at the speed of c
-       nix                             ; I hereby declare "nix geht mehr!"
-       ;;ocaml             ; an objective camel
-       (org                            ; organize your plain life in plain text
+        ;;lean
+        ;;factor
+        ;;ledger            ; an accounting system in Emacs
+        lua                             ; one-based indices? one-based indices
+        markdown                        ; writing docs for people to ignore
+        nim                             ; python + lisp at the speed of c
+        nix                             ; I hereby declare "nix geht mehr!"
+        ;;ocaml             ; an objective camel
+        (org                            ; organize your plain life in plain text
          +brain
          +attach                        ; custom attachment system
          +babel                         ; code snippets
@@ -179,33 +180,33 @@
          +pretty
          +roam
          +noter)
-       ;;php               ; perl's insecure younger brother
-       ;;plantuml          ; diagrams for confusing people more
-       ;;purescript        ; javascript, but functional
-       (python
+        ;;php               ; perl's insecure younger brother
+        ;;plantuml          ; diagrams for confusing people more
+        ;;purescript        ; javascript, but functional
+        (python
          +cython
          +lsp)             ; beautiful is better than ugly
-       ;;qt                ; the 'cutest' gui framework ever
-       racket                      ; a DSL for DSLs
-       raku                        ; the artist formerly known as perl6
-       ;;rest                   ; Emacs as a REST client
-       ;; rst                             ; ReST in peace
-       ;; ;;(ruby +rails)     ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-         (rust
-          +lsp)
-                                        ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
-       (scala
+        ;;qt                ; the 'cutest' gui framework ever
+        racket                ; a DSL for DSLs
+        raku                  ; the artist formerly known as perl6
+        ;;rest                   ; Emacs as a REST client
+        ;; rst                             ; ReST in peace
+        ;; ;;(ruby +rails)     ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
+        (rust
          +lsp)
-       scheme                          ; a fully conniving family of lisps
-       (sh
+                                        ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+        (scala
+         +lsp)
+        scheme                          ; a fully conniving family of lisps
+        (sh
          +fish
          +lsp)              ; she sells {ba,z,fi}sh shells on the C xor
-       ;;sml
-       ;;solidity          ; do you need a blockchain? No.
-       ;;swift             ; who asked for emoji variables?
-       ;;terra             ; Earth and Moon in alignment for performance.
-       ;;web               ; the tubes
-       yaml                            ; JSON, but readable
+        ;;sml
+        ;;solidity          ; do you need a blockchain? No.
+        ;;swift             ; who asked for emoji variables?
+        ;;terra             ; Earth and Moon in alignment for performance.
+        ;;web               ; the tubes
+        yaml                            ; JSON, but readable
 
         :email
         ;;(mu4e +gmail)

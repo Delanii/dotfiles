@@ -90,6 +90,18 @@
 ;; (require 'xah-fly-keys)
 ;; (xah-fly-keys-set-layout "qwertz")
 
+;; Nastavení undo-tree
+;;
+;; Vypnutí automatického ukládání undo-tree history, ačkoli by mělo být defaultně vypnuté
+(after! undo-tree
+  (setq undo-tree-auto-save-history nil))
+
+;; Nastavení komprese pro soubory historie undo-tree. Prý mohou rychle nabýt na velikosti ...
+(defadvice undo-tree-make-history-save-file-name
+    (after undo-tree activate)
+  (setq ad-return-value (concat ad-return-value ".xz")))
+
+
 ;;
 ;; Specifická nastavení pro org-mode
 ;;
