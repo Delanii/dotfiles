@@ -140,12 +140,26 @@
 (defun org-add-my-extra-fonts ()
   "Add alert and overdue fonts. =invisible t= způsobí zmizení delimiteru v zobrazeném textu, =nil= jej ponechá zobrazený. Jake delimitery jsou použity =%%= a =!!=. Řešeno dle: https://emacs.stackexchange.com/questions/35626/how-to-make-my-own-org-mode-text-emphasis-work-again/35632#35632"
   (add-to-list 'org-font-lock-extra-keywords '("\\(!!\\)\\([^\n\r\t]+\\)\\(!!\\)"
-                                               (1 '(face org-habit-alert-face invisible t)) (2 'org-habit-alert-face t) (3 '(face org-habit-alert-face invisible t))) t)
+                                               (1 '(face org-habit-alert-face invisible nil)) (2 'org-habit-alert-face t) (3 '(face org-habit-alert-face invisible nil))) t)
   (add-to-list 'org-font-lock-extra-keywords '("\\(%%\\)\\([^\n\r\t]+\\)\\(%%\\)"
                                                (1 '(face org-habit-overdue-face invisible nil)) (2 'org-habit-overdue-face t) (3 '(face org-habit-overdue-face invisible nil))) t))
 
 (add-hook 'org-font-lock-set-keywords-hook #'org-add-my-extra-fonts)
 
+;; Nastavení pro export z org mode do LaTeXu
+;;
+(after! 'ox-latex
+   (add-to-list 'org-latex-classes
+             '("scrbook"
+               "\\documentclass{scrbook}
+           [NO-DEFAULT-PACKAGES]
+           [PACKAGES]
+           [EXTRA]"
+               ("\\section{%s}" . "\\section*{%s}")
+               ("\\subsection{%s}" . "\\subsection*{%s}")
+               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+               ("\\paragraph{%s}" . "\\paragraph*{%s}")
+               ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))))
 ;; Alternativa zde:
 ;; https://emacs.stackexchange.com/questions/62045/define-new-keywords-in-orgmode
 ;; (require 'cl-lib)
