@@ -129,6 +129,8 @@ Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'https://github.com/garbas/vim-snipmate'
 
+let g:snipMate = { 'snippet_version': 1 }
+
 " Undo historie
 Plug 'https://github.com/sjl/gundo.vim'
 Plug 'https://github.com/mbbill/undotree'

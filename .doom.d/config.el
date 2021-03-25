@@ -148,18 +148,64 @@
 
 ;; Nastavení pro export z org mode do LaTeXu
 ;;
+;; Defining Custom LaTeX documentclass; removing default packages and declaring place to load custom packages
+
 (after! 'ox-latex
-   (add-to-list 'org-latex-classes
-             '("scrbook"
-               "\\documentclass{scrbook}
+  (add-to-list 'org-latex-classes
+               '("scrbook"
+                 "\\documentclass{scrbook}
            [NO-DEFAULT-PACKAGES]
            [PACKAGES]
            [EXTRA]"
-               ("\\section{%s}" . "\\section*{%s}")
-               ("\\subsection{%s}" . "\\subsection*{%s}")
-               ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
-               ("\\paragraph{%s}" . "\\paragraph*{%s}")
-               ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))))
+                 ("\\chapter{%s}" . "\\chapter*{%s}")
+                 ("\\section{%s}" . "\\section*{%s}")
+                 ("\\subsection{%s}" . "\\subsection*{%s}")
+                 ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                 ("\\paragraph{%s}" . "\\paragraph*{%s}")
+                 ("\\subparagraph{%s}" . "\\subparagraph*{%s}")))
+
+  ;; Definitions of filters for exporting
+  ;;
+  ;;LaTeX Filters
+  ;;
+  (defun my-latex-filter-nobreaks (text backend info)
+    "Ensure \" \" are properly handled in LaTeX export."
+    (when (org-export-derived-backend-p backend 'latex)
+      (replace-regexp-in-string " a " " a~" text)))
+
+  (defun my-latex-export-src-blocks (text backend info)
+    "Export src blocks as without verbatim env."
+    (when (org-export-derived-backend-p backend 'latex)
+      (with-temp-buffer
+        (insert text)
+        ;; remove verbatim environment altogether -- replace it with nothing
+        (goto-char (point-min))
+        (replace-string "\\begin{verbatim}" "")
+        (replace-string "\\end{verbatim}" "")
+        (buffer-substring-no-properties (point-min) (point-max)))))
+
+  (add-to-list 'org-export-filter-plain-text-functions
+               'my-latex-filter-nobreaks)
+
+  (add-to-list 'org-export-filter-src-block-functions
+               'my-latex-export-src-blocks)
+  )
+
+;; Settings for conversion from org-mode to HTML
+
+(after! 'ox
+  (after! 'ox-html
+    (after! 'htmlize
+
+      (defun my-latex-filter-example (text backend info)
+        "Add \" \" (\"escpaped\" space) instead of \" \" (simple space)."
+        (when (org-export-derived-backend-p backend 'html)
+          (replace-regexp-in-string "\\\\LaTeX" "LaTeX")))
+
+      (add-to-list 'org-export-filter-latex-fragment-functions
+                   'my-latex-filter-example))
+    ))
+
 ;; Alternativa zde:
 ;; https://emacs.stackexchange.com/questions/62045/define-new-keywords-in-orgmode
 ;; (require 'cl-lib)

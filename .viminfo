@@ -17,12 +17,12 @@
 $
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1616659814,,"q"
+:PlugInstall
+|2,0,1616659808,,"PlugInstall"
 :x
 |2,0,1615287370,,"x"
-:q
-|2,0,1614770723,,"q"
-:PlugInstall
-|2,0,1614770714,,"PlugInstall"
 :PLugInstall
 |2,0,1614770702,,"PLugInstall"
 :X
@@ -109,17 +109,70 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	;
-|3,0,0,0,1,0,1605799439,";"
-""1	CHAR	0
+""0	CHAR	0
+	" Airline plugin
+	Plug 'vim-airline/vim-airline'
+	Plug 'vim-airline/vim-airline-themes'
+	
+	" Rainbow Parenthesses plugin
+	Plug 'luochen1990/rainbow'
+	let g:rainbow_active = 1
+	
+	" vim-signature plugin : Použití vlastních záložek
+	Plug 'https://github.com/kshenoy/vim-signature'
+	
+	" On-demand loading
+	Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+	
+	" Distraction-free writing ve vimu
+	" `:Goyo` zapíná, `:Goyo!` vypíná
+	Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }
+	
+	" Zvýražnování textu pomocí změny jasu fontu; pro některá nastavení může být nutná ruční úprava, návod na GitHubu
+	" `:Limelight` zapne limelight, volitelně lze připsat číslo [0.0 - 1.0]; `:Limelight!` vypne limelight
+	Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }
+	
+	" Cílení na text za objektem - vyžaduje úpravu nastavení pro definování objektů
+	Plug 'junegunn/vim-after-object'
+	autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ') " za těmito objekty bude vybírat text
+	
+	" Dim inactive windows, `:DimInactiveWindowOff` vypne funkci pro dané okno, `:DimInactiveWindowOn` funkci zapne. Více příkazů je na stránce projektu
+	Plug 'https://github.com/blueyed/vim-diminactive', { 'on': 'DimInactiveWindowOn' }
+	" Když chci plugin používat, stačí použít jeho hlavní funkci na nějaké okno - v tu chvíli se načte
+	
+	" Zvýrazňování syntaxe markdownu a textu odrážek, je nutné `: set filetype=journal:`
+	Plug 'junegunn/vim-journal'
+	
+	" <TAB> completion zápisu vyhledávacích příkazů
+	Plug 'https://github.com/vim-scripts/SearchComplete'
+	
+	" Plugin NERD Commenter
+	Plug 'https://github.com/scrooloose/nerdcommenter'
+	
+	" Indexovaná reference lua přímo ve vimu
+	Plug 'https://github.com/vim-scripts/luarefvim'
+	
+	" Matchit - verze pro plugin-managery
+	Plug 'https://github.com/adelarsq/vim-matchit'
+	
+	" Surround 
+	Plug 'https://github.com/tpope/vim-surround'
+	
+	" Vkládání code snippets, SnipMate, změnil hlavní repositář
+	Plug 'MarcWeber/vim-addon-mw-utils'
+|3,1,0,0,50,0,1616658028,"\" Airline plugin","Plug 'vim-airline/vim-airline'","Plug 'vim-airline/vim-airline-themes'","","\" Rainbow Parenthesses plugin","Plug 'luochen1990/rainbow'","let g:rainbow_active = 1","","\" vim-signature plugin : Použití vlastních záložek","Plug 'https://github.com/kshenoy/vim-signature'","","\" On-demand loading","Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }","","\" Distraction-free writing ve vimu",>40
+|<"\" `:Goyo` zapíná, `:Goyo!` vypíná","Plug 'junegunn/goyo.vim', { 'on': 'Goyo' }","","\" Zvýražnování textu pomocí změny jasu fontu; pro některá nastavení může být nutná ruční úprava, návod na GitHubu","\" `:Limelight` zapne limelight, volitelně lze připsat číslo [0.0 - 1.0]; `:Limelight!` vypne limelight","Plug 'junegunn/limelight.vim', { 'on': 'Limelight' }","","\" Cílení na text za objektem - vyžaduje úpravu nastavení pro definování objektů",>34
+|<"Plug 'junegunn/vim-after-object'","autocmd VimEnter * call after_object#enable('=', ':', '-', '#', ' ') \" za těmito objekty bude vybírat text","","\" Dim inactive windows, `:DimInactiveWindowOff` vypne funkci pro dané okno, `:DimInactiveWindowOn` funkci zapne. Více příkazů je na stránce projektu","Plug 'https://github.com/blueyed/vim-diminactive', { 'on': 'DimInactiveWindowOn' }",>113
+|<"\" Když chci plugin používat, stačí použít jeho hlavní funkci na nějaké okno - v tu chvíli se načte","","\" Zvýrazňování syntaxe markdownu a textu odrážek, je nutné `: set filetype=journal:`","Plug 'junegunn/vim-journal'","","\" <TAB> completion zápisu vyhledávacích příkazů","Plug 'https://github.com/vim-scripts/SearchComplete'","","\" Plugin NERD Commenter","Plug 'https://github.com/scrooloose/nerdcommenter'","","\" Indexovaná reference lua přímo ve vimu",>49
+|<"Plug 'https://github.com/vim-scripts/luarefvim'","","\" Matchit - verze pro plugin-managery","Plug 'https://github.com/adelarsq/vim-matchit'","","\" Surround ","Plug 'https://github.com/tpope/vim-surround'","","\" Vkládání code snippets, SnipMate, změnil hlavní repositář","Plug 'MarcWeber/vim-addon-mw-utils'"
+"1	CHAR	0
 	;; Nastavení cesty k `jar` knihovně language-tool:
 	(setq langtool-language-tool-jar "/snap/languagetool/current/usr/bin/languagetool-commandline.jar")
 	(require 'langtool)
 	(setq langtool-default-language "en-US");; čeština není
 	
 	
-|3,1,1,0,6,0,1615287365,";; Nastavení cesty k `jar` knihovně language-tool:","(setq langtool-language-tool-jar \"/snap/languagetool/current/usr/bin/languagetool-commandline.jar\")","(require 'langtool)","(setq langtool-default-language \"en-US\");; čeština není","",""
+|3,0,1,0,6,0,1615287365,";; Nastavení cesty k `jar` knihovně language-tool:","(setq langtool-language-tool-jar \"/snap/languagetool/current/usr/bin/languagetool-commandline.jar\")","(require 'langtool)","(setq langtool-default-language \"en-US\");; čeština není","",""
 "2	LINE	0
 	;; multiple cursors
 	(package! multiple-cursors)
@@ -167,30 +220,50 @@ $
 |3,0,36,0,1,0,1608041228," "
 
 # File marks:
-'0  72  0  ~/.doom.d/config.el
-|4,48,72,0,1615287370,"~/.doom.d/config.el"
-'1  177  28  ~/.vimrc
-|4,49,177,28,1614770686,"~/.vimrc"
-'2  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
-|4,50,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
-'3  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
-|4,51,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
-'4  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
-|4,52,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
-'5  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,53,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
-'6  61  8  ~/.doom.d/init.el
-|4,54,61,8,1608042091,"~/.doom.d/init.el"
-'7  69  1  ~/.doom.d/packages.el
-|4,55,69,1,1608041809,"~/.doom.d/packages.el"
-'8  102  0  ~/.doom.d/config.el
-|4,56,102,0,1608041774,"~/.doom.d/config.el"
-'9  107  0  ~/.doom.d/config.el
-|4,57,107,0,1608041774,"~/.doom.d/config.el"
+'0  79  0  ~/.vimrc
+|4,48,79,0,1616658091,"~/.vimrc"
+'1  72  0  ~/.doom.d/config.el
+|4,49,72,0,1615287370,"~/.doom.d/config.el"
+'2  177  28  ~/.vimrc
+|4,50,177,28,1614770686,"~/.vimrc"
+'3  177  28  ~/.vimrc
+|4,51,177,28,1614770686,"~/.vimrc"
+'4  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,52,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+'5  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,53,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+'6  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,54,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+'7  30  0  ~/Downloads/double-commander-9999.ebuild
+|4,55,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
+'8  61  8  ~/.doom.d/init.el
+|4,56,61,8,1608042091,"~/.doom.d/init.el"
+'9  69  1  ~/.doom.d/packages.el
+|4,57,69,1,1608041809,"~/.doom.d/packages.el"
 
 # Jumplist (newest first):
+-'  79  0  ~/.vimrc
+|4,39,79,0,1616658091,"~/.vimrc"
+-'  79  0  ~/.vimrc
+|4,39,79,0,1616658091,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1616657930,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1616657930,"~/.vimrc"
 -'  72  0  ~/.doom.d/config.el
 |4,39,72,0,1615287370,"~/.doom.d/config.el"
+-'  72  0  ~/.doom.d/config.el
+|4,39,72,0,1615287370,"~/.doom.d/config.el"
+-'  72  0  ~/.doom.d/config.el
+|4,39,72,0,1615287370,"~/.doom.d/config.el"
+-'  72  0  ~/.doom.d/config.el
+|4,39,72,0,1615287370,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1615287337,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1615287337,"~/.doom.d/config.el"
+-'  1  0  ~/.doom.d/config.el
+|4,39,1,0,1615287337,"~/.doom.d/config.el"
 -'  1  0  ~/.doom.d/config.el
 |4,39,1,0,1615287337,"~/.doom.d/config.el"
 -'  177  28  ~/.vimrc
@@ -201,6 +274,26 @@ $
 |4,39,177,28,1614770686,"~/.vimrc"
 -'  177  28  ~/.vimrc
 |4,39,177,28,1614770686,"~/.vimrc"
+-'  177  28  ~/.vimrc
+|4,39,177,28,1614770686,"~/.vimrc"
+-'  177  28  ~/.vimrc
+|4,39,177,28,1614770686,"~/.vimrc"
+-'  177  28  ~/.vimrc
+|4,39,177,28,1614770686,"~/.vimrc"
+-'  177  28  ~/.vimrc
+|4,39,177,28,1614770686,"~/.vimrc"
+-'  177  28  ~/.vimrc
+|4,39,177,28,1614770686,"~/.vimrc"
+-'  177  28  ~/.vimrc
+|4,39,177,28,1614770686,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1614770611,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1614770611,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1614770611,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1614770611,"~/.vimrc"
 -'  1  0  ~/.vimrc
 |4,39,1,0,1614770611,"~/.vimrc"
 -'  1  0  ~/.vimrc
@@ -225,6 +318,102 @@ $
 |4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
 -'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
 |4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  88  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,88,0,1611170667,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
+-'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
+|4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
 -'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
 |4,39,1,0,1611170643,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
 -'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
@@ -251,198 +440,12 @@ $
 |4,39,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
 -'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
 |4,39,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
--'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
-|4,39,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
--'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
-|4,39,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
--'  1  0  ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
-|4,39,1,0,1611170634,"~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  30  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,30,0,1610220955,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  1  0  ~/Downloads/double-commander-9999.ebuild
-|4,39,1,0,1610220929,"~/Downloads/double-commander-9999.ebuild"
--'  61  8  ~/.doom.d/init.el
-|4,39,61,8,1608042091,"~/.doom.d/init.el"
--'  61  8  ~/.doom.d/init.el
-|4,39,61,8,1608042091,"~/.doom.d/init.el"
 
 # History of marks within files (newest to oldest):
 
-> ~/.doom.d/config.el
-	*	1615287367	0
-	"	72	0
-	.	73	0
-	+	68	10
-	+	63	0
-	+	64	0
-	+	65	1
-	+	66	2
-	+	65	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	69	0
-	+	70	0
-	+	71	0
-	+	72	33
-	+	71	0
-	+	70	0
-	+	69	0
-	+	68	0
-	+	67	0
-	+	66	0
-	+	65	0
-	+	64	0
-	+	63	0
-	+	72	0
-	+	63	0
-	+	64	0
-	+	65	0
-	+	66	0
-	+	67	0
-	+	68	0
-	+	69	0
-	+	70	0
-	+	71	0
-	+	72	0
-	+	32	36
-	+	68	1
-	+	69	1
-	+	70	2
-	+	69	2
-	+	68	2
-	+	68	0
-	+	69	0
-	+	70	0
-	+	73	0
-
 > ~/.vimrc
-	*	1614770681	0
-	"	177	28
+	*	1616658089	0
+	"	79	0
 	^	177	0
 	.	177	0
 	+	144	0
@@ -544,6 +547,54 @@ $
 	+	27	1
 	+	176	24
 	+	177	0
+
+> ~/.doom.d/config.el
+	*	1615287367	0
+	"	72	0
+	.	73	0
+	+	68	10
+	+	63	0
+	+	64	0
+	+	65	1
+	+	66	2
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	33
+	+	71	0
+	+	70	0
+	+	69	0
+	+	68	0
+	+	67	0
+	+	66	0
+	+	65	0
+	+	64	0
+	+	63	0
+	+	72	0
+	+	63	0
+	+	64	0
+	+	65	0
+	+	66	0
+	+	67	0
+	+	68	0
+	+	69	0
+	+	70	0
+	+	71	0
+	+	72	0
+	+	32	36
+	+	68	1
+	+	69	1
+	+	70	2
+	+	69	2
+	+	68	2
+	+	68	0
+	+	69	0
+	+	70	0
+	+	73	0
 
 > ~/Downloads/SpaceCorpsXXX(v0.3.4b)-v0.3.4b-pc/SpaceCorpsXXX(v0.3.4b).sh
 	*	1611170659	0
